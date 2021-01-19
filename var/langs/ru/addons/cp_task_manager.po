@@ -1,0 +1,422 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_task_manager"
+msgid "Cart-Power: Automatic administrator tasks"
+msgstr "Cart-Power: Автоматические действия администратора"
+
+msgctxt "Addons::description::cp_task_manager"
+msgid "Manage & automate the routine admin tasks. Developed by <a href='cart-power.com'>Cart-Power</a>"
+msgstr "Управление и автоматизация рутинных задач администратора. Разработано <a href='cart-power.com'>Cart-Power</a>"
+
+msgctxt "Languages::cp_aa_preset_name"
+msgid "Import preset name"
+msgstr "Название пресета для импорта"
+
+msgctxt "Languages::cp_aa_approve_selected"
+msgid "Approve selected"
+msgstr "Одобрить выбранные"
+
+msgctxt "Languages::cp_aa_disapprove_selected"
+msgid "Decline selected"
+msgstr "Отклонить выбранные"
+
+msgctxt "Languages::cp_aa_set_approve"
+msgid "Approve"
+msgstr "Одобрить"
+
+msgctxt "Languages::cp_aa_set_disapprove"
+msgid "Decline"
+msgstr "Отклонить"
+
+msgctxt "Languages::cp_aa_approved"
+msgid "Approved"
+msgstr "Одобрено"
+
+msgctxt "Languages::cp_aa_disapproved"
+msgid "Declined"
+msgstr "Отклонён"
+
+msgctxt "Languages::cp_aa_avail_tasks_for_vendors"
+msgid "CP: Allow automatic administrator tasks"
+msgstr "CP: Разрешить автоматические задачи"
+
+msgctxt "Languages::cp_aa_avail_tasks_for_vendors_descr"
+msgid "If checked, vendors will be able to create and update their own automatic tasks. <br><br>Vendor tasks will work only after the admin's approval"
+msgstr "Если флажок установлен, продавец сможет создавать и обновлять собственные автоматические задачи. <br><br>Администратор должен одобрить задачу продавца, чтобы она заработала"
+
+msgctxt "Languages::cp_aa_data_feed"
+msgid "Data Feed"
+msgstr "Прайс-лист"
+
+msgctxt "SettingsOptions::cp_task_manager::cron_password"
+msgid "Cron password"
+msgstr "Пароль для cron-скрипта"
+
+msgctxt "Languages::privilege_groups.cp_aa_privil"
+msgid "CP: administrator tasks"
+msgstr "CP: задачи администратора"
+
+msgctxt "Languages::cp_aa_adv_impr_product"
+msgid "Products (Advanced import)"
+msgstr "Товары (Расширенный импорт)"
+
+msgctxt "Languages::cp_tasks"
+msgid "Automatic administration tasks"
+msgstr "Администраторские задачи"
+
+msgctxt "Languages::cp_new_task"
+msgid "New task"
+msgstr "Новая задача"
+
+msgctxt "Languages::cp_add_task"
+msgid "Add new task"
+msgstr "Добавить новую задачу"
+
+msgctxt "Languages::cp_editing_task"
+msgid "Editing task"
+msgstr "Редактирование задачи"
+
+msgctxt "Languages::cp_start_timestamp"
+msgid "Start date/time"
+msgstr "Дата/время начала"
+
+msgctxt "Languages::cp_stop_timestamp"
+msgid "Stop date/time"
+msgstr "Дата/время окончания"
+
+msgctxt "Languages::cp_iteration"
+msgid "Number of iterations"
+msgstr "Количество повторений"
+
+msgctxt "Languages::cp_database_backup"
+msgid "Database backup"
+msgstr "Резервная копия базы данных"
+
+msgctxt "Languages::cp_files_backup"
+msgid "Files backup"
+msgstr "Резервная копия файлов"
+
+msgctxt "Languages::cp_exim"
+msgid "Export/Import"
+msgstr "Экспорт/импорт"
+
+msgctxt "Languages::cp_clear_templates"
+msgid "Clear templates"
+msgstr "Удаление шаблонов"
+
+msgctxt "Languages::cp_thumbnails_regeneration"
+msgid "Thumbnails regeneration"
+msgstr "Удаление иконок"
+
+msgctxt "Languages::cp_clear_logs"
+msgid "Clear logs"
+msgstr "Удаление логов"
+
+msgctxt "Languages::cp_custom_script"
+msgid "Custom script"
+msgstr "Пользовательский скрипт"
+
+msgctxt "Languages::cp_hours"
+msgid "Hours"
+msgstr "час(ы)"
+
+msgctxt "Languages::cp_years"
+msgid "Years"
+msgstr "год(а)"
+
+msgctxt "Languages::cp_number_of_backups"
+msgid "Number of backups"
+msgstr "Количество копий"
+
+msgctxt "Languages::cp_task"
+msgid "Task name"
+msgstr "Название задачи"
+
+msgctxt "Languages::cp_cron_settings"
+msgid "Cron tab settings"
+msgstr "Настройки cron-таблицы"
+
+msgctxt "Languages::cp_dws"
+msgid "days of week"
+msgstr "дни недели"
+
+msgctxt "Languages::cp_error_minutes"
+msgid "Invalid minutes format"
+msgstr "Некорректный формат минут"
+
+msgctxt "Languages::cp_error_hours"
+msgid "Invalid hours format"
+msgstr "Некорректный формат часов"
+
+msgctxt "Languages::cp_error_days"
+msgid "Invalid days format"
+msgstr "Некорректный формат дней"
+
+msgctxt "Languages::cp_error_months"
+msgid "Invalid months format"
+msgstr "Некорректный формат месяцев"
+
+msgctxt "Languages::cp_error_dws"
+msgid "Invalid day of week format"
+msgstr "Некорректный формат дней недели"
+
+msgctxt "Languages::cp_task_settings"
+msgid "Task settings"
+msgstr "Настройки задачи"
+
+msgctxt "Languages::cp_regenerate_sitemap"
+msgid "Regenerate sitemap"
+msgstr "Генерировать карту сайта"
+
+msgctxt "Languages::cp_dropbox"
+msgid "Dropbox"
+msgstr "Загрузить файлы в Dropbox"
+
+msgctxt "Languages::cp_text_backup_filename_hint"
+msgid "A folder from which files will be uploaded to your Dropbox"
+msgstr "Папка из которой файлы будут загружаться в Ваш Dropbox"
+
+msgctxt "Languages::cp_extra_folders"
+msgid "Extra folders"
+msgstr "Дополнительные папки"
+
+msgctxt "Languages::cp_deleted_task"
+msgid "Deleted task"
+msgstr "Удаленная задача"
+
+msgctxt "Languages::cp_get_the_token"
+msgid "Get authorization token [auth_url]"
+msgstr "Получить данные доступа <a href=\"[auth_url]\" target=\"_blank\" onclick=\"$('#elm_task_access_token').val('');\">здесь</a>"
+
+msgctxt "Languages::cp_error_dropbox_token"
+msgid "Token cannot be empty"
+msgstr "Токен не может быть пустым"
+
+msgctxt "Languages::cp_secret"
+msgid "Secret"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::cp_token"
+msgid "Token"
+msgstr "Токен"
+
+msgctxt "Languages::cp_use_generated_token"
+msgid "Use pre-generated token"
+msgstr "Использовать сгенерированный токен"
+
+msgctxt "Languages::cp_not_valid_path"
+msgid "Not valid path"
+msgstr "Неверный путь к файлу"
+
+msgctxt "Languages::cp_generate_token"
+msgid "Generate new access token"
+msgstr "Генерировать новый токен"
+
+msgctxt "Languages::cp_error_log_empty_dropbox_credentials"
+msgid "Empty Dropbox credentials"
+msgstr "Нет данных доступа в Dropbox"
+
+msgctxt "Languages::cp_error_log_files_backup_failed"
+msgid "Files' backing up is failed"
+msgstr "Резервирование файлов не удалось"
+
+msgctxt "Languages::cp_error_log_database_backup_failed"
+msgid "Database backing up is failed"
+msgstr "Резервирование базы данных не удалось"
+
+msgctxt "Languages::cp_error_log_empty_custom_script"
+msgid "Empty custom script"
+msgstr "Не указан пользовательский скрипт"
+
+msgctxt "Languages::cp_error_log_sitemap_addon_not_active"
+msgid "Google sitemap add-on is not active"
+msgstr "Не активен модуль Google sitemap"
+
+msgctxt "Languages::cp_error_log_empty_import_credentials"
+msgid "Empty import options"
+msgstr "Не указаны настройки импорта"
+
+msgctxt "Languages::cp_error_log_empty_export_credentials"
+msgid "Empty export options"
+msgstr "Не указаны настройки экспорта"
+
+msgctxt "Languages::cp_view_logs"
+msgid "View logs"
+msgstr "Просмотр логов"
+
+msgctxt "Languages::cp_comment"
+msgid "Comment"
+msgstr "Комментарий"
+
+msgctxt "Languages::cp_success"
+msgid "Success"
+msgstr "Успешно"
+
+msgctxt "Languages::cp_error"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::cp_result"
+msgid "Result"
+msgstr "Результат"
+
+msgctxt "Languages::cp_nothing_to_export"
+msgid "Nothing to export"
+msgstr "Нет данных для экспорта"
+
+msgctxt "Languages::cp_email_the_link"
+msgid "Email the link"
+msgstr "Отправить ссылку по e-mail"
+
+msgctxt "Languages::cp_error_log_ftp_cannot_connect"
+msgid "Cannot connect to FTP server"
+msgstr "Не удалось подключиться к FTP серверу"
+
+msgctxt "Languages::cp_error_log_ftp_cannot_login"
+msgid "Cannot log in FTP server"
+msgstr "Неправильный логин или пароль для FTP сервера"
+
+msgctxt "Languages::cp_error_log_ftp_failed_uploading"
+msgid "Cannot upload file to FTP server"
+msgstr "Не удалось загрузить файл на FTP сервер"
+
+msgctxt "Languages::cp_error_log_empty_ftp_credentials"
+msgid "Wrong FTP credentials"
+msgstr "Неправильные настройки FTP доступа"
+
+msgctxt "Languages::cp_port"
+msgid "Port"
+msgstr "Порт"
+
+msgctxt "Languages::cp_tasks_manage"
+msgid "Administrator tasks"
+msgstr "Администраторские задачи"
+
+msgctxt "Languages::cp_tasks_manage_menu_description"
+msgid "View, add and edit automatic administrator tasks"
+msgstr "Просмотр, добавление и редактирование администраторских задач"
+
+msgctxt "Languages::cp_add_task_menu_description"
+msgid "Add new administrator task"
+msgstr "Добавить новую администраторскую задачу"
+
+msgctxt "Languages::cp_view_logs_menu_description"
+msgid "View administrator tasks log"
+msgstr "Просмотр логов выполнения администраторских задач"
+
+msgctxt "Languages::cp_server_time"
+msgid "Server time"
+msgstr "Серверное время"
+
+msgctxt "Languages::cp_logs"
+msgid "View tasks logs"
+msgstr "Просмотр логов"
+
+msgctxt "Languages::cp_crontab_tooltip"
+msgid "View details here: <a target='_blank' href='https://en.wikipedia.org/wiki/Cron'>https://en.wikipedia.org/wiki/Cron</a>"
+msgstr "Подробности здесь: <a target='_blank' href='https://en.wikipedia.org/wiki/Cron'>https://en.wikipedia.org/wiki/Cron</a>"
+
+msgctxt "Languages::cp_next_run"
+msgid "Next run"
+msgstr "Время следующего запуска"
+
+msgctxt "Languages::cp_save_to_see_details"
+msgid "Click 'Save' to see settings"
+msgstr "Нажмите 'Сохранить', чтобы получить доступ к настройкам"
+
+msgctxt "Languages::cp_backup_filename_prefix"
+msgid "Backup file prefix"
+msgstr "Префикс файла с резервной копией"
+
+msgctxt "Languages::cp_error_log_empty_dbdump_tables"
+msgid "Tables to back up were not selected"
+msgstr "Не были выбраны таблицы для создания резервной копии"
+
+msgctxt "Languages::cp_email_log_subj"
+msgid "Task #[task_id]: [task] is processed"
+msgstr "Задача #[task_id]: [task] выполнена"
+
+msgctxt "Languages::cp_log_email_sent"
+msgid "Log is sent"
+msgstr "Лог отправлен"
+
+msgctxt "Languages::cp_error_log_email_sent"
+msgid "Cannot send log"
+msgstr "Не удалось отправить лог"
+
+msgctxt "Languages::cp_log_email"
+msgid "Backed up file is ready for downloading"
+msgstr "Файл с резервной копией готов к скачиванию"
+
+msgctxt "Languages::cp_task_manager_cron_url"
+msgid "Cron script is available here: <a href='[http_location]'>[http_location]</a>"
+msgstr "Cron-скрипт доступен по ссылке: <a href='[http_location]'>[http_location]</a>"
+
+msgctxt "Languages::cp_optimize_database"
+msgid "Optimize database"
+msgstr "Оптимизировать базу данных"
+
+msgctxt "Languages::cp_dropbox_key_tooltip"
+msgid "App key from your Dropbox Application"
+msgstr "App key из настроек вашего Dropbox приложения"
+
+msgctxt "Languages::cp_dropbox_secret_tooltip"
+msgid "App secret from your Dropbox Application"
+msgstr "App secret из настроек вашего Dropbox приложения"
+
+msgctxt "Languages::cp_dropbox_token_tooltip"
+msgid "Access token from your Dropbox Application"
+msgstr "Access token из настроек вашего Dropbox приложения"
+
+msgctxt "Languages::cp_dropbox_instruction"
+msgid "Instruction for Dropbox"
+msgstr "Для настройки этого типа задания выполните следующие указания:</br>
+1. Создайте приложение Dropbox. Вы можете это сделать на этой странице в вашем Dropbox аккаунте: <a href=\"https://www.dropbox.com/developers/apps\">My Apps</a>.</br>
+2. Используйте 'App key' и 'App secret' настройки из вашего Dropbox приложения в качестве значений для полей 'Ключ' и 'Секретный ключ' на странице редактирования задания в вашем CS-Cart магазине.</br>
+3. Вы можете настроить вашего приложение таким образом, чтобы оно использовало однажды сгенерированный Access token. Для этого выберите 'Allow' в выпадающем списке 'Allow implicit grant' и нажмите кнопку 'Generate access token' в вашем Dropbox аккаунте. Затем выберите галочку 'Использовать сгенерированный токен' и вставьте полученный токен в поле 'Токен' на странице редактирования задания.</br>
+4. Иначе вы можете сгенерировать отдельный токен для вашего CS-Cart магазина. Заполните поля 'Ключ' и 'Секретный ключ' и сохраните настройки задания, не выбирая галочку 'Использовать сгенерированный токен'. Вы увидите кнопку 'Генерировать токен' рядом с полем ввода 'Токен'. После нажатия на эту кнопку вы получите ссылку, перейдя по которой вы можете получить токен, специально сгенерированный для запросов в Dropbox из вашего CS-Cart магазина. Введите этот токен в поле 'Token' и сохраните."
+
+msgctxt "Languages::cp_dropbox_use_generated_token_tooltip"
+msgid "Select this check box if you want to use the Access token generated in your Dropbox Application"
+msgstr "Выберите эту галочку, если вы будете использовать токен, сгенерированный в вашем Dropbox приложении"
+
+msgctxt "Languages::cp_dropbox_folder_tooltip"
+msgid "A folder from which files will be uploaded to your Dropbox"
+msgstr "Папка, из которой будут загружаться файлы в Dropbox"
+
+msgctxt "Languages::privileges.manage_tasks"
+msgid "Manage tasks"
+msgstr "Управление задачами"
+
+msgctxt "Languages::privileges.view_tasks"
+msgid "View tasks"
+msgstr "Просмотр задач"
+
+msgctxt "SettingsOptions::cp_task_manager::licensekey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "Вы должны ввести валидный лицензионный ключ. Пожалуйста, свяжитесь с нами(sale@cart-power.com), если у Вас возникнут трудности с установкой."
+
+msgctxt "Languages::cp_notify_by_email"
+msgid "Notify when the task is processed"
+msgstr "Уведомлять о выполнении задачи"
+
+msgctxt "Languages::cp_notify_email"
+msgid "Send notification to this e-mail"
+msgstr "E-mail адрес для уведомлений"
+
+msgctxt "Languages::cp_task_is_processed"
+msgid "Task [task_url] is processed"
+msgstr "Задача [task_url] выполнена"
+
+msgctxt "Languages::cp_remove_after_upload"
+msgid "Remove file after uploading"
+msgstr "Удалить файл после загрузки"
+

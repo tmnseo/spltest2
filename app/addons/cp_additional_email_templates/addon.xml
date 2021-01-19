@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_additional_email_templates</id>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>cp_spl_theme</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="development_specialist_email">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">cp_additional_email_templates_install</item>
+        <item for="uninstall">cp_additional_email_templates_uninstall</item>
+    </functions>
+</addon>
+ 

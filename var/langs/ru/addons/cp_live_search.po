@@ -1,0 +1,891 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_live_search"
+msgid "Cart-Power: Live search"
+msgstr "Cart-Power: Живой поиск"
+
+msgctxt "Addons::description::cp_live_search"
+msgid "Include new live search for your store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>. Professional CS-Cart development."
+msgstr "Добавьте новый быстрый Живой поиск в ваш магазин. Разработан <a target=\"_blank\" href=\"http://cart-power.ru/\">Cart-Power</a>. Профессиональная разработка для CS-Cart."
+
+msgctxt "SettingsSections::cp_live_search::elm_Settings"
+msgid "Default settings"
+msgstr "Стандартные настройки"
+
+msgctxt "SettingsSections::cp_live_search::general"
+msgid "General"
+msgstr "Основное"
+
+msgctxt "SettingsSections::cp_live_search::search_options"
+msgid "Search settings"
+msgstr "Параметры поиска"
+
+msgctxt "SettingsSections::cp_live_search::display_options"
+msgid "Look and feel settings"
+msgstr "Параметры отображения"
+
+msgctxt "SettingsOptions::cp_live_search::show_taxed_prices"
+msgid "Show taxed prices"
+msgstr "Отображать цены с налогами"
+
+msgctxt "SettingsOptions::cp_live_search::show_categories_result"
+msgid "Show categories in search result"
+msgstr "Выводить категории в результатах поиска"
+
+msgctxt "SettingsOptions::cp_live_search::categories_amount"
+msgid "Max number of categories"
+msgstr "Количество категорий"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_exact_phrase"
+msgid "Search algorithm"
+msgstr "Алгоритм поиска"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::any"
+msgid "Any word"
+msgstr "Любые слова"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::all"
+msgid "All words"
+msgstr "Все слова"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::strict_all"
+msgid "All words (strictly by fields)"
+msgstr "Все слова (строго по полям)"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::exact_phrase"
+msgid "Exact phrase"
+msgstr "Точную фразу"
+
+msgctxt "SettingsOptions::cp_live_search::ignore_symbols"
+msgid "Ignored characters in the product name"
+msgstr "Игнорируемые символы в названии товара"
+
+msgctxt "SettingsTooltips::cp_live_search::ignore_symbols"
+msgid "Write the characters through the space, which must be ignored when searching in the product name. To apply the changes you need to rebuild the cache. Works only when cache is used"
+msgstr "Пропишите символы через пробел, которые необходимо игнорировать при поиске в названии товара. Чтобы применить изменения необходимо перегенерировать кэш. Работает только при использовании кэша"
+
+msgctxt "SettingsOptions::cp_live_search::order_results"
+msgid "Sort search results by"
+msgstr "Расположить результаты поиска по"
+
+msgctxt "SettingsTooltips::cp_live_search::order_results"
+msgid "Works only when cache is used"
+msgstr "Работает только при использовании кэша"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::popularity"
+msgid "Popularity"
+msgstr "Популярности"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::weight"
+msgid "Fields weight"
+msgstr "Приоритету полей"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::newest"
+msgid "New items first"
+msgstr "Сначала новые"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::price_asc"
+msgid "Price Low to High"
+msgstr "Возрастанию цены"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::price_desc"
+msgid "Price High to Low"
+msgstr "Убыванию цены"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::product"
+msgid "Product name A-Z"
+msgstr "Названию товара А-Я"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_product_code"
+msgid "Search by product code"
+msgstr "Искать по артикулу"
+
+msgctxt "SettingsOptions::cp_live_search::letters_to_start"
+msgid "Minimum entered characters to start searching"
+msgstr "Минимальное количество символов, необходимых для начала поиска"
+
+msgctxt "SettingsOptions::cp_live_search::items_limit"
+msgid "Limit the number of products in search results drop-down list"
+msgstr "Максимальное количество товаров в выпадающем списке Живого поиска"
+
+msgctxt "SettingsOptions::cp_live_search::show_thumbnails"
+msgid "Product thumbnails"
+msgstr "Миниатюры товаров"
+
+msgctxt "SettingsOptions::cp_live_search::thumbnails_width"
+msgid "Image width"
+msgstr "Ширина изображения"
+
+msgctxt "SettingsOptions::cp_live_search::thumbnails_height"
+msgid "Image height"
+msgstr "Высота изображения"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_keywords"
+msgid "Search in metadata"
+msgstr "Искать в мета-данных"
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_cart"
+msgid "Show \“Add to cart\” button"
+msgstr "Показывать кнопку \"В корзину\""
+
+msgctxt "SettingsOptions::cp_live_search::searchinfeatures"
+msgid "Search in features"
+msgstr "Искать по характеристикам"
+
+msgctxt "SettingsTooltips::cp_live_search::searchinfeatures"
+msgid "You must check the corresponding checkbox in the settings of the feature. To apply the changes you need to rebuild the cache. Works only when cache is used."
+msgstr "Необходимо включить соответствующую галочку в настройках характеристики. Чтобы применить изменения необходимо перегенерировать кэш. Работает только при использовании кэша."
+
+msgctxt "SettingsOptions::cp_live_search::searchinoptions"
+msgid "Search in options"
+msgstr "Искать по опциям"
+
+msgctxt "SettingsTooltips::cp_live_search::searchinoptions"
+msgid "Works only when cache is used"
+msgstr "Работает только при использовании кэша"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_code"
+msgid "Show product code"
+msgstr "Показывать артикул"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_price"
+msgid "Show product price"
+msgstr "Показывать цену"
+
+msgctxt "SettingsOptions::cp_live_search::use_suggestions"
+msgid "Show suggestions"
+msgstr "Показывать подсказки"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::none"
+msgid "Do not show"
+msgstr "Не показывать"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::auto"
+msgid "From Search phrases and Search history"
+msgstr "Из поисковых фраз и истории поиска"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::search_phrases"
+msgid "From search phrases"
+msgstr "Из поисковых фраз"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::search_results"
+msgid "From search history"
+msgstr "Из истории поиска"
+
+msgctxt "SettingsOptions::cp_live_search::suggestions_amount"
+msgid "Max number of suggestions"
+msgstr "Количество подсказок"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_categories"
+msgid "Search by categories"
+msgstr "Поиск по категориям"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::none"
+msgid "None"
+msgstr "Не выбрано"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::in_categories"
+msgid "Products from the category only"
+msgstr "Только по категориям товара"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::in_categories_paths"
+msgid "Include products from the subcategories"
+msgstr "Включить товары из вложенных категорий"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_full_description"
+msgid "Search in full description"
+msgstr "Искать по описанию"
+
+msgctxt "SettingsTooltips::cp_live_search::search_in_full_description"
+msgid "Search in full description decreases speed of search"
+msgstr "Включение этой настройки снижает скорость поиска"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_short_description"
+msgid "Search in short description"
+msgstr "Искать по краткому описанию"
+
+msgctxt "SettingsTooltips::cp_live_search::search_in_short_description"
+msgid "Search in short description decreases speed of search"
+msgstr "Включение этой настройки снижает скорость поиска"
+
+msgctxt "SettingsOptions::cp_live_search::search_delay"
+msgid "Search delay (ms)"
+msgstr "Задержка поиска (ms)"
+
+msgctxt "SettingsOptions::cp_live_search::show_ajax_loader"
+msgid "Show ajax loader"
+msgstr "Показывать ajax-загрузчик"
+
+msgctxt "SettingsOptions::cp_live_search::ajax_loader"
+msgid "Ajax loader animation"
+msgstr "Анимация ajax-загрузчика"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_1"
+msgid "Loader 1"
+msgstr "Загрузчик 1"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_2"
+msgid "Loader 2"
+msgstr "Загрузчик 2"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_3"
+msgid "Loader 3"
+msgstr "Загрузчик 3"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_4"
+msgid "Loader 4"
+msgstr "Загрузчик 4"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_5"
+msgid "Loader 5"
+msgstr "Загрузчик 5"
+
+msgctxt "SettingsOptions::cp_live_search::cron_password"
+msgid "CRON password"
+msgstr "Пароль CRON"
+
+msgctxt "SettingsOptions::cp_live_search::use_cache"
+msgid "Use cache"
+msgstr "Использовать кэш"
+
+msgctxt "SettingsTooltips::cp_live_search::use_cache"
+msgid "Works only if the cache is generated. Please rebuild the cache on the following page: Cart-Power: Add-ons > Live search > Data caching."
+msgstr "Эта настройка будет работать только при сгенерированном кэше. Сгенерируйте кэш на странице Cart-Power: Модули > Живой поиск > Кэширование данных."
+
+msgctxt "SettingsOptions::cp_live_search::show_icon_on_desktop"
+msgid "Show icon instead field on desktop"
+msgstr "Показывать только иконку на десктопной версии"
+
+msgctxt "SettingsTooltips::cp_live_search::show_icon_on_desktop"
+msgid "Work with 'Inline search field (top panel)' and 'Dropdown search field with icon (top panel)' templates"
+msgstr "Работает с шаблонами 'Выпадающее поле поиска с иконкой (для топ панели)' и 'Строчное поле поиска (для топ панели)'"
+
+msgctxt "Languages::next_items"
+msgid "Next items"
+msgstr "Следующие"
+
+msgctxt "Languages::show_all_items"
+msgid "Show all items"
+msgstr "Показать все"
+
+msgctxt "Languages::previous_items"
+msgid "Previous items"
+msgstr "Предыдущие"
+
+msgctxt "Languages::cp_stop_words"
+msgid "Stop words"
+msgstr "Стоп-слова"
+
+msgctxt "Languages::ttc_cp_stop_words"
+msgid "Used for Live search. Add comma separated search queries for which the product should be excluded from the search results."
+msgstr "Используются для Живого поиска. Введите через запятую поисковые запросы, по которым товар нужно исключить из результатов поисковой выдачи."
+
+msgctxt "Languages::cp_live_search"
+msgid "Live search"
+msgstr "Живой поиск"
+
+msgctxt "Languages::cache"
+msgid "Cache"
+msgstr "Кэш"
+
+msgctxt "Languages::search_history"
+msgid "Search history"
+msgstr "История поиска"
+
+msgctxt "Languages::cp_live_search_cache"
+msgid "Data caching"
+msgstr "Кэширование данных"
+
+msgctxt "Languages::repair_cache_table"
+msgid "Repair cache table"
+msgstr "Исправить кэш-таблицу"
+
+msgctxt "Languages::optimize_cache_table"
+msgid "Optimize cache table"
+msgstr "Оптимизировать кэш-таблицу"
+
+msgctxt "Languages::delete_cache_table"
+msgid "Delete cache table"
+msgstr "Удалить кэш-таблицу"
+
+msgctxt "Languages::rebuild_cache"
+msgid "Rebuild cache"
+msgstr "Сгенерировать кэш"
+
+msgctxt "Languages::make_search_better"
+msgid "To fasten the search, disable search in short and full descriptions in the add-on settings."
+msgstr "Чтобы ускорить поиск, отключите поиск по описанию товара в настройках модуля."
+
+msgctxt "Languages::cached_products"
+msgid "Cached products"
+msgstr "Кэшированные товары"
+
+msgctxt "Languages::total_cached_strings"
+msgid "Total cached strings"
+msgstr "Количество кэшированных строк"
+
+msgctxt "Languages::group_by_search"
+msgid "Group by search phrase"
+msgstr "Группировать по поисковому запросу"
+
+msgctxt "Languages::count"
+msgid "Number of queries"
+msgstr "Количество запросов"
+
+msgctxt "Languages::simple_search"
+msgid "Regular search"
+msgstr "Обычный поиск"
+
+msgctxt "Languages::clear_history"
+msgid "Clear history"
+msgstr "Очистить историю"
+
+msgctxt "Languages::text_search_words_have_been_deleted"
+msgid "Search words have been deleted"
+msgstr "Поисковые запросы удалены"
+
+msgctxt "Languages::text_search_word_has_been_deleted"
+msgid "Search word has been deleted"
+msgstr "Поисковый запрос удален"
+
+msgctxt "Languages::clear_history"
+msgid "Clear history"
+msgstr "Очистить историю"
+
+msgctxt "SettingsOptions::cp_live_search::licensekey"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsTooltips::cp_live_search::licensekey"
+msgid "You can find it on your order details page"
+msgstr "Смотрите на детальной странице заказа"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues"
+msgstr "Необходимо ввести номер лицензии. Свяжитесь с нами (sales@cart-power.com), если у вас возникли какие-либо проблемы"
+
+msgctxt "Languages::tmpl_inline_search"
+msgid "Inline search field (top panel)"
+msgstr "Строчное поле поиска (для топ панели)"
+
+msgctxt "Languages::tmpl_dropdown_search"
+msgid "Dropdown search field with icon (top panel)"
+msgstr "Выпадающее поле поиска с иконкой (для топ панели)"
+
+msgctxt "Languages::cp_live_search_cache_menu_description"
+msgid "Manage Live Search Cache"
+msgstr "Управление кешем Live Search"
+
+msgctxt "Languages::cp_live_search_menu_description"
+msgid "Manage Live Search"
+msgstr "Управление Живым поиском"
+
+msgctxt "Languages::search_history_menu_description"
+msgid "Manage Live Search history"
+msgstr "Управление историей Live Search"
+
+msgctxt "Languages::fields_weight"
+msgid "Fields weight"
+msgstr "Приоритет полей"
+
+msgctxt "Languages::fields_weight_menu_description"
+msgid "Manage Live Search fields weight"
+msgstr "Редактирование приоритета полей Live Search fields"
+
+msgctxt "Languages::search_field"
+msgid "Search field"
+msgstr "Поле поиска"
+
+msgctxt "Languages::field_weight_none"
+msgid "Full match with the text"
+msgstr "Полное совпадение с текстом"
+
+msgctxt "Languages::field_weight_before"
+msgid "Full match with the begining of the text"
+msgstr "Полное совпадение с началом текста"
+
+msgctxt "Languages::field_weight_after"
+msgid "Full match with the end of the text"
+msgstr "Полное совпадение с окончанием текста"
+
+msgctxt "Languages::field_weight_any"
+msgid "Full match with any part of the text"
+msgstr "Полное совпадение с любой частью текста"
+
+msgctxt "Languages::product_field"
+msgid "Product field"
+msgstr "Поле товара"
+
+msgctxt "Languages::sort_by_cp_search_weight_desc"
+msgid "Sort by relevance"
+msgstr "Сортировать по релевантности"
+
+msgctxt "Languages::fields_weight_explanation_title"
+msgid "The work of Fields weight functionality on the example of the Samsung Smart TV product."
+msgstr "Работа функционала приоритет полей (на примере товара \"Samsung Smart TV\")."
+
+msgctxt "Languages::type_of_match"
+msgid "Type of match"
+msgstr "Тип вхождения поисковой фразы"
+
+msgctxt "Languages::product_will_be_in_search_results"
+msgid "Product will be shown in the search results"
+msgstr "Товар будет показан в результатах поиска"
+
+msgctxt "Languages::product_will_not_be_in_search_results"
+msgid "Product will not be shown in the search results"
+msgstr "Товар не будет показан в результатах поиска"
+
+msgctxt "Languages::search_query"
+msgid "Search query"
+msgstr "Поисковый запрос"
+
+msgctxt "Languages::display"
+msgid "Display options"
+msgstr "Параметры отображения"
+
+msgctxt "Languages::dropdown"
+msgid "Dropdown (for top panel)"
+msgstr "Выпадающее поле поиска (для топ-панели)"
+
+msgctxt "Languages::rounded_corners"
+msgid "Rounded corners"
+msgstr "Скругленные углы"
+
+msgctxt "Languages::show_add_to_cart"
+msgid "Show \"Add to cart\" button"
+msgstr "Показывать кнопку \"В корзину\""
+
+msgctxt "Languages::show_icon_on_desktop"
+msgid "Show search icon instead of search field"
+msgstr "Отображать иконку поиска вместо поискового поля"
+
+msgctxt "Languages::effect"
+msgid "Effect"
+msgstr "Эффект"
+
+msgctxt "Languages::show_in_dropdown"
+msgid "Show field in dropdown"
+msgstr "Отображать в выпадающем окошке"
+
+msgctxt "Languages::animated"
+msgid "Animated"
+msgstr "Анимация"
+
+msgctxt "Languages::overlay"
+msgid "Overlay"
+msgstr "Всплывающее окно"
+
+msgctxt "Languages::underline_field"
+msgid "Underline field"
+msgstr "Подчеркнутое поле"
+
+msgctxt "Languages::result"
+msgid "Products found"
+msgstr "Найдено товаров"
+
+msgctxt "Languages::cp_table_not_exists"
+msgid "Table not exists"
+msgstr "Таблица не найдена"
+
+msgctxt "Languages::cp_cron_command"
+msgid "CRON commands"
+msgstr "CRON команды"
+
+msgctxt "Languages::cp_all_cron_command"
+msgid "CRON commands for all storefronts"
+msgstr "CRON команды для всех витрин"
+
+msgctxt "Languages::privileges.manage_cp_live_search"
+msgid "Manage Live search"
+msgstr "Управление Живым поиском"
+
+msgctxt "Languages::privileges.view_cp_live_search"
+msgid "View Live search"
+msgstr "Просмотр Живого поиска"
+
+msgctxt "SettingsOptions::cp_live_search::show_category_labels"
+msgid "Assign colors for categories"
+msgstr "Назначить цвета для категорий"
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_wishlist"
+msgid "Show \"Add to wishlist\" button"
+msgstr "Показывать кнопку \"В избранное\""
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_comparison_list"
+msgid "Show \"Add to comparison list\" button"
+msgstr "Показывать кнопку \"В список сравнения\""
+
+msgctxt "SettingsSections::cp_live_search::elements_options"
+msgid "Elements options"
+msgstr "Параметры элементов"
+
+msgctxt "Languages::cp_ls_stylization"
+msgid "Stylization"
+msgstr "Стилизация"
+
+msgctxt "Languages::cp_ls_color"
+msgid "Color"
+msgstr "Цвет"
+
+msgctxt "Languages::cp_ls_hover_color"
+msgid "Hover color "
+msgstr "Цвет при наведении"
+
+msgctxt "Languages::cp_ls_background"
+msgid "Background"
+msgstr "Фон"
+
+msgctxt "Languages::cp_ls_borders"
+msgid "Borders"
+msgstr "Границы"
+
+msgctxt "Languages::cp_btn_add_to_cart"
+msgid "Button \"Add to cart\""
+msgstr "Кнопка \"В корзину\""
+
+msgctxt "Languages::cp_btn_add_to_wishlist"
+msgid "Button \"Add to wishlist\""
+msgstr "Кнопка \"В избранное\""
+
+msgctxt "Languages::cp_btn_add_to_comparison_list"
+msgid "Button \"Add to comparison list\""
+msgstr "Кнопка \"В список сравнения\""
+
+msgctxt "Languages::cp_ls_popup_titles"
+msgid "Inscriptions in a popup"
+msgstr "Надписи во всплывающем окне"
+
+msgctxt "Languages::cp_ls_popup_elements"
+msgid "Popup tools"
+msgstr "Инструменты всплывающего окна"
+
+msgctxt "SettingsVariants::cp_live_search::show_category_labels::random"
+msgid "Random"
+msgstr "Случайные"
+
+msgctxt "SettingsVariants::cp_live_search::show_category_labels::assigned"
+msgid "Assigned"
+msgstr "Заданные"
+
+msgctxt "SettingsOptions::cp_live_search::category_labels_colors"
+msgid "Category colors"
+msgstr "Цвета категорий"
+
+msgctxt "SettingsTooltips::cp_live_search::category_labels_colors"
+msgid "Add comma separated colors in Hex format which will be used to display categories. For example: #000,#ссс,#f8f8f8."
+msgstr "Пропишите цвета через запятую (в формате Hex), которые будут использоваться для отображения категорий.Например: #000,#ссс,#f8f8f8."
+
+msgctxt "Languages::cp_search_motivation"
+msgid "Search motivation"
+msgstr "Мотивация поиска"
+
+msgctxt "Languages::cp_motivation_phrases"
+msgid "Motivation phrases"
+msgstr "Тексты мотивации"
+
+msgctxt "Languages::ttc_cp_motivation_phrases"
+msgid "Add phrases (each on a new line) to show in the search bar"
+msgstr "Пропишите фразы (каждую через новую строку), которые необходимо отобразить в строке поиска"
+
+msgctxt "SettingsSections::cp_live_search::search_motivation"
+msgid "Search motivation"
+msgstr "Мотивация поиска"
+
+msgctxt "SettingsOptions::cp_live_search::use_sm"
+msgid "Use search motivation"
+msgstr "Использовать мотивацию поиска"
+
+msgctxt "SettingsOptions::cp_live_search::show_sm"
+msgid "Show search motivation"
+msgstr "Показывать мотивацию поиска"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_home"
+msgid "Home page"
+msgstr "Главная страница"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_cart"
+msgid "Cart"
+msgstr "Корзина"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_checkout"
+msgid "Checkout page"
+msgstr "Страница оформления заказа"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_profile"
+msgid "Profile/registration page"
+msgstr "Страница профиля/регистрации"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_pages"
+msgid "Content pages / form pages / blog pages"
+msgstr "Контентные страницы / страницы форм / страницы блога"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_categories"
+msgid "Category pages"
+msgstr "Страницы категорий"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_products"
+msgid "Product pages"
+msgstr "Страницы товаров"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_vendors"
+msgid "Search by vendors (Multi-Vendor)"
+msgstr "Искать по вендорам (Multi-Vendor)"
+
+msgctxt "Languages::cp_search_phrases"
+msgid "Search phrases"
+msgstr "Поисковые фразы"
+
+msgctxt "Languages::cp_all_search_history"
+msgid "All search history"
+msgstr "Вся история поиска"
+
+msgctxt "Languages::cp_search_phrases_group"
+msgid "Grouped phrases"
+msgstr "Сгруппированные фразы"
+
+msgctxt "Languages::cp_product_clicks"
+msgid "Product clicks"
+msgstr "Клики по товарам"
+
+msgctxt "SettingsOptions::cp_live_search::record_search_history"
+msgid "Record search history"
+msgstr "Записывать историю поиска"
+
+msgctxt "SettingsOptions::cp_live_search::show_list_price"
+msgid "Show old price"
+msgstr "Показывать старую цену"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_category"
+msgid "Show product category"
+msgstr "Показывать категории товаров"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::none"
+msgid "Do not show"
+msgstr "Не показывать"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::group"
+msgid "Grouped"
+msgstr "Группировать"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::each"
+msgid "For each product"
+msgstr "Для каждого товара"
+
+msgctxt "SettingsTooltips::cp_live_search::show_category_labels"
+msgid "Choose how to assign colors to category labels if the setting \"For each product\" was selected."
+msgstr "Выбор отображения категорий при выборе настройки \"Для каждого товара\""
+
+msgctxt "Languages::sort_by_cp_category_group_asc"
+msgid "Sort by category"
+msgstr "Сортировка по категориям"
+
+msgctxt "Languages::sort_by_cp_category_group_ascdesc"
+msgid "Sort by category"
+msgstr "Сортировка по категориям"
+
+msgctxt "SettingsOptions::cp_live_search::show_brands_result"
+msgid "Show brands"
+msgstr "Показывать бренды"
+
+msgctxt "SettingsOptions::cp_live_search::brand_id"
+msgid "Brand feature"
+msgstr "Характеристика бренда"
+
+msgctxt "SettingsOptions::cp_live_search::brands_amount"
+msgid "Max number of brands"
+msgstr "Количество брендов"
+
+msgctxt "SettingsOptions::cp_live_search::show_f_products_result"
+msgid "Show featured products"
+msgstr "Показывать рекомендованные товары"
+
+msgctxt "SettingsOptions::cp_live_search::f_products_amount"
+msgid "Max number of featured products"
+msgstr "Количество рекомендованных товаров"
+
+msgctxt "SettingsOptions::cp_live_search::popup_mheight"
+msgid "Max height of the live search block"
+msgstr "Максимальная высота блока живого поиска"
+
+msgctxt "Languages::cp_search_phrase"
+msgid "Search phrase"
+msgstr "Поисковая фраза"
+
+msgctxt "Languages::cp_featured_products"
+msgid "Featured products"
+msgstr "Рекомендованные товары"
+
+msgctxt "Languages::cp_suggestions"
+msgid "Suggestions"
+msgstr "Подсказки"
+
+msgctxt "Languages::cp_suggestion"
+msgid "Suggestion"
+msgstr "Подсказка"
+
+msgctxt "Languages::cp_in_live_search"
+msgid "Use in Live Search"
+msgstr "Использовать в Живом Поиске"
+
+msgctxt "Languages::ttc_cp_search_phrases"
+msgid "Add comma separated phrases to show suggestions and/or featured products for them."
+msgstr "Пропишите фразы через запятую, которые необходимы для отображения выбранных подсказок и товаров."
+
+msgctxt "Languages::ttc_cp_suggestions"
+msgid "Add the suggestions (each on a new line), that you want to show."
+msgstr "Пропишите подсказки (каждую через новую строку), которые необходимо отобразить."
+
+msgctxt "Languages::cp_search_by_product"
+msgid "Search by product"
+msgstr "Поиск по товару"
+
+msgctxt "SettingsOptions::cp_live_search::show_categories_path"
+msgid "Show category paths"
+msgstr "Показывать пути категорий"
+
+msgctxt "Languages::cp_brands"
+msgid "Brands"
+msgstr "Бренды"
+
+msgctxt "Languages::cp_view_all_items_text"
+msgid "View all [n] items"
+msgstr "Посмотреть все [n] элементов"
+
+msgctxt "Languages::cp_view_all"
+msgid "View all"
+msgstr "Посмотреть все"
+
+msgctxt "Languages::cp_load_more"
+msgid "Load more"
+msgstr "Показать еще"
+
+msgctxt "Languages::cp_related_searches"
+msgid "Related searches"
+msgstr "Похожие запросы"
+
+msgctxt "Languages::cp_f_products"
+msgid "items"
+msgstr "товара(ов)"
+
+msgctxt "Languages::cp_ls_headers_background"
+msgid "Headers background"
+msgstr "Фон заголовков"
+
+msgctxt "SettingsOptions::cp_live_search::speller"
+msgid "Spell check"
+msgstr "Проверка правописания"
+
+msgctxt "SettingsTooltips::cp_live_search::speller"
+msgid "Suggest corrected words if no products found, and there are no search phrases set for the query."
+msgstr "Показывать исправленные слова, если поиск не дал результатов и поисковые фразы для запроса не настроены."
+
+msgctxt "SettingsVariants::cp_live_search::speller::none"
+msgid "None"
+msgstr "Не выбрано"
+
+msgctxt "SettingsVariants::cp_live_search::speller::yandex"
+msgid "Yandex.Speller"
+msgstr "Яндекс.Спеллер"
+
+msgctxt "Languages::cp_ls_mb_mean"
+msgid "Maybe you mean"
+msgstr "Возможно, вы имели в виду"
+
+msgctxt "SettingsSections::cp_live_search::search_acceleration"
+msgid "Search acceleration"
+msgstr "Ускорение поиска"
+
+msgctxt "SettingsOptions::cp_live_search::use_boost"
+msgid "Speed up the search"
+msgstr "Ускорить поиск"
+
+msgctxt "SettingsTooltips::cp_live_search::use_boost"
+msgid "Search is accelerated by indexing the beginning of words in the name, product code and search words of the product. Such a search works exclusively in these fields and significantly speeds up the search in stores with a large number of products."
+msgstr "Поиск ускоряется за счет индексации начала слов в названии, артикуле и поисковых словах товара. Такой поиск работает исключительно по этим полям и значительно ускоряет поиск в магазинах с большим количеством товаров."
+
+msgctxt "Languages::cp_ls_index_cron_info"
+msgid "<a href=\"[url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Generate indexes</a><br /><br /><strong>CRON commands to automatically update the product index table:</strong><br />1) php [dir]/index.php --dispatch=cp_search_cache.generate_indexes --switch_company_id=[company_id] --access_key=[cron_key]<br />2) curl [url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]"
+msgstr "<a href=\"[url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Cгенерировать индексы</a><br /><br /><strong>CRON-команды для автоматического обновления таблицы индексов товаров:</strong><br />1) php [dir]/index.php  --dispatch=cp_search_cache.generate_indexes --switch_company_id=[company_id] --access_key=[cron_key]<br />2) curl [url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]"
+
+msgctxt "Languages::cp_ls_index_select_store"
+msgid "To generate indexes and display CRON links, select a storefront."
+msgstr "Для генерации индексов и отображения ссылок CRON выберите витрину."
+
+msgctxt "SettingsOptions::cp_live_search::show_vendors_result"
+msgid "Show vendors in search result (Multi-Vendor)"
+msgstr "Показывать продавцов (Multi-Vendor)"
+
+msgctxt "SettingsOptions::cp_live_search::vendors_amount"
+msgid "Max number of vendors (Multi-Vendor)"
+msgstr "Количество продавцов (Multi-Vendor)"
+
+msgctxt "Languages::cp_ls_product_code"
+msgid "Product code"
+msgstr "Артикул"
+
+msgctxt "SettingsOptions::cp_live_search::search_general_header"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::cp_live_search::search_cache_header"
+msgid "Cache settings"
+msgstr "Настройки кэша"
+
+msgctxt "SettingsOptions::cp_live_search::spell_amount"
+msgid "Max number of words"
+msgstr "Количество слов"
+
+msgctxt "Languages::cp_ls_cache_link_info"
+msgid "To generate a cache, follow the <a target="_blank" href=\"[link]\">link</a>."
+msgstr "Для генерации кэша, перейдите по <a target="_blank" href=\"[link]\">ссылке</a>."
+
+msgctxt "Languages::cp_ls_sm_link_info"
+msgid "To configure motivation texts, follow the <a target="_blank" href=\"[link]\">link</a>."
+msgstr "Для настройки текстов мотивации, перейдите по <a target="_blank" href=\"[link]\">ссылке</a>."
+
+msgctxt "SettingsTooltips::cp_live_search::search_by_exact_phrase"
+msgid "All words - all words of the query must be in the product data (in any sequence);<br />All words (strictly by fields) - all words of the query must be in one searched field (works only when cache is used);<br />Any word - at least one word must be in the product data;<br />Exact phrase - the words must be in the specified order only in the product data."
+msgstr "Все слова - все слова должны быть в данных о товаре;<br/>Все слова (строго по полям) - все слова должны быть в искомом поле (работает только при использовании кэша);<br/>
+Любые слова - как минимум одно слово должно быть в данных о товаре;<br/>Точную фразу - поисковая фраза целиком должна присутствовать в одном из полей данных о товаре (точное соответствие)."
+
+msgctxt "Languages::cp_ls_no_products_text"
+msgid "Products not found, try another search."
+msgstr "Товары не найдены, попробуйте другой запрос."
+
+msgctxt "Languages::cp_ls_search_results_for"
+msgid "Search results for \"[q]\""
+msgstr "Результаты поиска для \"[q]\""
+
+msgctxt "SettingsOptions::cp_live_search::h_suggestions_letters"
+msgid "Minimum number of characters for suggestions from the search history"
+msgstr "Количество символов для подсказок из истории поиска"
+
+msgctxt "SettingsOptions::cp_live_search::h_suggestions_requests"
+msgid "Minimum number of searches for suggestions from the search history"
+msgstr "Количество запросов для подсказок из истории поиска"
+
+msgctxt "Languages::privilege_groups.cp_live_search"
+msgid "Live search"
+msgstr "Живой поиск"
+
+msgctxt "Languages::cp_btn_load_more"
+msgid "Button \"Load more\""
+msgstr "Кнопка \"Показать еще\""
+
+msgctxt "Languages::cp_btn_view_all"
+msgid "Button \"View all\""
+msgstr "Кнопка \"Посмотреть все\""
+
+msgctxt "Languages::cp_btn_view_all_text"
+msgid "Text color and border of button \"View all\""
+msgstr "Цвет текста и граница кнопки \"Посмотреть все\""
+
+msgctxt "Languages::cp_ls_by_search_phrase"
+msgid "CP: By search phrase"
+msgstr "CP: По поисковой фразе"
+

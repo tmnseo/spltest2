@@ -1,0 +1,31 @@
+.show-more-ajax-pagination {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+    height: 100px;
+}
+.show-more-ajax-pagination.cp-pagination-visible {
+    margin-top: -125px;
+}
+.show-more-ajax-pagination .cp-load-more {
+    background: #edeff1;
+    line-height: 41px;
+    border: 1px solid #dedede;
+}
+.show-more-ajax-pagination .cp-load-more:hover {
+    background: #EBEBEB;
+    line-height: 41px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.ty-pagination.hidden {
+	display: none;
+}
+.ty-pagination__bottom {
+    margin-bottom: 20px;
+}
+.ty-pagination__bottom .ty-pagination {
+    margin: 90px 0 10px;
+}

@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_vendor_warehouses"
+msgid "Cart-Power: Displaying warehouses on the map"
+msgstr "Cart-Power: Отображение складов на карте"
+
+msgctxt "Addons::description::cp_vendor_warehouses"
+msgid "Shows the location of the warehouse on the map in the vendor page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Показывает местоположение склада на карте на витрине продавца. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_vendor_warehouses::map_width"
+msgid "Width of the static map image"
+msgstr "Ширина статического изображения карты"
+
+msgctxt "SettingsOptions::cp_vendor_warehouses::map_height"
+msgid "Height of the static map image"
+msgstr "Высота статического изображения карты"
+
+msgctxt "SettingsOptions::cp_vendor_warehouses::map_zoom"
+msgid "Scale of the static map image"
+msgstr "Масштаб статического изображения карты"
+
+msgctxt "Languages::cp_vendor_warehouses.view_on_map"
+msgid "View on the map"
+msgstr "Посмотреть на карте"

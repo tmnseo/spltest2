@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_orders_list_details</id>
+    <version>1.0</version>
+    <priority>3000</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="brand_feature_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cp_oc_service_link;</item>
+        <item>
+            CREATE TABLE `?:cp_oc_service_link` (
+                `module` varchar(55) NOT NULL default '0',
+                `track_link` varchar(255) NOT NULL default '',
+                UNIQUE KEY  `module` (`module`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id) VALUES ('manage_oc_manage', 'Y', 'addons','cp_oc_priv_group');</item>
+        
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_oc_service_link;</item>
+        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_oc_manage'</item>
+        <item>ALTER TABLE `?:statuses` ADD `cp_oc_allow_cancel` char(1) NOT NULL default 'N';</item>
+        <item>ALTER TABLE `?:statuses` ADD `cp_oc_is_cancel` char(1) NOT NULL default 'N';</item>
+        <item>ALTER TABLE `?:orders` ADD `cp_oc_cust_cancel` char(1) NOT NULL default 'N';</item>
+        
+        <item for="uninstall">ALTER TABLE ?:statuses DROP COLUMN cp_oc_allow_cancel;</item>
+        <item for="uninstall">ALTER TABLE ?:statuses DROP COLUMN cp_oc_is_cancel;</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN cp_oc_cust_cancel;</item>
+    </queries>
+</addon>

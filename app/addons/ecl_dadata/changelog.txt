@@ -1,0 +1,17 @@
+Legend:
+[+] - new feature/improvement
+[*] - functionality changes
+[!] - bugfix
+
+Version 1.2, 19 December 2018
+
+[!] Settlements were not set to City field. Fixed
+
+Version 1.3, 21 May 2019
+
+[+] Compatibility with Lite checkout added
+[+] Customers can see flat number in the suggestions now
+
+Version 1.4, 27 August 2019
+
+[*] City and state restrictions for address field were added

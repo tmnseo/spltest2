@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_product_page</id>
+    <version>1.0</version>
+    <priority>90</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>cp_catalog_changes,cp_warehouse_products_prices,warehouses</dependencies>
+    </compatibility>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="price_weight">
+                        <type>input</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="delivery_weight">
+                        <type>input</type>
+                        <default_value>0.5</default_value>
+                    </item>
+                    <item id="filter_price_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="brand_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="brand_country_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="brand_code_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="brand_techniques_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="brand_analogs_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

@@ -1,0 +1,1 @@
+<th width="7%" class="center">{__("cp_confirmed")}</th>

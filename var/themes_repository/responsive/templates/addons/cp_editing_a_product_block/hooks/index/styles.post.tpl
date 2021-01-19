@@ -1,0 +1,1 @@
+{style src="addons/cp_editing_a_product_block/styles.less"}

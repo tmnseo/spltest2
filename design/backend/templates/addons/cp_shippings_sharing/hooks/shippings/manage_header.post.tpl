@@ -1,0 +1,1 @@
+{if $auth.user_type == 'V'}<th class="center">{__("cp_use_this_shipping")}{/if}

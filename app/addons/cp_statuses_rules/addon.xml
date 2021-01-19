@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_statuses_rules</id>
+    <version>1.0</version>
+    <priority>4000</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>cp_zoho_notifications</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="order_status_placed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_cancel">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_paid">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_paid_after_cancellation">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_confirmed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_refund">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_cancel_with_refund">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_completed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_received">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_shipped">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_waiting_for_payment">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_vendor_return">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_finished">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="enable_test_menu">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>check_orders</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_statuses_rules_cron_run_info</handler>
+                    </item>
+                    <item id="cron_info_unpaid_orders_txt">
+                        <type>info</type>
+                        <handler>fn_cp_statuses_rules_cron_unpaid_orders_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpStatusesRules\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpStatusesRules\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpStatusesRules\Installer</installer>
+</addon>

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: el_GR\n"
+
+msgctxt "Addons::name::cp_shippings_sharing"
+msgid "Cart-Power: Managing shippings for vendor"
+msgstr "Cart-Power: Управление доставками для продавца"
+
+msgctxt "Addons::description::cp_shippings_sharing"
+msgid "Allows the vendor to choose which shippings they will use from those already created in the marketplace. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет продавцу выбирать какие доставки он будет использовать из уже созданных в маркетплейсе. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_use_this_shipping"
+msgid "cp_use_this_shipping"
+msgstr "Использовать доставку"

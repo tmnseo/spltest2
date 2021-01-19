@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/sw_checkbox_pd.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: sweetcode <direct@sweetcode.ru>\n"
+"PO-Revision-Date: 2017-04-04 07:45-0400\n"
+
+msgctxt "Addons::name::sw_checkbox_pd"
+msgid "[SW] Module sw_checkbox_pd"
+msgstr "[SW] Соглашение на обработку ПД"
+
+msgctxt "Addons::description::sw_checkbox_pd"
+msgid "[SW] Module sw_checkbox_pd description"
+msgstr "Модуль позволит добавить чекбокс соглашения на обработку персональных данных к формам связи."
+
+msgctxt "SettingsSections::sw_checkbox_pd::settings"
+msgid "id_settings"
+msgstr "Настройки" 
+
+msgctxt "SettingsSections::sw_checkbox_pd::instruction"
+msgid "id_instruction"
+msgstr "Пример соглашения на обработку ПД"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::information"
+msgid "Information"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::id_page"
+msgid "id_page"
+msgstr "ID страницы с текстом"
+
+msgctxt "Languages::sw_checkbox_pd.text_pd"
+msgid "[SW] sw_checkbox_pd.text_pd"
+msgstr "Согласие на обработку <a href="index.php?dispatch=pages.view&page_id=[link]">персональных данных</a>."
+
+msgctxt "Languages::sw_checkbox_pd.check_form"
+msgid "[SW] sw_checkbox_pd.check_form"
+msgstr "Включить чекбокс согласия на обработку ПД"
+
+msgctxt "Languages::sw_checkbox_pd.title"
+msgid "[SW] sw_checkbox_pd.title"
+msgstr "Согласие на обработку"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::check_call_requests"
+msgid "check_call_requests"
+msgstr "Вкл. для обратного звонка"
+ 
+msgctxt "SettingsOptions::sw_checkbox_pd::check_one_click"
+msgid "check_one_click"
+msgstr "Вкл. для заказа в 1 клик"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::check_subscr"
+msgid "check_subscr"
+msgstr "Вкл. для подписки"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::check_discuss"
+msgid "check_discuss"
+msgstr "Вкл. для отзывов"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::checked_allways"
+msgid "checked_allways"
+msgstr "Галочка всегда активна"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::check_registration"
+msgid "check_registration"
+msgstr "Вкл. для формы регистрации"
+ 
+msgctxt "SettingsOptions::sw_checkbox_pd::check_checkout"
+msgid "check_checkout"
+msgstr "Вкл. для страницы оформления заказа" 
+
+msgctxt "Languages::sw_checkbox_pd.instruction"
+msgid "sw_checkbox_pd.instruction"
+msgstr "Пример соглашения"
+
+msgctxt "Languages::sw_checkbox_pd.instruction_text"
+msgid "sw_checkbox_pd.instruction_text"
+msgstr "<p>Отправляя свои данные на сайте <strong>[ваш_сайт.</strong><strong>ru]</strong> пользователь Настоящим подтверждает, что ознакомлен и согласен с условиями Политики в отношении обработки персональных данных. Настоящим пользователь дает разрешение <strong>ООО «Ваша компания» (далее – «Ваша Компания»)</strong> в целях информирования о товарах и услугах <strong>Ваша Компания</strong>, заключения и исполнения договора купли-продажи обрабатывать - собирать, записывать, систематизировать, накапливать, хранить, уточнять (обновлять, изменять), извлекать, использовать, передавать (в том числе поручать обработку другим лицам), обезличивать, блокировать, удалять, уничтожать - персональные данные пользователя, который отправляет свои данные, а именно: фамилию, имя, пол, дату рождения, номера домашнего и мобильного телефонов, адрес электронной почты, адреса доставки, и прочие данные, которые пользователь оставляет на сайте <strong>[ваш_сайт.</strong><strong>ru]</strong> по своему желанию, а также данные об интересах на основании анализа поисковых запросов и посещений Интернет-сайтов. Также пользователь разрешает «<strong>Ваша Компания</strong>» в целях информирования о товарах, работах, услугах направлять на указанный пользователем адрес электронной почты и/или на номер мобильного телефона рекламу и информацию о товарах, работах, услугах «<strong>Ваша Компания</strong>» и его партнеров. Согласие может быть отозвано пользователем в любой момент путем направления письменного уведомления по адресу «<strong>Ваша Компания</strong>».</p>"
+
+msgctxt "SettingsSections::sw_checkbox_pd::mve_settings"
+msgid "mve_settings"
+msgstr "Настройки MVE"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::check_reg_vendor"
+msgid "check_reg_vendor"
+msgstr "Вкл. для страницы регистрации продавца"
+
+msgctxt "SettingsOptions::sw_checkbox_pd::id_page_reg_vendor"
+msgid "id_page_reg_vendor"
+msgstr "ID страницы с текстом"
+
+msgctxt "Languages::sw_checkbox_pd.text_pd_mve"
+msgid "[SW] sw_checkbox_pd.text_pd_mve"
+msgstr "Согласие на обработку <a href="index.php?dispatch=pages.view&page_id=[link]">персональных данных</a>."
+
+msgctxt "Languages::sw_checkbox_pd.instruction_text_mve"
+msgid "sw_checkbox_pd.instruction_text_mve"
+msgstr "<p>Текст ссылки для страницы регистрации вендора находится в языковой переменной sw_checkbox_pd.text_pd_mve</p>"

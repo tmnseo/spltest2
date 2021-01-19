@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_catalog_changes</id>
+    <version>1.0</version>
+    <priority>99</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="original_brand">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="original_article">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="manufacturer_article">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE `?:product_feature_variant_descriptions` ADD `cp_search_variant` varchar(255) NOT NULL default '' AFTER variant</item>
+        <item for="uninstall">ALTER TABLE  `?:product_feature_variant_descriptions` DROP `cp_search_variant`</item>
+        <item for="install">ALTER TABLE `cscart_profile_fields` ADD `numeric_field_type` CHAR(1) NULL AFTER `checkout_export_1c`</item>
+        <item for="uninstall">ALTER TABLE `?:profile_fields` DROP `numeric_field_type`</item>
+    </queries>
+</addon>

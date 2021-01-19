@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_brands_locations</id>
+    <version>1.0</version>
+    <priority>200</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>cp_vendor_panel</dependencies>
+    </compatibility>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpBrandsLocations\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpBrandsLocations\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpBrandsLocations\Installer</installer>
+</addon>

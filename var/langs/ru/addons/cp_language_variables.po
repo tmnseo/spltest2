@@ -1,0 +1,553 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_language_variables"
+msgid "Cart-Power: Language variables"
+msgstr "Cart-Power: Языковые переменные"
+
+msgctxt "Addons::description::cp_language_variables"
+msgid "Language variables for emails. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Языковые переменные для  email писем. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::help_center"
+msgid "Go to Help Center"
+msgstr "Перейти в Центр помощи"
+
+msgctxt "Languages::to_connect_with"
+msgid "To connect with SPL"
+msgstr "Связаться с SPL"
+
+msgctxt "Languages::form_of_payment"
+msgid "Form of payment"
+msgstr "Форма оплаты"
+
+msgctxt "Languages::change_order_status_o_subj_text"
+msgid "The order has not yet been confirmed by the Seller."
+msgstr "Заказ пока не подтвержден Продавцом."
+
+msgctxt "Languages::change_order_status_default_subj_text"
+msgid "The seller accepted your order to work. The invoice must be paid within 3 days."
+msgstr "Продавец принял ваш заказ в работу. Счет необходимо оплатить в течение 3 дней."
+
+msgctxt "Languages::change_order_status_p_subj_text"
+msgid "We have received your payment. The order is completed"
+msgstr "Мы получили вашу оплату. Заказ комплектуется"
+
+msgctxt "Languages::change_order_status_d_subj_text"
+msgid "The seller will not be able to fulfill your order, but we are ready to help."
+msgstr "Продавец не сможет исполнить ваш заказ, но мы готовы помочь."
+
+msgctxt "Languages::change_order_status_i_subj_text"
+msgid "The invoice you have not been paid. The seller canceled the application."
+msgstr "Выставленный вам счет не был оплачен. Продавец аннулировал заявку."
+
+msgctxt "Languages::change_order_status_equipped_subj"
+msgid "Order No. [order] is ready for delivery"
+msgstr "Заказ №[order] готов к выдаче"
+
+msgctxt "Languages::change_order_status_equipped_text"
+msgid "You can get your order at the pickup point."
+msgstr "Вы можете получить свой заказ в пункте самовывоза."
+
+msgctxt "Languages::change_order_status_c_text"
+msgid "You have received an order. Claims for the goods must be sent to the Seller"
+msgstr "Вы получили заказ.Претензии по товару необходимо отправлять Продавцу"
+
+msgctxt "Languages::change_order_status_sent_subj"
+msgid "Order No. [order] shipped"
+msgstr "Заказ №[order] отправлен"
+
+msgctxt "Languages::change_order_status_sent_text"
+msgid "The order has been transferred to the carrier"
+msgstr "Заказ был передан перевозчику"
+
+msgctxt "Languages::change_order_status_o_subj_text_client"
+msgid "The order has been sent to the seller for confirmation."
+msgstr "Ваш заказ передан поставщику. Пожалуйста, ожидайте подтверждения в течение рабочего дня."
+
+
+msgctxt "Languages::change_order_status_o_subj_client"
+msgid "change_order_status_o_subj_client"
+msgstr "Заказ № [order] размещён"
+
+msgctxt "Languages::change_order_status_default_subj_client"
+msgid "change_order_status_default_subj_client"
+msgstr "Заказ № [order] подтвержден продавцом"
+
+msgctxt "Languages::change_order_status_default_subj_text_client"
+msgid "change_order_status_default_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>Поставщик [company] подтвердил ваш заказ.</td></tr>
+  <tr><td>К этому письму приложен договор-счет. Пожалуйста, оплатите его в течение двух рабочих дней, чтобы получить заказ.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_p_subj_client"
+msgid "change_order_status_p_subj_client"
+msgstr "Заказ № [order] оплачен"
+
+msgctxt "Languages::change_order_status_p_subj_text_client"
+msgid "change_order_status_p_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Спасибо за оплату заказа № [order].</td></tr>
+  <tr><td><strong>№ платежного поручения:</strong> [cp_order_number]</td></tr>
+  <tr><td><strong>Дата платежного поручения:</strong> [cp_order_date]</td></tr>
+  <tr><td><strong>Сумма оплаты:</strong> [cp_payment_amount] P</td></tr>
+  <tr><td style=\"padding-top: 30px;\"><strong>Ваш заказ комплектуется.</strong></td></tr></table>"
+
+msgctxt "Languages::change_order_status_l_subj_client"
+msgid "change_order_status_l_subj_client"
+msgstr "Заказ № [order] оплачен после отмены"
+
+msgctxt "Languages::change_order_status_l_subj_text_client"
+msgid "change_order_status_l_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Спасибо за оплату заказа № [order].</td></tr>
+  <tr><td><strong>№ платежного поручения:</strong> [cp_order_number]</td></tr>
+  <tr><td><strong>Дата платежного поручения:</strong> [cp_order_date]</td></tr>
+  <tr><td><strong>Сумма оплаты:</strong> [cp_payment_amount] P</td></tr>
+  <tr><td style=\"padding-top: 30px;\">Так как вы оплатили заказ после отмены, он отправлен поставщику для повторного подтверждения. Если количество и цена товара изменились, заказ будет отменен и деньги вернутся на ваш счет в течение двух банковских дней. Если поставщик будет готов выполнить заказ, его статус изменится на «Скомплектован»</td></tr></table>"
+
+
+msgctxt "Languages::change_order_status_equipped_subj_client"
+msgid "change_order_status_equipped_subj_client"
+msgstr "Заказ № [order] скомплектован"
+
+msgctxt "Languages::change_order_status_equipped_text_client"
+msgid "change_order_status_equipped_text_client"
+msgstr "<strong>Если у вас «Самовывоз»:</strong> заказ готов к выдаче. Получите заказ в пункте самовывоза. "
+
+msgctxt "Languages::change_order_status_equipped_text_client_delivery"
+msgid "change_order_status_equipped_text_client_delivery"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+    <tr><td style=\"padding-bottom: 30px;\">Поставщик подготовил ваш заказ к отгрузке.</td></tr>
+    <tr><td style=\"padding-bottom: 30px;\">Если вы выбрали самовывоз, пожалуйста, заберите заказ со склада поставщика в течение пяти рабочих дней.</td></tr>
+    <tr><td>Если вы выбрали доставку, поставщик в скором времени передаст заказ в транспортную компанию. Вы получите уведомление об этом и трек-номер для отслеживания. Трек-номер также размещен в вашем <a href=\"[personal_link]\" target=\"_blank\" style=\"color: #ED5F2C;\">личном кабинете</a>, в деталях заказа.
+    </td></tr></table>"
+
+msgctxt "Languages::change_order_status_sent_subj_client"
+msgid "change_order_status_sent_subj_client"
+msgstr "Заказ № [order] отправлен"
+
+msgctxt "Languages::change_order_status_sent_text_client"
+msgid "change_order_status_sent_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\"  width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Ваш заказ № [order] передан в службу доставки.</td></tr>
+  <tr><td>Отслеживайте сроки доставки по трек-номеру: <strong>[tracking_number]</strong></td></tr></table>"
+
+msgctxt "Languages::change_order_status_c_subj_client"
+msgid "change_order_status_c_subj_client"
+msgstr "Вы получили заказ № [order]"
+
+msgctxt "Languages::change_order_status_c_text_client"
+msgid "change_order_status_c_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+<tr><td style=\"padding-bottom: 30px;\">Вы получили заказ № [order].</td></tr>
+<tr><td style=\"padding-bottom: 30px;\">Пожалуйста, проверьте качество, комплектность и количество товаров. Если есть повод для претензии, направьте ее поставщику в течение одного рабочего дня. Подробнее – <a href=\"https://support.service.parts/portal/ru/kb/articles/kak-vernut-tovar\" target=\"_blank\">в <span style=\"color: #ED5F2C;\">Базе знаний покупателя</span>, глава <span style=\"color: #ED5F2C;\">«Возврат»</span></a>.</td></tr>
+<tr><td style=\"border-top: 1px solid rgba(0, 0, 0, 0.1);padding-top: 30px;padding-bottom: 30px;\">Также вы можете оставить отзыв о поставщике и его товарах. Для этого зайдите в личный кабинет, выберите номер заказа и «Оставить отзыв».</td></tr>
+<tr><td style=\"padding-bottom: 60px;\"><strong>Спасибо за выбор маркетплейса SPL.</strong></td></tr>
+<tr><td style=\"padding-bottom: 29px; text-align: center;\">
+<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" style=\"max-width: 200px; min-width: 200px; width: 200px;margin: 0 auto;\">
+<tr><td><table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+<tr><td style=\"height: 60px;background: #ED5F2C;border-radius: 3px;text-align: center;vertical-align: middle;\">
+<a href=\"[personal_link]\" target=\"_blank\" style=\"font-size: 12pt;text-align: center;color: #FFFFFF;\">В личный кабинет</a>
+</td></tr></table></td></tr></table></td></tr></table>"
+
+msgctxt "Languages::change_order_status_m_subj_client"
+msgid "change_order_status_m_subj_client"
+msgstr "Заказ № [order] отменен"
+
+msgctxt "Languages::change_order_status_m_subj_text_client"
+msgid "change_order_status_m_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Нам очень жаль, но ваш заказ № [order] отменен.</td></tr>
+  <tr><td><strong>Возможные причины:</strong></td></tr>
+  <tr><td>- Товара нет в наличии.</td></tr>
+  <tr><td style=\"padding-bottom: 10px;padding-left: 10px;\"><strong>Что делать:</strong> закажите товар у другого поставщика</td></tr>
+  <tr><td>- Истек срок действия счета.</td></tr>
+  <tr><td style=\"padding-bottom: 10px;padding-left: 10px;\"><strong>Что делать:</strong> в личном кабинете нажмите кнопку «Повторить заказ», чтобы получить новый договор-счет и оплатить его вовремя.</td></tr>
+  <tr><td>- Поставщик не успел подтвердить заказ в установленный срок.</td></tr>
+  <tr><td style=\"padding-bottom: 60px;padding-left: 10px;\"><strong>Что делать:</strong> дайте ему еще один шанс, повторив заказ, или выберите товар у другого поставщика.</td></tr>
+  <tr><td style=\"padding-bottom: 29px; text-align: center;\">
+  <table cellpadding=\"0\" cellspacing=\"0\"  width=\"200\" style=\"max-width: 200px; min-width: 200px; width: 200px;margin: 0 auto;\">
+  <tr><td><table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr>
+  <td style=\"height: 60px;background: #ED5F2C;border-radius: 3px;text-align: center;vertical-align: middle;\">
+  <a href=\"https://test.service.parts/\" target=\"_blank\" style=\"font-size: 12pt;line-height: 60px;display: block;text-align: center;color: #FFFFFF;\">Так и сделаю</a>
+  </td></tr></table></td></tr></table></td></tr></table>"
+
+msgctxt "Languages::change_order_status_q_subj_client"
+msgid "change_order_status_q_subj_client"
+msgstr "Возврат оплаты по заказу № [order]"
+
+msgctxt "Languages::change_order_status_q_subj_text_client"
+msgid "change_order_status_q_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+<tr><td style=\"padding-bottom: 30px;\">Нам очень жаль, но ваш заказ № [order] отменен. Не волнуйтесь, SPL уже отправил средства обратно на ваш счет.</td></tr>
+<tr><td>Почему это случилось? Вот возможные причины:</td></tr>
+<tr><td>1. Вы задержались с оплатой договор-счета (у вас  было 2 рабочих дня).</td></tr>
+<tr><td style=\"padding-bottom: 60px;\"><strong>Что делать:</strong> заново оформить заказ за секунды. Зайдите в личный кабинет и нажмите «Повторить заказ».</td></tr>
+<tr><td style=\"padding-bottom: 40px; text-align: center;\">
+<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" style=\"max-width: 200px; min-width: 200px; width: 200px;margin: 0 auto;\">
+  <tr><td>
+  <table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"height: 60px;background: #ED5F2C;border-radius: 3px;text-align: center;vertical-align: middle;\">
+  <a href=\"[personal_link]\" target=\"_blank\" style=\"font-size: 12pt;line-height: 60px;display: block;text-align: center;color: #FFFFFF;\">В личный кабинет</a>
+  </td></tr>
+  </table>
+  </td></tr>
+</table>
+</td></tr>
+<tr><td>2. Количество товара или цена на него изменились и поставщик не может выполнить заказ.</td></tr>
+<tr><td style=\"padding-bottom: 60px;\"><strong>Что делать:</strong> найдите выгодное предложение на маркетплейсе SPL.</td></tr>
+<tr><td style=\"padding-bottom: 10px;text-align: center;\">
+<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" style=\"max-width: 200px; min-width: 200px; width: 200px;margin: 0 auto;\">
+  <tr><td>
+  <table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"height: 60px;background: #ED5F2C;border-radius: 3px;text-align: center;vertical-align: middle;\">
+    <a href=\"https://test.service.parts/\" target=\"_blank\" style=\"font-size: 12pt;line-height: 60px;display: block;text-align: center;color: #FFFFFF;\">Так и сделаю</a>
+  </td></tr>
+  </table>
+  </td></tr>
+</table>
+</td></tr>
+</table>"
+
+msgctxt "Languages::change_order_status_k_subj_client"
+msgid "change_order_status_k_subj_client"
+msgstr "Инициирован возврат оплаты по заказу № [order]"
+
+msgctxt "Languages::change_order_status_k_subj_text_client"
+msgid "change_order_status_k_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">По вашему заказу № [order] инициирован возврат оплаты. Деньги будут переведены на ваш счет в течение двух банковских дней.</td></tr>
+  <tr><td>Если вы не знаете, что произошло и почему SPL возвращает ваши средства, посмотрите, пожалуйста, вот эту <a href=\"https://support.service.parts/portal/ru/kb/articles/pochemu-otmenen-moi-zakaz\" style=\"color: #ED5F2C;\">статью</a> в Базе знаний. Если у вас останутся вопросы, напишите в Поддержку через ваш личный кабинет.</strong></td></tr></table>"
+
+msgctxt "Languages::change_order_status_b_subj_client"
+msgid "change_order_status_b_subj_client"
+msgstr "Заказ № [order] на рассмотрении "
+
+msgctxt "Languages::change_order_status_b_subj_text_client"
+msgid "change_order_status_b_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>Ваш заказ № [order] повторно отправлен поставщику на проверку.</td></tr>
+  <tr><td>Поскольку вы оплатили счет по истечении двух дней, количество и цена товара могли измениться.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_s_subj_client"
+msgid "change_order_status_s_subj_client"
+msgstr "Зарегистрирована претензия по заказу № [order]"
+
+msgctxt "Languages::change_order_status_s_subj_text_client"
+msgid "change_order_status_s_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>SPL зарегистрировал вашу претензию по заказу № [order].</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\">
+  Вы получите ответ в течение двух рабочих дней. Рекомендуем вести переговоры с поставщиком через личный кабинет. В случае переписки с поставщиком по электронной почте ставьте в копию адрес маркетплейса <a href=\"mailto:clientssupport@service.parts\" style=\"color: #ED5F2C;\">clientssupport@service.parts</a>. Это поможет SPL оперативно вмешаться в ситуацию, если потребуется.
+  </td></tr>
+  <tr><td style=\"padding-bottom: 30px;\">Правила работы с претензиями описаны в <a href=\"https://support.service.parts/portal/ru/kb/articles/polzovatelskoe-soglashenie\" style=\"color: #ED5F2C;\">Пользовательском соглашении</a>.</td></tr>
+  <tr><td><strong>Спасибо за обратную связь!</strong></td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_u_subj_client"
+msgid "change_order_status_u_subj_client"
+msgstr "Замена товара по заказу № [order]"
+
+msgctxt "Languages::change_order_status_u_subj_text_client"
+msgid "change_order_status_u_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>У нас хорошие новости! По вашему заказу № [order] принято решение о замене товара.</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\">Товар готовится к комплектации.</td></tr>
+  <tr><td><strong>Спасибо, что выбрали SPL!</strong></td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_v_subj_client"
+msgid "change_order_status_v_subj_client"
+msgstr "Отказ в претензии по заказу № [order]"
+
+msgctxt "Languages::change_order_status_v_subj_text_client"
+msgid "change_order_status_v_subj_text_client"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>К сожалению, поставщик отклонил вашу претензию № [claim_number].</td></tr>
+  <tr><td>Чтобы узнать детали, перейдите в личный кабинет – скорей всего, поставщик уже прислал вам сообщение с разъяснениями.</td></tr>
+  <tr><td>Если вы не согласны с его аргументами, напишите в Поддержку.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_w_subj_client"
+msgid "change_order_status_w_subj_client"
+msgstr "Претензия по заказу № [order] урегулирована"
+
+msgctxt "Languages::change_order_status_w_subj_text_client"
+msgid "change_order_status_w_subj_text_client"
+msgstr "У нас хорошие новости! Претензия по заказу № [order] урегулирована"
+
+msgctxt "Languages::cp_account_created_subj_client"
+msgid "cp_account_created_subj_client"
+msgstr "Учетная запись SPL активирована"
+
+msgctxt "Languages::cp_account_created_subj_client_text"
+msgid "cp_account_created_subj_client_text"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>Вы зарегистрировались на сайте SPL </td></tr>
+  <tr><td>– это первый маркетплейс запчастей для спецтехники.</td></tr></table>"
+
+msgctxt "Languages::cp_account_created_subj_client_link"
+msgid "cp_account_created_subj_client_link"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding: 30px 47px 30px 30px;\">Пройдите по <a href=\"[href]\" target=\"_blank\" style=\"color:#ED5F2C;\">ссылке</a> в свой личный кабинет, введите логин и пароль. После авторизации вы сможете оформлять и оплачивать заказы.</td></tr>
+  <tr><td style=\"padding: 0 47px 30px 30px;\"><strong>Добро пожаловать в SPL!</strong></td></tr></table>"
+
+msgctxt "Languages::change_order_status_o_subj_vendor"
+msgid "change_order_status_o_subj_vendor"
+msgstr "<strong>SPL:</strong> Размещён заказ № [order]"
+
+msgctxt "Languages::change_order_status_o_subj_vendor_title"
+msgid "change_order_status_o_subj_vendor_title"
+msgstr "SPL: Размещён заказ № [order]"
+
+msgctxt "Languages::change_order_status_o_subj_text_vendor"
+msgid "change_order_status_o_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>Размещен заказ № [order].</td></tr>
+  <tr><td>Ожидаем подтверждение заказа.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_default_subj_vendor"
+msgid "change_order_status_default_subj_vendor"
+msgstr "<strong>SPL:</strong> Подтвержден заказ № [order]"
+
+msgctxt "Languages::change_order_status_default_subj_vendor_title"
+msgid "change_order_status_default_subj_vendor_title"
+msgstr "SPL: Подтвержден заказ № [order]"
+
+msgctxt "Languages::change_order_status_default_subj_text_vendor"
+msgid "change_order_status_default_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>Заказ № [order] подтвержден.</td></tr>
+  <tr><td>Покупателю отправлен договор-счет.</td></tr>
+  <tr><td>Ожидайте оплату счета в течение двух рабочих дней.</td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_p_subj_vendor"
+msgid "change_order_status_p_subj_vendor"
+msgstr "<strong>SPL:</strong> Оплачен заказ № [order]"
+
+msgctxt "Languages::change_order_status_p_subj_vendor_title"
+msgid "change_order_status_p_subj_vendor_title"
+msgstr "SPL: Оплачен заказ № [order]"
+
+msgctxt "Languages::change_order_status_p_subj_text_vendor"
+msgid "change_order_status_p_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\"  width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Покупатель оплатил заказ № [order] (№ заказа поставщика: [cp_vendor_order_number]).</td></tr>
+  <tr><td><strong>№ платежного поручения:</strong> [cp_order_number]</td></tr>
+  <tr><td><strong>Дата платежного поручения:</strong> [cp_order_date]</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\"><strong>Сумма оплаты:</strong> [cp_payment_amount] P</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\">Пожалуйста, повторно проверьте возможность выполнения заказа.</td></tr>
+  <tr><td>Если вы подтверждаете наличие товара на складе и его цена соответствует той, что указана в заказе, переходите к его комплектации. Если вы не готовы выполнить заказ, установите статус «Возврат д/с».</td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_l_subj_vendor"
+msgid "change_order_status_l_subj_vendor"
+msgstr "<strong>SPL:</strong> Оплачен отмененный заказ № [order]"
+
+msgctxt "Languages::change_order_status_l_subj_vendor_title"
+msgid "change_order_status_l_subj_vendor_title"
+msgstr "SPL: Оплачен отмененный заказ № [order]"
+
+msgctxt "Languages::change_order_status_l_subj_text_vendor"
+msgid "change_order_status_l_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Покупатель оплатил отмененный заказ № [order] (№ заказа поставщика: [cp_vendor_order_number]).</td></tr>
+  <tr><td><strong>№ платежного поручения:</strong> [cp_order_number]</td></tr>
+  <tr><td><strong>Дата платежного поручения:</strong> [cp_order_date]</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\"><strong>Сумма оплаты:</strong> [cp_payment_amount] P</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\">Пожалуйста, повторно проверьте возможность выполнения заказа.</td></tr>
+  <tr><td>Если вы подтверждаете наличие необходимого товара на складе и его цена соответствует той, что указана в заказе, переходите к комплектации заказа. Если вы не готовы выполнить заказ, установите статус «Возврат д/с».</td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_equipped_subj_vendor"
+msgid "change_order_status_equipped_subj_vendor"
+msgstr "<strong>SPL:</strong> Скомплектован заказ № [order]"
+
+msgctxt "Languages::change_order_status_equipped_subj_vendor_title"
+msgid "change_order_status_equipped_subj_vendor_title"
+msgstr "SPL: Скомплектован заказ № [order]"
+
+msgctxt "Languages::change_order_status_equipped_text_vendor"
+msgid "change_order_status_equipped_text_vendor"
+msgstr "Скомплектован заказ № [order]"
+
+msgctxt "Languages::change_order_status_sent_subj_vendor"
+msgid "change_order_status_sent_subj_vendor"
+msgstr "<strong>SPL:</strong> Отправлен заказ № [order]"
+
+msgctxt "Languages::change_order_status_sent_subj_vendor_title"
+msgid "change_order_status_sent_subj_vendor_title"
+msgstr "SPL: Отправлен заказ № [order]"
+
+msgctxt "Languages::change_order_status_sent_text_vendor"
+msgid "change_order_status_sent_text_vendor"
+msgstr "Заказ № [order] передан в доставку."
+
+msgctxt "Languages::change_order_status_c_subj_vendor"
+msgid "change_order_status_c_subj_vendor"
+msgstr "<strong>SPL:</strong> Получен заказ № [order]"
+
+msgctxt "Languages::change_order_status_c_subj_vendor_title"
+msgid "change_order_status_c_subj_vendor_title"
+msgstr "SPL: Получен заказ № [order]"
+
+msgctxt "Languages::change_order_status_c_text_vendor"
+msgid "change_order_status_c_text_vendor"
+msgstr "Заказ № [order] передан покупателю."
+
+msgctxt "Languages::change_order_status_r_subj_vendor"
+msgid "change_order_status_r_subj_vendor"
+msgstr "<strong>SPL:</strong> Заказ № [order] выполнен"
+
+msgctxt "Languages::change_order_status_r_subj_vendor_title"
+msgid "change_order_status_r_subj_vendor_title"
+msgstr "SPL: Заказ № [order] выполнен"
+
+msgctxt "Languages::change_order_status_r_text_vendor"
+msgid "change_order_status_r_text_vendor"
+msgstr "SPL перевел на ваш счет оплату по выполненному заказу № [order] (№ заказа поставщика: [cp_vendor_order_number])."
+
+msgctxt "Languages::change_order_status_m_subj_vendor"
+msgid "change_order_status_m_subj_vendor"
+msgstr "<strong>SPL:</strong> Отменен заказ № [order]"
+
+msgctxt "Languages::change_order_status_m_subj_vendor_title"
+msgid "change_order_status_m_subj_vendor_title"
+msgstr "SPL: Отменен заказ № [order]"
+
+msgctxt "Languages::change_order_status_m_subj_text_vendor"
+msgid "change_order_status_m_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>В SPL товар по заказу № [order] снят с резерва.</td></tr>
+  <tr><td><strong>Внимание!</strong> Срочно снимите резерв товара в вашей учетной системе.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_q_subj_vendor"
+msgid "change_order_status_q_subj_vendor"
+msgstr "<strong>SPL:</strong> Возврат оплаты по Заказу № [order]"
+
+msgctxt "Languages::change_order_status_q_subj_vendor_title"
+msgid "change_order_status_q_subj_vendor_title"
+msgstr "SPL: Возврат оплаты по Заказу № [order]"
+
+msgctxt "Languages::change_order_status_q_subj_text_vendor"
+msgid "change_order_status_q_subj_text_vendor"
+msgstr "По заказу № [order] (№ заказа поставщика: [cp_vendor_order_number]) возвращена оплата покупателю. Заказ отменен."
+
+msgctxt "Languages::change_order_status_k_subj_vendor"
+msgid "change_order_status_k_subj_vendor"
+msgstr "<strong>SPL:</strong> Инициирован возврат оплаты по заказу № [order]"
+
+msgctxt "Languages::change_order_status_k_subj_vendor_title"
+msgid "change_order_status_k_subj_vendor_title"
+msgstr "SPL: Инициирован возврат оплаты по заказу № [order]"
+
+msgctxt "Languages::change_order_status_k_subj_text_vendor"
+msgid "change_order_status_k_subj_text_vendor"
+msgstr "Инициирован возврат оплаты по заказу № [order] (№ заказа поставщика: [cp_vendor_order_number]). Причины возврата уточните у инициатора. Проконтролируйте возврат оплаты покупателю. "
+
+msgctxt "Languages::change_order_status_b_subj_vendor"
+msgid "change_order_status_b_subj_vendor"
+msgstr "<strong>SPL:</strong> Ожидает подтверждения заказ № [order]."
+
+msgctxt "Languages::change_order_status_b_subj_vendor_title"
+msgid "change_order_status_b_subj_vendor_title"
+msgstr "SPL: Ожидает подтверждения заказ № [order]."
+
+msgctxt "Languages::change_order_status_b_subj_text_vendor"
+msgid "change_order_status_b_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td style=\"padding-bottom: 30px;\">Оплачен отмененный заказ № [order](№ заказа поставщика: [cp_vendor_order_number]).</td></tr>
+  <tr><td><strong>№ платежного поручения:</strong> [cp_order_number]</td></tr>
+  <tr><td><strong>Дата платежного поручения:</strong> [cp_order_date]</td></tr>
+  <tr><td style=\"padding-bottom: 30px;\"><strong>Сумма оплаты:</strong> [cp_payment_amount] P</td></tr>
+  <tr><td>Если вы подтверждаете наличие товара на складе и его цена соответствует той, что указана в заказе, переходите к его комплектации. Если вы не готовы выполнить заказ, переведите его в статус «Возврат д/c». В этом случае SPL вернет оплату покупателю.</td></tr>
+  </table>"
+
+msgctxt "Languages::change_order_status_complaint_subj_vendor"
+msgid "change_order_status_complaint_subj_vendor"
+msgstr "SPL: Зарегистрирована претензия по заказу № [order]"
+
+msgctxt "Languages::change_order_status_complaint_subj_vendor_title"
+msgid "change_order_status_complaint_subj_vendor_title"
+msgstr "SPL: Зарегистрирована претензия по заказу № [order]"
+
+msgctxt "Languages::change_order_status_complaint_subj_text_vendor"
+msgid "change_order_status_complaint_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>По заказу № [order] (№ заказа поставщика: [cp_vendor_order_number]) зарегистрирована претензия.</td></tr>
+  <tr><td>Следуйте правилам <a href=\"https://support.service.parts/portal/ru/kb/vendors\" target=\"_blank\" style=\"color:#ED5F2C;\">«Базы знаний поставщика»</a> при работе с претензиями.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_substitute_subj_vendor_title"
+msgid "change_order_status_substitute_subj_vendor_title"
+msgstr "SPL: Замена товара по заказу № [order]"
+
+msgctxt "Languages::change_order_status_substitute_subj_text_vendor"
+msgid "change_order_status_substitute_subj_text_vendor"
+msgstr "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">
+  <tr><td>По заказу № [order] принято решение о замене товара.</td></tr>
+  <tr><td>Пожалуйста, подготовьте новый товар к комплектации и продолжайте выполнение заказа.</td></tr></table>"
+
+msgctxt "Languages::change_order_status_v_subj_vendor_title"
+msgid "change_order_status_v_subj_vendor_title"
+msgstr "SPL: Отказ в претензии по заказу № [order]"
+
+msgctxt "Languages::change_order_status_v_subj_vendor"
+msgid "change_order_status_v_subj_vendor"
+msgstr "SPL: Отказ в претензии по заказу № [order]"
+
+msgctxt "Languages::change_order_status_v_subj_text_vendor"
+msgid "change_order_status_v_subj_text_vendor"
+msgstr "Отказ в претензии по заказу № [order]"
+
+msgctxt "Languages::change_order_status_w_subj_vendor_title"
+msgid "change_order_status_w_subj_vendor_title"
+msgstr "SPL: Претензия  по заказу № [order] урегулирована"
+
+msgctxt "Languages::change_order_status_w_subj_vendor"
+msgid "change_order_status_w_subj_vendor"
+msgstr "SPL: Претензия  по заказу № [order] урегулирована"
+
+msgctxt "Languages::change_order_status_w_subj_text_vendor"
+msgid "change_order_status_w_subj_text_vendor"
+msgstr "Претензия  по заказу № [order] урегулирована"
+
+msgctxt "Languages::cp_admin_new_profile_notification"
+msgid "cp_admin_new_profile_notification"
+msgstr "SPL: Зарегистрирован новый покупатель"
+
+msgctxt "Languages::update_profile_notification_title"
+msgid "update_profile_notification_title"
+msgstr "SPL: Ваш профиль был обновлен"
+
+msgctxt "Languages::cp_templates.please_check_request"
+msgid "cp_templates.please_check_request"
+msgstr "Пожалуйста, обработайте заявку № [crm_href] в CRM."
+
+msgctxt "Languages::email_us_footer"
+msgid "email_us_footer"
+msgstr "Напишите нам:"
+
+msgctxt "Languages::ask_question_footer"
+msgid "ask_question_footer"
+msgstr "Задайте вопрос:"
+
+msgctxt "Languages::care_service_footer"
+msgid "care_service_footer"
+msgstr "Поддержка"
+
+msgctxt "Languages::order_details_footer"
+msgid "order_details_footer"
+msgstr "Подробности заказа в"
+
+msgctxt "Languages::personal_area_footer"
+msgid "personal_area_footer"
+msgstr "Личный&nbsp;кабинет"
+
+msgctxt "Languages::first_marketplace_footer"
+msgid "first_marketplace_footer"
+msgstr "Первый маркетплейс<br/>запчастей для техники"
+

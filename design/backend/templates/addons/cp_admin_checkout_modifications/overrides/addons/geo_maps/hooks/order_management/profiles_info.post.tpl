@@ -1,0 +1,1 @@
+<!-- this block is moved to the right column -->

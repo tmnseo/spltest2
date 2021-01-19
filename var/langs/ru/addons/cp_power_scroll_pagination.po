@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_power_scroll_pagination"
+msgid "Cart-Power: Power scroll pagination"
+msgstr "Cart-Power: Power scroll pagination"
+
+msgctxt "Addons::description::cp_power_scroll_pagination"
+msgid "Auto scroll pagination<a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет возможность автоматической подгрузки контента при прокрутке страницы. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_power_scroll_pagination::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::show_more_link"
+msgid "Show more link"
+msgstr "Показать больше"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::show_more_link_1st"
+msgid "Show more: only first page"
+msgstr "Показать больше: только первая страница"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::all_pages"
+msgid "Enable for all pages"
+msgstr "Включить для всех страниц"
+
+msgctxt "Languages::scroll_pagination"
+msgid "Scroll pagination"
+msgstr "Подгрузка контента при прокрутке"
+
+msgctxt "Languages::show_more"
+msgid "Показать больше"
+msgstr "Показать больше"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_pagination"
+msgid "Скрывать паджинацию"
+msgstr "Скрывать паджинацию"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_desktop"
+msgid "Hide \"Items per page\" selector on desktop"
+msgstr "Скрывать \"Количество элементов на страницу\" для дектопа"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_tablet"
+msgid "Hide \"Items per page\" selector on tablet"
+msgstr "Скрывать \"Количество элементов на страницу\" для планшетов"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_mobile"
+msgid "Hide \"Items per page\" selector on mobile"
+msgstr "Скрывать \"Количество элементов на страницу\" для смартфонов"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::licensekey"
+msgid "License Key"
+msgstr "Номер лицензии"
+
+msgctxt "SettingsTooltips::cp_power_scroll_pagination::licensekey"
+msgid "Find on the detailed page of your order"
+msgstr "Смотрите на детальной странице заказа"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "Необходимо ввести номер лицензии. Свяжитесь с нами (sales@cart-power.com), если у вас возникли какие-либо проблемы"

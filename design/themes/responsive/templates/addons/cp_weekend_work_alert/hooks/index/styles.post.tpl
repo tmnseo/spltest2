@@ -1,0 +1,1 @@
+{style src="addons/cp_weekend_work_alert/styles.less"}

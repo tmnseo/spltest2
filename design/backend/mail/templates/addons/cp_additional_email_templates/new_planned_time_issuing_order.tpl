@@ -1,0 +1,1 @@
+{__("cp_new_planned_time_issuing_order_info" , ["[order_id]" => $request_data.order_id, "[issuing_time]" => $request_data.issuing_time])}

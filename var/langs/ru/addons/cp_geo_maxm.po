@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_geo_maxm"
+msgid "Cart-Power: Geolocation by maxmind"
+msgstr "Cart-Power: Геолокация на базе maxmind"
+
+msgctxt "Addons::description::cp_geo_maxm"
+msgid "Definitions of the city and region through the maxmind database. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Определения города и области через базу maxmind  . Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_geo_maxm_customer_location"
+msgid "Cp: maxmind geo"
+msgstr "Cp: maxmind geo"
+
+
+
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost"
+msgid "К сожалению сервис доставки не работает в вашем городе, пожалуйста перейдите по ссылке, чтобы выбрать ближайший город для доставки перейдите по ссылке"
+msgstr "К сожалению сервис доставки не работает в вашем городе, пожалуйста перейдите по ссылке, чтобы выбрать ближайший город для доставки перейдите по ссылке"
+
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost_link"
+msgid "ОТКРЫТЬ СПИСОК ГОРОДОВ ДОСТАВКИ"
+msgstr "ОТКРЫТЬ СПИСОК ГОРОДОВ ДОСТАВКИ"
+
+
+
+msgctxt "Languages::cp_geo_maxm_cant_find_in_db"
+msgid "К сожеланию мы не"
+msgstr "К сожеланию мы не"
+
+
+
+msgctxt "Languages::cp_geo_maxm_correct_edost"
+msgid "Мы доставим товар в ваш город, но срок доставки может быть скорректирован"
+msgstr "Мы доставим товар в ваш город, но срок доставки может быть скорректирован"
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost__"
+msgid ""
+msgstr ""
+
+
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost__"
+msgid ""
+msgstr ""
+
+
+
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost__"
+msgid ""
+msgstr ""
+
+
+msgctxt "Languages::cp_geo_maxm_define_but_not_edost__"
+msgid ""
+msgstr ""
+
+

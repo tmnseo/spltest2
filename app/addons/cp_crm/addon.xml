@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_crm</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>vendor_privileges,cp_catalog_changes</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cp_crm_payments;</item>
+        <item>
+            CREATE TABLE IF NOT exists `?:cp_crm_payments` (
+            `payment_id` int(11) unsigned NOT NULL auto_increment,
+            `time` int(11) unsigned NOT NULL default 0,
+            `store_order_id` int(11) unsigned NOT NULL default 0,
+            `payment_order_date` varchar(255) NOT NULL default '',
+            `payment_order_date_timestamp` int(11) unsigned NOT NULL default 0,
+            `payment_order_number` int(11) NOT NULL default '0',
+            `bank_account` varchar(32) NOT NULL default '',
+            `bank_bic` varchar(32) NOT NULL default '',
+            `payment_purpose` TEXT NOT NULL default '',
+            `customer_tin` varchar(32) NOT NULL default '',
+            `customer_name` varchar(255) NOT NULL default '',
+            `currency_id` char(5) NOT NULL default '',
+            `currency_name` char(5) NOT NULL default '',
+            `amount_total` decimal(12,2) NOT NULL default '0.00',
+            `amount_vat` decimal(12,2) NOT NULL default '0.00',
+            `status` char(1) NOT NULL default 'A',
+            PRIMARY KEY  (`payment_id`),
+            KEY `store_order_id`(store_order_id),
+            KEY `status`(status)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_crm_payments`</item>
+    </queries>
+
+</addon>

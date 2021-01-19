@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_order_pretensions</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>105</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="pretension_page_id">
+                        <type>input</type>
+                        <default_value>77</default_value>
+                    </item>
+                    <item id="order_status">
+                        <type>selectbox</type>
+                        <default_value>S</default_value>
+                    </item>
+                </items>
+            </section> 
+        </sections>
+    </settings>
+</addon> 

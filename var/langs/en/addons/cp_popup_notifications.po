@@ -1,0 +1,63 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_popup_notifications"
+msgid "Cart-Power: Pop-up notifications"
+msgstr "Cart-Power: Pop-up notifications"
+
+msgctxt "Addons::description::cp_popup_notifications"
+msgid "Adds pop-up notifications to the store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds pop-up notifications to the store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_popup_notifications::feedback_page_id"
+msgid "feedback_page_id"
+msgstr "Feedback page ID"
+
+msgctxt "Languages::cp_popup_notifications.is_popup"
+msgid "cp_popup_notifications.is_popup"
+msgstr "Open this page in a pop-up window"
+
+msgctxt "Languages::cp_popup_notifications.feedback"
+msgid "cp_popup_notifications.feedback"
+msgstr "Feedback"
+
+msgctxt "Languages::cp_popup_notifications.succes_reg"
+msgid "cp_popup_notifications.succes_reg"
+msgstr "Successful registration"
+
+msgctxt "Languages::cp_popup_notifications.great"
+msgid "cp_popup_notifications.great"
+msgstr "Great"
+
+msgctxt "Languages::cp_popup_notifications.to_home_page"
+msgid "cp_popup_notifications.is_popup"
+msgstr "Main page"
+
+msgctxt "Languages::cp_popup_notifications.knowledge_base"
+msgid "cp_popup_notifications.knowledge_base"
+msgstr "Knowledge base"
+
+msgctxt "Languages::cp_popup_notifications.user_popup_header_text"
+msgid "cp_popup_notifications.user_popup_header_text"
+msgstr "Registration is complete!"
+
+msgctxt "Languages::cp_popup_notifications.user_popup_text"
+msgid "cp_popup_notifications.user_popup_text"
+msgstr "Congratulations! Now you can order spare parts for special equipment <br />
+		from trusted suppliers at the best prices. Each product <br />
+		it is evaluated according to three criteria: reviews of the supplier, the cost of the product, <br />
+		speed of delivery to Your city"
+
+msgctxt "Languages::cp_popup_notifications.vendor_popup_header_text"
+msgid "cp_popup_notifications.user_popup_header_text"
+msgstr "We have received Your request!"
+
+msgctxt "Languages::cp_popup_notifications.vendor_popup_text"
+msgid "cp_popup_notifications.user_popup_text"
+msgstr "We will check the information during the working day and then send you a link <br />
+		to complete registration. SPL Manager will help you pass all the stages <br />
+		and present Your products in the marketplace. For the next step <br />
+		You will need: < list of documents >"

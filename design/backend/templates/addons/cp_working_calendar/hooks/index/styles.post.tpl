@@ -1,0 +1,1 @@
+{style src="addons/cp_working_calendar/styles.less"}

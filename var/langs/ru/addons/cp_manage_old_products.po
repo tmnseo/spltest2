@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_manage_old_products"
+msgid "Cart-Power: Management of old products"
+msgstr "Cart-Power: Управление старыми товарами"
+
+msgctxt "Addons::description::cp_manage_old_products"
+msgid "Automatically resets the remaining items that are no longer uploaded and deletes items that have not been updated for a certain period of time. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Автоматически обнуляет остатки товаров которые больше не выгружаются и удаляет товары которые не обновлялись определенный промежуток времени. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_manage_old_products::products_days_lifetime"
+msgid "The life time of the products"
+msgstr "Время жизни товаров"
+
+msgctxt "SettingsTooltips::cp_manage_old_products::products_days_lifetime"
+msgid "Specified in days"
+msgstr "Указывается в днях"
+
+msgctxt "SettingsOptions::cp_manage_old_products::cron_pass"
+msgid "CRON password"
+msgstr "CRON пароль"
+
+msgctxt "SettingsOptions::cp_manage_old_products::type_of_part_feature_id"
+msgid "Feature ID Part Type"
+msgstr "ID характеристики Тип детали"
+
+msgctxt "Languages::cp_mange_old_products.cron_info"
+msgid "Use this script to delete items on a schedule"
+msgstr "Используйте этот скрипт, чтобы удалять товары по расписанию"

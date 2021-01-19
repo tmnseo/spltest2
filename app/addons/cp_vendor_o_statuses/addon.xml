@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>cp_vendor_o_statuses</id>
+    <name>Cart-Power: Статусы для продавцов</name>
+    <description>Добавляет возможность выкл. статус заказа для продавца.<![CDATA[ Developed by <a target="_blank" href="http://cart-power.com/">Cart-Power</a>]]>. Professional CS-Cart development</description>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+            <!--      
+                    <item id="item">
+                        <name>Item</name>
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+            -->
+                    
+                </items>
+            </section>
+        </sections>
+    </settings>
+       
+<!--     <queries>
+        <item for="install">ALTER TABLE ?:statuses ADD cp_for_vendors char(1) NOT NULL DEFAULT 'Y';</item>
+        <item for="uninstall">ALTER TABLE ?:statuses DROP cp_for_vendors;</item>
+    </queries> -->
+   
+    <language_variables>
+        <item lang="ru" id="cp_vendor_o_statuses_setting">Доступно продавцам</item>        
+    </language_variables>
+
+    <translations> 
+        <item for="name" lang="ru">Cart-Power: Статусы для продавцов</item>
+        <item for="description" lang="ru">Добавляет возможность выкл. статус заказа для продавца.<![CDATA[ Разработано <a target="_blank" href="http://cart-power.com/">Cart-Power</a>]]></item>
+    </translations>
+    
+      
+    <functions>
+        <item for="install">fn_cp_vendor_o_statuses_install</item>
+        <item for="uninstall">fn_cp_vendor_o_statuses_uninstall</item>
+    </functions>
+    
+</addon>

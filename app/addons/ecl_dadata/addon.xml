@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ecl_dadata</id>
+    <version>1.4</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <supplier>eCom Labs</supplier>
+    <supplier_link>https://www.ecom-labs.com</supplier_link>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language><authors>
+        <author>
+            <name>eCom Labs</name>
+            <email>contact@ecom-labs.com</email>
+            <url>https://www.ecom-labs.com</url>
+            <phone>+7 963 234 30 03</phone>
+        </author>
+    </authors>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="section">  
+                <items>
+                    <item id="api_key">
+                        <type>input</type>
+                    </item>
+                    <item id="geolocation">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_ecl_dadata_install</item>
+    </functions>
+</addon>

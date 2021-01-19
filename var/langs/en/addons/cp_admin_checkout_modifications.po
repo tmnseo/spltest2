@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_admin_checkout_modifications"
+msgid "Cart-Power: Improving the interface of the order section"
+msgstr "Cart-Power: Improving the interface of the order section"
+
+msgctxt "Addons::description::cp_admin_checkout_modifications"
+msgid "Enhances usability and functionality of the zakaz section for the administrator and vendor. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Enhances usability and functionality of the zakaz section for the administrator and vendor. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_vendor_order_number"
+msgid "cp_vendor_order_number"
+msgstr "Supplier order number"
+
+msgctxt "Languages::cp_payment_order_number"
+msgid "cp_payment_order_number"
+msgstr "Payment order number"
+
+msgctxt "Languages::cp_payment_order_date"
+msgid "cp_payment_order_date"
+msgstr "Date of payment order"
+
+msgctxt "Languages::cp_issue_of_order"
+msgid "cp_issue_of_order"
+msgstr "Order Issue"
+
+msgctxt "Languages::cp_planned_time_issuing_order"
+msgid "cp_planned_time_issuing_order"
+msgstr "Deadline issuing an order"
+
+msgctxt "Languages::cp_order_issue_address"
+msgid "cp_order_issue_address"
+msgstr "Order issue address"
+
+msgctxt "Languages::cp_customer_legal_address"
+msgid "cp_customer_legal_address"
+msgstr "Customer's legal address"
+
+msgctxt "Languages::cp_customer_actual_address"
+msgid "cp_customer_actual_address"
+msgstr "Customer's actual address"
+
+msgctxt "Languages::cp_order_info_title"
+msgid "cp_order_info_title"
+msgstr "Information about order"
+
+msgctxt "Languages::cp_corp"
+msgid "cp_corp"
+msgstr "block"
+
+msgctxt "Languages::cp_office"
+msgid "cp_office"
+msgstr "apt."
+
+msgctxt "Languages::cp_home"
+msgid "cp_home"
+msgstr "building"
+
+msgctxt "Languages::cp_warning_track_number"
+msgid "cp_warning_track_number"
+msgstr "Setting the status to “Send” is not possible until the tracking number"
+
+msgctxt "Languages::cp_warning_vendor_order_number"
+msgid "cp_warning_vendor_order_number"
+msgstr "Setting the status "Confirmed by the supplier" is not possible until the supplier order number"
+
+msgctxt "Languages::cp_order_payment_subheader"
+msgid "cp_order_payment_subheader"
+msgstr "Order payment"
+
+msgctxt "Languages::cp_payment_amount"
+msgid "cp_payment_amount"
+msgstr "Payment amount"
+
+msgctxt "Languages::cp_admin_checkout_modifications.change_shipping_cost"
+msgid "Manual change of the delivery cost"
+msgstr "Manual change of the delivery cost"

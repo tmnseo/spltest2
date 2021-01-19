@@ -1,0 +1,1 @@
+{style src="addons/cp_geo_maps_ext/styles.less"}

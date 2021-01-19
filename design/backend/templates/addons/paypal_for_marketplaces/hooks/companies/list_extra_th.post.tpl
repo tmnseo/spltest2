@@ -1,0 +1,1 @@
+<th>{__("paypal_for_marketplaces.paypal_account")}</th>

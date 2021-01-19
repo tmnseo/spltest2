@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>cp_addons_manager</id>
+    <name>Cart-Power:  Add-ons Manager</name>
+    <description>The best way to manage all Cart-Power add-ons.<![CDATA[ Developed by <a target="_blank" href="http://cart-power.com/">Cart-Power</a>]]>. Professional CS-Cart development</description>
+    <version>1.3</version>
+    <priority>1</priority>
+    <position>1</position>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>http://cart-power.com</supplier_link>
+    <translations>
+        <item for="name" lang="ru">Cart-Power:  Менеджер модулей</item>
+        <item for="description" lang="ru">Лучший способ управления модулями Cart-Power.<![CDATA[ Разработано <a target="_blank" href="http://cart-power.com/">Cart-Power</a>]]></item>
+    </translations>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general" edition_type="ROOT">
+                <items>
+                    <item id="notify_me_about_new_versions">
+                        <name>Notify me about new versions of add-ons</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations>
+                            <item for="name" lang="ru">Уведомлять меня о новых версиях модулей</item>
+                        </translations>
+                    </item>
+                    <item id="last_ping">
+                        <type>hidden</type>
+                    </item>
+                    <item id="flag">
+                        <type>hidden</type>
+                    </item>
+                    <item id="token">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <language_variables>
+        <item lang="en" id="privileges.manage_cp_addons_manager">Manage Cart-Power add-ons manager</item>
+        <item lang="en" id="privilege_groups.cp_addons_manager">CP: Add-ons manager</item>
+        <item lang="en" id="cp_addons_manager">Add-ons Manager</item>
+        <item lang="en" id="cp_addons_manager_menu_description">Manage your licenses and add-ons.</item>
+        <item lang="en" id="cp_you_should_enter_your_license_key">You should enter license key</item>
+        <item lang="en" id="cart_power">Cart-Power</item>
+        <item lang="en" id="cart_power_addons">Cart-Power: Add-ons</item>
+        <item lang="en" id="cp_addon_is_up_to_date">Add-on is up to date</item>
+        <item lang="en" id="cp_install_and_activate">Install and activate</item>
+        <item lang="en" id="cp_cant_get_information_from_server">There was an error occured while processing request. Please, try later</item>
+        <item lang="en" id="cp_not_installed">Not installed</item>
+        <item lang="en" id="cp_purchase_license">Purchase license</item>
+        <item lang="en" id="cp_up_to_date">Up to date</item>
+        <item lang="en" id="cp_prolongation">Prolongation</item>
+        <item lang="en" id="cp_addon_has_been_installed_successfully"><![CDATA[The <b>[addon]</b> has been installed successfully.]]></item>
+        <item lang="en" id="cp_addon_has_been_updated_successfully"><![CDATA[The <b>[addon]</b> has been updated successfully.]]></item>
+        <item lang="en" id="cp_downloading_not_allowed">Not allowed to download</item>
+        <item lang="en" id="cp_versions_history">Versions history</item>
+        <item lang="en" id="cp_current_version">Current version</item>
+        <item lang="en" id="cp_storefront_demo">Storefront demo</item>
+        <item lang="en" id="cp_admin_demo">Admin demo</item>
+        <item lang="en" id="cp_this_addon_did_not_licensed_for_following_domains">This add-on does not have a license on following domains:</item>
+        <item lang="en" id="cp_updates_are_available_for_the_following_add_ons">Updates are available for the following add-ons:</item>
+        <item lang="en" id="cp_addon_name_and_versions"><![CDATA[ <br/><strong>[addon]</strong>(installed version: [current_version]) available version: [available_version] ]]></item>
+        <item lang="en" id="cp_update_addon_message_links"><![CDATA[ <div class="cp-buttons-inside-notification"><a href="[view_link]">View</a><a class="pull-right cm-notification-close cm-ajax" href="[hide_link]">Hide</a></div> ]]></item>
+        <item lang="en" id="cp_following_addons_have_a_license_domanis_mismatch">Following add-ons have a license domanis mismatch:</item>
+        <item lang="en" id="cp_mismatch_addon_names"><![CDATA[ <br/><strong>[addon]</strong> ]]></item>
+        <item lang="en" id="cp_click_following_link_for_more_information"><![CDATA[ <div class="cp-buttons-inside-notification">Click <a href="[view_link]">this link</a> for more information</div> ]]></item>
+        <item lang="en" id="cp_following_addons_has_been_disabled_because_of_license_failure">Following add-ons has been disabled because of license failure:</item>
+        <item lang="en" id="cp_get_custom_development_quote">Get custom development quote</item>
+        <item lang="en" id="cp_broken_addon_pack">Broken add-on package</item>
+        <item lang="en" id="cp_my_addons">My add-ons</item>
+        <item lang="en" id="cp_avail_addons">Available add-ons</item>
+        <item lang="en" id="cp_all_addons">All add-ons</item>
+        <item lang="en" id="cp_updates">Updates</item>
+        <item lang="en" id="cp_action">Action</item>
+        <item lang="en" id="cp_version">Version</item>
+        <item lang="en" id="cp_release_date">Дата выпуска</item>
+        <item lang="en" id="cp_updates_avail_until">Upgrades available until</item>
+        <item lang="en" id="cp_purchased">Purchased</item>
+        <item lang="en" id="cp_licensed_domains">Licensed domains</item>
+        <item lang="en" id="cp_domains_amount">Number of domains</item>
+        <item lang="en" id="cp_update_period">Update period</item>
+        <item lang="en" id="cp_ends">Ends</item>
+        <item lang="en" id="cp_ended">Ended</item>
+        <item lang="en" id="cp_months">month(s)</item>
+        <item lang="en" id="cp_addon_info">Addon information</item>
+        <item lang="en" id="cp_prolongate_license">Prolongate license</item>
+        <item lang="en" id="cp_purchase">Purchase</item>
+        <item lang="en" id="cp_from">from</item>
+        <item lang="en" id="cp_support">Support</item>
+        <item lang="en" id="cp_receive">Get</item>
+        <item lang="en" id="cp_license_error">License error</item>
+        <item lang="en" id="cp_license_error_domains">Domain does not match the order</item>
+        <item lang="en" id="cp_license_error_not_active">License is not active</item>
+        <item lang="en" id="cp_already_purchased">Already purchased</item>
+        <item lang="en" id="cp_addons_info">Add-ons information</item>
+        <item lang="en" id="cp_display_avail_addons">Show add-ons compatible with the current version of the store</item>
+        <item lang="en" id="cp_avail_for_store">Available for your store</item>
+        <item lang="en" id="cp_not_avail_for_store">Not available for your store</item>
+        <item lang="en" id="cp_no_license_for_domains">Your license can't be used on the following domains:</item>
+        <item lang="en" id="cp_am_buy">Buy</item>
+        <item lang="en" id="cp_am_contact_us">Contact us</item>
+        <item lang="en" id="cp_am_prolongate">extend the update period</item>
+        <item lang="en" id="cp_am_upgrade">to update</item>
+        <item lang="en" id="cp_installed_version">Installed</item>
+        <item lang="en" id="cp_available_version">Available</item>
+        <item lang="en" id="cp_actual_version">Latest</item>
+        <item lang="en" id="cp_addon_status_on">Add-on status - enabled</item>
+        <item lang="en" id="cp_addon_status_off">Add-on status - disabled</item>
+        <item lang="en" id="cp_addon_status_not_installed">Add-on status - not installed</item>
+        <item lang="en" id="cp_am_settings">Settings</item>
+        <item lang="en" id="cp_am_reference">Reference</item>
+        <item lang="en" id="cp_am_documentation">Documentation</item>
+        <item lang="en" id="cp_am_documentation_not_exists">This add-on has no documentation yet.</item>
+        <item lang="en" id="cp_am_installed_avail_version">The latest version available to you is installed</item>
+        <item lang="en" id="cp_am_can_install_avail_version">The following verison is available to you</item>
+        <item lang="en" id="cp_am_subscribe_exists">Your upgrade subscription is valid up to [date]</item>
+        <item lang="en" id="cp_am_subscribe_exists_text">You can extend the update period for a longer period.</item>
+        <item lang="en" id="cp_am_subscribe_expired">Your subscription has expired [date]</item>
+        <item lang="en" id="cp_am_subscribe_expired_text">To access the current version of the add-on need to buy a subscription.</item>
+        <item lang="en" id="cp_am_buy_subscr">Buy subscription</item>
+        <item lang="en" id="cp_am_prolong_subscr">Renew subscription</item>
+        <item lang="en" id="cp_am_versions">Versions</item>
+        <item lang="en" id="cp_install">Install</item>
+        <item lang="en" id="cp_upgrade_to">Upgrade to</item>
+        <item lang="en" id="cp_сompatibility">Compatibility</item>
+        <item lang="en" id="cp_release_date">Release date</item>
+        <item lang="en" id="cp_cscart">CS-Cart</item>
+        <item lang="en" id="cp_multivendor">Multivendor</item>
+        <item lang="en" id="cp_view_demo">View demo</item>
+        <item lang="en" id="cp_go_to_cartpower">Go to the Cart-Power store</item>
+        <item lang="en" id="cp_ask_question">Ask question</item>
+        <item lang="en" id="cp_domains_error_reasons"><![CDATA[<div><b>Possible reasons:</b></div><ul><li>Not purchased domain licenses</li><li>Failed to validate domains</li><li>The add-on has different licenses for different domains</li></ul>]]></item>
+        <item lang="en" id="cp_update_via_uc">Upgrade via Upgrade Center</item>
+        <item lang="en" id="cp_upgrade_tooltip_text">Update via Cart-Power add-ons manager.</item>
+        <item lang="en" id="cp_am_need_reinstall"><![CDATA[Unfortunately, there is no way to upgrade this add-on via the Add-on manager or the Upgrade center.<br />Please follow the <a href="[link]" target="_blank">manual upgrade instructions</a>.]]></item>
+        
+        
+        <item lang="ru" id="privileges.manage_cp_addons_manager">Управление менеджером модулей Cart-Power</item>
+        <item lang="ru" id="privilege_groups.cp_addons_manager">CP: Менеджер модулей</item>
+        <item lang="ru" id="cp_addons_manager">Менеджер модулей</item>
+        <item lang="ru" id="cp_addons_manager_menu_description">Управление лицензиями и модулями.</item>
+        <item lang="ru" id="cp_you_should_enter_your_license_key">Необходимо ввести лицензионный ключ</item>
+        <item lang="ru" id="cart_power">Cart-Power</item>
+        <item lang="ru" id="cart_power_addons">Cart-Power: Модули</item>
+        <item lang="ru" id="cp_addon_is_up_to_date">Модуль актуален</item>
+        <item lang="ru" id="cp_install_and_activate">Установить и включить</item>
+        <item lang="ru" id="cp_cant_get_information_from_server">При обработке запроса произошла ошибка. Пожалуйста, попробуйте позднее</item>
+        <item lang="ru" id="cp_not_installed">Не установлен</item>
+        <item lang="ru" id="cp_purchase_license">Оплатить лицензию</item>
+        <item lang="ru" id="cp_up_to_date">Актуален</item>
+        <item lang="ru" id="cp_prolongation">Продление</item>
+        <item lang="ru" id="cp_addon_has_been_installed_successfully"><![CDATA[<b>[addon]</b> был успешно установлен.]]></item>
+        <item lang="ru" id="cp_addon_has_been_updated_successfully"><![CDATA[<b>[addon]</b> был успешно обновлен.]]></item>
+        <item lang="ru" id="cp_downloading_not_allowed">Недоступно для загрузки</item>
+        <item lang="ru" id="cp_versions_history">История версий</item>
+        <item lang="ru" id="cp_current_version">Текущая версия</item>
+        <item lang="ru" id="cp_storefront_demo">Демо-витрина</item>
+        <item lang="ru" id="cp_admin_demo">Демо-панель администратора</item>
+        <item lang="ru" id="cp_this_addon_did_not_licensed_for_following_domains">Этот модуль не имеет лицензии для следующих доменов:</item>
+        <item lang="ru" id="cp_updates_are_available_for_the_following_add_ons">Обновления доступны для следующих модулей:</item>
+        <item lang="ru" id="cp_addon_name_and_versions"><![CDATA[ <strong>[addon]</strong> - новая версия: [latest_version] от [latest_date] - обновление доступно до [valid_date]<br/> ]]></item>
+        <item lang="ru" id="cp_addon_name_and_versions_fail"><![CDATA[ <strong>[addon]</strong> - новая версия: [latest_version] от [latest_date] - обновление не доступно. Необходимо продлить подписку.<br/> ]]></item>
+        <item lang="ru" id="cp_update_addon_message_links"><![CDATA[ <div class="cp-buttons-inside-notification"><a href="[view_link]">Подробнее</a></div> ]]></item>
+        <item lang="ru" id="cp_following_addons_have_a_license_domanis_mismatch">Следующие модули имеют несоответствие доменов в лицензии:</item>
+        <item lang="ru" id="cp_mismatch_addon_names"><![CDATA[ <br/><strong>[addon]</strong> ]]></item>
+        <item lang="ru" id="cp_click_following_link_for_more_information"><![CDATA[ <div class="cp-buttons-inside-notification">Нажмите <a href="[view_link]">эту ссылку</a> для дополнительной информации</div> ]]></item>
+        <item lang="ru" id="cp_following_addons_has_been_disabled_because_of_license_failure">Следующие модули были отключены из-за сбоя лицензии:</item>
+        <item lang="ru" id="cp_get_custom_development_quote">Получите индивидуальный заказ на разработку</item>
+        <item lang="ru" id="cp_broken_addon_pack">Нарушенный пакет модуля</item>
+        <item lang="ru" id="cp_my_addons">Мои модули</item>
+        <item lang="ru" id="cp_avail_addons">Доступные модули</item>
+        <item lang="ru" id="cp_all_addons">Все модули</item>
+        <item lang="ru" id="cp_updates">Обновления</item>
+        <item lang="ru" id="cp_action">Действие</item>
+        <item lang="ru" id="cp_version">Версия</item>
+        <item lang="ru" id="cp_release_date">Дата выпуска</item>
+        <item lang="ru" id="cp_updates_avail_until">Обновления доступны до</item>
+        <item lang="ru" id="cp_purchased">Куплен</item>
+        <item lang="ru" id="cp_licensed_domains">Лицензированные домены</item>
+        <item lang="ru" id="cp_domains_amount">Количество доменов</item>
+        <item lang="ru" id="cp_update_period">Период обновлений</item>
+        <item lang="ru" id="cp_ends">Заканчивается</item>
+        <item lang="ru" id="cp_ended">Закончилась</item>
+        <item lang="ru" id="cp_months">месяц(ев)</item>
+        <item lang="ru" id="cp_addon_info">Информация о модуле</item>
+        <item lang="ru" id="cp_prolongate_license">Продлить лицензию</item>
+        <item lang="ru" id="cp_purchase">Купить</item>
+        <item lang="ru" id="cp_from">от</item>
+        <item lang="ru" id="cp_support">Поддержка</item>
+        <item lang="ru" id="cp_text_reviews">[n] отзыва(ов)</item>
+        <item lang="ru" id="cp_receive">Получить</item>
+        <item lang="ru" id="cp_license_error">Ошибка лицензии</item>
+        <item lang="ru" id="cp_license_error_domains">Домен не соответствует заказу</item>
+        <item lang="ru" id="cp_license_error_not_active">Лицензия не активна</item>
+        <item lang="ru" id="cp_already_purchased">Уже куплен</item>
+        <item lang="ru" id="cp_addons_info">Информация о модулях</item>
+        <item lang="ru" id="cp_display_avail_addons">Показать модули, подходящие под текущую версию магазина</item>
+        <item lang="ru" id="cp_avail_for_store">Доступно для вашего магазина</item>
+        <item lang="ru" id="cp_not_avail_for_store">Недоступно для вашего магазина</item>
+        <item lang="ru" id="cp_no_license_for_domains">Ваша лицензия не может быть использована на следующих доменах:</item>
+        <item lang="ru" id="cp_am_buy">Купить</item>
+        <item lang="ru" id="cp_am_contact_us">Свяжитесь с нами</item>
+        <item lang="ru" id="cp_am_prolongate">продлить период обновлений</item>
+        <item lang="ru" id="cp_am_upgrade">обновить</item>
+        <item lang="ru" id="cp_installed_version">Установлена</item>
+        <item lang="ru" id="cp_available_version">Доступна Вам</item>
+        <item lang="ru" id="cp_actual_version">Актуальная</item>
+        <item lang="ru" id="cp_addon_status_on">Статус модуля - включен</item>
+        <item lang="ru" id="cp_addon_status_off">Статус модуля - выключен</item>
+        <item lang="ru" id="cp_addon_status_not_installed">Статус модуля - не установлен</item>
+        <item lang="ru" id="cp_am_settings">Настройки</item>
+        <item lang="ru" id="cp_am_reference">Справка</item>
+        <item lang="ru" id="cp_am_documentation">Документация</item>
+        <item lang="ru" id="cp_am_documentation_not_exists">У этого модуля пока нет документации</item>
+        <item lang="ru" id="cp_am_installed_avail_version">Установлена последняя доступная Вам версия</item>
+        <item lang="ru" id="cp_am_can_install_avail_version">Вам доступна версия</item>
+        <item lang="ru" id="cp_am_subscribe_exists">Ваша подписка на обновления актуальна до [date]</item>
+        <item lang="ru" id="cp_am_subscribe_exists_text">Вы можете продлить период обновления на более долгий срок</item>
+        <item lang="ru" id="cp_am_subscribe_expired">Ваша подписка истекла [date]</item>
+        <item lang="ru" id="cp_am_subscribe_expired_text">Для получения доступа к актуальным версиям модуля необходимо купить подписку</item>
+        <item lang="ru" id="cp_am_buy_subscr">Купить подписку</item>
+        <item lang="ru" id="cp_am_prolong_subscr">Продлить подписку</item>
+        <item lang="ru" id="cp_am_versions">Версии</item>
+        <item lang="ru" id="cp_install">Установить</item>
+        <item lang="ru" id="cp_upgrade_to">Обновить до</item>
+        <item lang="ru" id="cp_сompatibility">Совместимость</item>
+        <item lang="ru" id="cp_release_date">Дата релиза</item>
+        <item lang="ru" id="cp_cscart">CS-Cart</item>
+        <item lang="ru" id="cp_multivendor">Multivendor</item>
+        <item lang="ru" id="cp_view_demo">Посмотреть демо</item>
+        <item lang="ru" id="cp_go_to_cartpower">Перейти в магазин Cart-Power</item>
+        <item lang="ru" id="cp_ask_question">Задать вопрос</item>
+        <item lang="ru" id="cp_domains_error_reasons"><![CDATA[<div><b>Возможные причины:</b></div><ul><li>Не куплены лицензии для доменов</li><li>Не удалось произвести валидацию доменов</li><li>У модуля разные лицензии для разных доменов</li></ul>]]></item>
+        <item lang="ru" id="cp_update_via_uc">Обновить через Upgrade Center</item>
+        <item lang="ru" id="cp_upgrade_tooltip_text">Обновление будет производиться исключительно средствами менеджера модулей Cart-Power.</item>
+        <item lang="ru" id="cp_am_need_reinstall"><![CDATA[К сожалению, данный модуль невозможно обновить через Менеджер модулей или Upgrade Center. <br />Пожалуйста, следуйте <a href="[link]" target="_blank">инструкции по обновлению в ручном режиме</a>.]]></item>
+    </language_variables>
+    <queries>
+        <item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_cp_addons_manager', 'Y', 'addons');</item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_custom_notifications` (
+                `hash` VARCHAR(32) NOT NULL DEFAULT '',
+                `message` TEXT NOT NULL DEFAULT '',
+                `type` VARCHAR(1) NOT NULL DEFAULT '',
+                `timestamp` INT(11) UNSIGNED NOT NULL DEFAULT '0',
+                 PRIMARY KEY (`hash`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_cp_addons_manager'</item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS `?:cp_custom_notifications`;
+        </item>
+    </queries>
+    <functions>
+        <item for="install">fn_install_cp_addons_manager</item>
+    </functions>
+</addon>

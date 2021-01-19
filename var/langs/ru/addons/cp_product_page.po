@@ -1,0 +1,211 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_product_page"
+msgid "Cart-Power: New product page"
+msgstr "Cart-Power: Новая страница товара"
+
+msgctxt "Addons::description::cp_product_page"
+msgid "Changing product details page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Меняет вид детальной страницы товара. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_pg_best_offer"
+msgid "Best offer"
+msgstr "Лучшее предложение"
+
+msgctxt "Languages::cp_np_by_price"
+msgid "buy by price"
+msgstr "купить по цене"
+
+msgctxt "Languages::cp_np_in_marketplace"
+msgid "in the marketplace"
+msgstr "в маркетплейсе"
+
+msgctxt "Languages::cp_np_day_txt"
+msgid "day"
+msgstr "день"
+
+msgctxt "Languages::cp_np_days_txt"
+msgid "days"
+msgstr "дня"
+
+msgctxt "Languages::cp_np_days2_txt"
+msgid "days"
+msgstr "дней"
+
+msgctxt "Languages::cp_np_original"
+msgid "CP: original"
+msgstr "CP: обычный"
+
+msgctxt "Languages::cp_np_manufacturer"
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgctxt "Languages::cp_np_delivery_days"
+msgid "Delivery, days"
+msgstr "Доставка, дн."
+
+msgctxt "Languages::cp_np_detail_type"
+msgid "Details type"
+msgstr "Тип детали"
+
+msgctxt "Languages::cp_np_nalichie_txt"
+msgid "Availability"
+msgstr "Наличие"
+
+msgctxt "Languages::cp_np_find_cheaper"
+msgid "Need cheaper?"
+msgstr "Нужно дешевле?"
+
+msgctxt "Languages::cp_np_need_faster"
+msgid "Need faster?"
+msgstr "Нужно быстрее?"
+
+msgctxt "Languages::cp_np_delivery_txt"
+msgid "Delivery"
+msgstr "Доставка"
+
+msgctxt "Languages::cp_np_from_current"
+msgid "From product"
+msgstr "По товару"
+
+msgctxt "Languages::block_cp_np_most_blocks"
+msgid "Blocks for details page"
+msgstr "Блоки для страницы товара"
+
+msgctxt "Languages::block_cp_np_most_blocks_description"
+msgid "Most cheap, cheapest delivery, from other vendors"
+msgstr "Самый дешевый, самая дешевая доставка, от других вендоров"
+
+msgctxt "Languages::cp_pg_show_more"
+msgid "Show more"
+msgstr "Показать больше"
+
+msgctxt "Languages::cp_pg_low_price"
+msgid "Lowest price"
+msgstr "Самая низкая цена"
+
+msgctxt "Languages::cp_pg_fastest_delivery"
+msgid "Fastest delivery"
+msgstr "Самая быстрая доставка"
+
+msgctxt "Languages::cp_pg_offers_from_other_vendors"
+msgid "Offers from other vendors"
+msgstr "Предложения от других поставщиков"
+
+msgctxt "Languages::cp_np_guarantee"
+msgid "Guarantee"
+msgstr "Гарантия"
+
+msgctxt "Languages::cp_np_delivery"
+msgid "Delivery to"
+msgstr "Доставка в"
+
+msgctxt "Languages::cp_np_part_type"
+msgid "Part type"
+msgstr "Тип детали"
+
+msgctxt "Languages::cp_np_parts_manufacturer"
+msgid "Parts manufacturer"
+msgstr "Производитель запчасти"
+
+msgctxt "Languages::images_product"
+msgid "Images product"
+msgstr "Изображения"
+
+msgctxt "Languages::part_applicability"
+msgid "Part applicability"
+msgstr "Применяемость детали"
+
+msgctxt "Languages::shipping_and_payment"
+msgid "Shipping and payment"
+msgstr "Доставка и оплата"
+
+msgctxt "Languages::cp_np_part_applicability_text"
+msgid "suitable for the following technique"
+msgstr "подходят для следующей техники"
+
+msgctxt "Languages::cp_np_part_applicability_notice"
+msgid "Introductory information from suppliers. We recommend that you check the compatibility of the part with your model of equipment in the manufacturer's catalog"
+msgstr "Ознакомительная информация от поставщиков. Рекомендуем проверять совместимость детали с вашей моделью техники в каталоге производителя"
+
+msgctxt "Languages::cp_np_delivery_goods"
+msgid "Delivery of goods"
+msgstr "Доставка товара"
+
+msgctxt "Languages::cp_np_delivery_goods_text"
+msgid "Pick up the goods from the warehouse or order delivery. Its cost depends on the weight of the goods, the destination and the transport company you choose. Before confirming the order, you will know exactly how quickly and for how much the goods will be delivered to you."
+msgstr "Заберите товар со склада или закажите доставку. Ее стоимость зависит от веса товара, пункта назначения и выбранной вами транспортной компании. Перед подтверждением заказа вы будете точно знать, как быстро и за какую сумму вам доставят товар."
+
+msgctxt "Languages::cp_np_order_payment"
+msgid "Order payment"
+msgstr "Оплата заказа"
+
+msgctxt "Languages::cp_np_order_payment_text"
+msgid "In your personal account and by email you will receive an invoice agreement with SPL details. Pay for it within two days. SPL acts as a guarantor of the security of payments and transfers money to the supplier after the delivery of the goods. If the goods are not delivered or do not correspond to the order, you will receive the full amount back."
+msgstr "В личном кабинете и на email вы получите договор-счет с реквизитами SPL. Оплатите его в течение двух дней. SPL выступает гарантом безопасности платежей и переводит деньги поставщику после поставки товара. Если товар не доставлен или не соответствует заказу, вы получите всю сумму обратно."
+
+msgctxt "Languages::alternative_options"
+msgid "Alternative options"
+msgstr "Альтернативные варианты"
+
+msgctxt "Languages::analogs"
+msgid "analogs"
+msgstr "Аналоги"
+
+msgctxt "Languages::cp_product_page.analogs"
+msgid "cp_product_page.analogs"
+msgstr "Товар [product]"
+
+msgctxt "Languages::cp_np_analogs_text"
+msgid "is analogous to the following articles"
+msgstr "является аналогом следующих артикулов"
+
+msgctxt "Languages::cp_np_analogs_notice"
+msgid "Introductory information from suppliers. We recommend checking the compliance of the part with the one required in the manufacturer's catalog."
+msgstr "Ознакомительная информация от поставщиков. Рекомендуем проверять соответствие детали с требуемой в каталоге производителя"
+
+msgctxt "SettingsOptions::cp_product_page::price_weight"
+msgid "Price parameter weight"
+msgstr "Вес цены товара"
+
+msgctxt "SettingsOptions::cp_product_page::filter_price_id"
+msgid "filter id \"Price\""
+msgstr "ID фильтра \"Цена\""
+
+msgctxt "SettingsOptions::cp_product_page::brand_id"
+msgid "Feature ID for manufacturer"
+msgstr "ID характеристики производитель"
+
+msgctxt "SettingsOptions::cp_product_page::brand_country_id"
+msgid "Feature ID for \"Manufacturer country\""
+msgstr "ID характеристики \"Страна производитель\""
+
+msgctxt "SettingsOptions::cp_product_page::brand_code_id"
+msgid "Feature ID for \"Manufacturer code\""
+msgstr "ID характеристики \"Код производителя\""
+
+msgctxt "SettingsOptions::cp_product_page::brand_techniques_id"
+msgid "Feature ID for \"Applicability of spare parts on equipment\""
+msgstr "ID характеристики \"Применяемость запчасти на технике \""
+
+msgctxt "SettingsOptions::cp_product_page::brand_analogs_id"
+msgid "Feature ID for \"List of analog numbers\""
+msgstr "ID характеристики \"Список номеров аналогов\""
+
+
+msgctxt "SettingsTooltips::cp_product_page::price_weight"
+msgid "Using to get the best offer. Set the value from 0 to 1. The sum with \"Delivery parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+msgstr "Используется, чтобы получить лучшее предложение. Установите значение от 0 до 1. Сумма с \"Вес срока доставки товара\" должна быть равна 1, например для цены 0.7, для доставки 0.3. <b>Важно:</b> используйте точку вместо запятой"
+
+msgctxt "SettingsOptions::cp_product_page::delivery_weight"
+msgid "Delivery parameter weight"
+msgstr "Вес срока доставки товара"
+
+msgctxt "SettingsTooltips::cp_product_page::delivery_weight"
+msgid "Using to get the best offer. Set the value from 0 to 1. The sum with \"Price parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+msgstr "Используется, чтобы получить лучшее предложение. Установите значение от 0 до 1. Сумма с \"Вес цены товара\" должна быть равна 1, например для цены 0.7, для доставки 0.3. <b>Важно:</b> используйте точку вместо запятой"
+

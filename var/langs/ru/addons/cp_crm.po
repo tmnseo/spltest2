@@ -1,0 +1,61 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_crm"
+msgid "Cart-Power: integration with CRM for processing payment orders"
+msgstr "Cart-Power: интеграция с CRM для обработки платежных поручений"
+
+msgctxt "Addons::description::cp_crm"
+msgid "Processing payment orders in json format. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Обработка платежных поручений в джсон формате. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_crm_title"
+msgid "Payments from CRM"
+msgstr "Платежки от CRM"
+
+msgctxt "Languages::cp_crm_payment_order_date"
+msgid "Order date"
+msgstr "Дата заказа"
+
+msgctxt "Languages::cp_crm_payment_order_number"
+msgid "Order CRM number"
+msgstr "Номер заказа из CRM"
+
+msgctxt "Languages::cp_crm_bank_account"
+msgid "Bank account"
+msgstr "Аккаунт банка"
+
+msgctxt "Languages::cp_crm_bank_bic"
+msgid "Bik Bank"
+msgstr "Бик банка"
+
+msgctxt "Languages::cp_crm_payment_purpose"
+msgid "Payment purpose"
+msgstr "Назначение платежа"
+
+msgctxt "Languages::cp_crm_customer_tin"
+msgid "Customer tin"
+msgstr "TIN клиента"
+
+msgctxt "Languages::cp_crm_customer_name"
+msgid "Customer name"
+msgstr "Имя Клиента"
+
+msgctxt "Languages::cp_crm_currency_id"
+msgid "Currency ID"
+msgstr "ID валюты"
+
+msgctxt "Languages::cp_crm_currency_name"
+msgid "Currency name"
+msgstr "Название валюты"
+
+msgctxt "Languages::cp_crm_amount_total"
+msgid "Amount total"
+msgstr "Общая сумма"
+
+msgctxt "Languages::cp_crm_amount_vat"
+msgid "Amount vat"
+msgstr "Сумма НДС"

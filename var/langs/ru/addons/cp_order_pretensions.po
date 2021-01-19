@@ -1,0 +1,48 @@
+ msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_order_pretensions"
+msgid "Cart-Power: Order pretension"
+msgstr "Cart-Power: Претензия к заказу"
+
+msgctxt "Addons::description::cp_order_pretensions"
+msgid "Adds a form for submitting a claim for an order. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет форму отправки претензии по заказу. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_order_pretensions.pretension_info"
+msgid "cp_order_pretensions.pretension_info"
+msgstr "Недавно Вы получили заказ № [order_id] на общую сумму [price] [currency] <br />
+		([product_amount] наименований у поставщика [vendor])."
+
+msgctxt "Languages::cp_order_pretensions.pretension_additional_info"
+msgid "cp_order_pretensions.pretension_additional_info"
+msgstr "Если Вы получили товар ненадлежащего качества или в недостаточном <br />
+		количестве, заполните информацию по рекламации. Наши менеджеры <br />
+		рассмотрят заявку и ответят в течении пары рабочих дней."
+
+msgctxt "Languages::cp_order_pretensions.products"
+msgid "cp_order_pretensions.products"
+msgstr "Товары (для претензии к заказу)"
+
+msgctxt "Languages::cp_order_pretensions.pretension_descr"
+msgid "cp_order_pretensions.pretension_descr"
+msgstr "Описание (для претензии к заказу)"
+
+msgctxt "Languages::cp_order_pretensions.multiuploader"
+msgid "cp_order_pretensions.multiuploader"
+msgstr "Загрузчик файлов (для претензии к заказу)"
+
+msgctxt "Languages::cp_order_pretensions.pretension"
+msgid "cp_order_pretensions.pretension"
+msgstr "Новая претензия"
+ 
+msgctxt "SettingsOptions::cp_order_pretensions::pretension_page_id"
+msgid "pretension_page_id"
+msgstr "ID страници претензии"
+
+msgctxt "SettingsOptions::cp_order_pretensions::order_status"
+msgid "order_status"
+msgstr "Cтатус заказа"

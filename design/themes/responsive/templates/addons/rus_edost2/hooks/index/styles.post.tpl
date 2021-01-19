@@ -1,0 +1,1 @@
+{style src="addons/rus_edost2/styles.less"}

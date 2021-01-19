@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_admin_checkout_modifications</id>
+    <version>1.0</version>
+    <priority>5001</priority>
+    <position>101</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <queries>
+        <item for="install">ALTER TABLE ?:orders ADD COLUMN cp_vendor_order_number varchar(255) NOT NULL default '';</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP cp_vendor_order_number;</item>
+        <item for="install">ALTER TABLE ?:orders ADD COLUMN cp_payment_order_number varchar(255) NOT NULL default '';</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP cp_payment_order_number;</item>
+        <item for="install">ALTER TABLE ?:orders ADD COLUMN cp_payment_order_date int(11);</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP cp_payment_order_date;</item> 
+        <item for="install">ALTER TABLE ?:orders ADD COLUMN cp_planned_time_issuing_order int(11);</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP cp_planned_time_issuing_order;</item> 
+        <item for="install">
+            ALTER TABLE ?:orders 
+            ADD COLUMN cp_payment_amount decimal(12,2),
+            ADD KEY `cp_payment_amount` (`cp_payment_amount`);
+        </item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP cp_payment_amount;</item>          
+    </queries>
+</addon> 

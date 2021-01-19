@@ -1,0 +1,3 @@
+Message: 
+Data : 27-10-2020 09:40:32 - Send file limit: 52428800
+Data : 27-10-2020 09:41:07 - Send data checkauth: sid_customer_2ceb1

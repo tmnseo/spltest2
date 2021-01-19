@@ -1,0 +1,1 @@
+{if $rf_need_message}{__('rf_order_notification')}{/if}

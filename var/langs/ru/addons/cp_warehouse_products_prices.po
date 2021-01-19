@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_warehouse_products_prices"
+msgid "Cart-Power: Different prices of products in different warehouses"
+msgstr "Cart-Power: Разные цены товаров на разных складах"
+
+msgctxt "Addons::description::cp_warehouse_products_prices"
+msgid "Product in different warehouses are displayed as several products, with the possibility of adding them to the cart with different prices. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Товар на разных складах отображается как несколько товаров, с возможностью добавления их в корзину с разной ценой. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_default_warehouse"
+msgid "Default warehouse [company_name]"
+msgstr "Склад по умолчанию [company_name]"
+
+msgctxt "Languages::warehouses_product_popup_title"
+msgid "Availability in stores"
+msgstr "Наличие в магазинах"
+
+msgctxt "Languages::cp_cf_warehouse_price"
+msgid "cp_cf_warehouse_price"
+msgstr "Цена на складе"
+
+msgctxt "Languages::cp_warehouse_product_prices.price"
+msgid "cp_warehouse_product_prices.price"
+msgstr "(Цена)"
+
+msgctxt "Languages::cp_warehouse_products_prices.warehouse_price"
+msgid "cp_warehouse_products_prices.warehouse_price"
+msgstr "Цены на складах"
+
+msgctxt "Languages::cp_warehouse_product_prices.qty"
+msgid "cp_warehouse_product_prices.qty"
+msgstr "(Кол-во)"
+
+msgctxt "Languages::hide_add_to_wishlist_button"
+msgid "hide_add_to_wishlist_button"
+msgstr "Спрятать кнопку добавления товара в избранное"

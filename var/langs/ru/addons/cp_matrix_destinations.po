@@ -1,0 +1,224 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_matrix_destinations"
+msgid "Cart-Power: Delivery time matrix between cities"
+msgstr "Cart-Power: Матрица сроков доставки между городами"
+
+msgctxt "Addons::description::cp_matrix_destinations"
+msgid "Allows you to calculate the average delivery time between cities using CRON to find the optimal result for offers. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет по CRON рассчитывать серднее время доставки между городами для поиска оптимального результата по предложениям. Разработанно <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+
+
+msgctxt "Languages::cp_matrix_destinations"
+msgid "Delivery time matrix"
+msgstr "Матрица сроков доставки"
+
+msgctxt "Languages::cp_matrix_destinations_city_name"
+msgid "City name"
+msgstr "Название города"
+
+msgctxt "Languages::cp_matrix_destinations_city_from"
+msgid "From city"
+msgstr "Из города"
+
+
+msgctxt "Languages::cp_matrix_destinations_city_to"
+msgid "To city"
+msgstr "В город"
+
+
+msgctxt "Languages::cp_matrix_destinations_status"
+msgid "Status"
+msgstr "Статус"
+
+
+msgctxt "Languages::cp_matrix_destinations_added_time"
+msgid "Was added"
+msgstr "Был добавлен"
+
+msgctxt "Languages::cp_matrix_destinations_time_from"
+msgid "Min time"
+msgstr "Мин. время."
+
+msgctxt "Languages::cp_matrix_destinations_time_to"
+msgid "Max time"
+msgstr "Макс. время."
+
+msgctxt "Languages::cp_matrix_destinations_average_time"
+msgid "Averige time"
+msgstr "Среднее время."
+
+
+msgctxt "Languages::cp_matrix_destinations_last_time_update"
+msgid "Last time update"
+msgstr "Последнее время изменения"
+
+
+msgctxt "Languages::cp_matrix_destinations_table"
+msgid "Table of cross-calculation"
+msgstr "Таблица кросс рассчетов"
+
+msgctxt "Languages::cp_matrix_destinations_new_city"
+msgid "Add city"
+msgstr "Добавить город"
+
+
+msgctxt "Languages::cp_matrix_destinations_city_not_in_database "
+msgid "This city is not in the cs-cart database"
+msgstr "Данного города нет в базе cs-cart"
+
+
+
+msgctxt "Languages::cp_matrix_destinations_city"
+msgid ""
+msgstr ""
+
+
+
+msgctxt "Languages::cp_matrix_city_not_in_edost"
+msgid "Для города [cp_city_name] будет недоступна доставка через сервис EDOST"
+msgstr "Для города [cp_city_name] будет недоступна доставка через сервис EDOST"
+
+
+
+msgctxt "Languages::cp_matrix_city_not_in_rus_cities"
+msgid "Город [cp_city_name] не существует"
+msgstr "Город [cp_city_name] не существует"
+
+
+
+msgctxt "Languages::cp_matrix_destinations_rebuild"
+msgid "Перестроить матрицу доставки"
+msgstr "Перестроить матрицу доставки"
+
+msgctxt "Languages::cp_matrix_destinations_recalculate"
+msgid "Пересчитать тарифы матрицы доставки через EDOST"
+msgstr "Пересчитать тарифы матрицы доставки через EDOST"
+
+msgctxt "Languages::cp_matrix_destinations_manage"
+msgid "Матрица доставки городов"
+msgstr "Матрица доставки городов"
+
+msgctxt "Languages::cp_city_manage"
+msgid "Управление городами расчета матрицы"
+msgstr "Управление городами расчета матрицы"
+
+msgctxt "Languages::cp_pre_city_manage"
+msgid "Управление предварительными городами расчета матрицы"
+msgstr "Управление предварительными городами расчета матрицы"
+
+
+
+
+
+
+
+
+
+
+msgctxt "Languages::cp_city_manage_title"
+msgid "Города матрицы"
+msgstr "Города матрицы"
+
+msgctxt "Languages::cp_pre_city_manage"
+msgid "Предварительный города матрицы"
+msgstr "Предварительный города матрицы"
+
+msgctxt "Languages::cp_matrix_manage_title"
+msgid "Матрица городов"
+msgstr "Матрица городов"
+
+
+msgctxt "SettingsSections::cp_matrix_destinations::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cp_matrix_destinations::edost_id"
+msgid "Edost account ID"
+msgstr "Edost account ID"
+
+
+msgctxt "SettingsOptions::cp_matrix_destinations::edost_password"
+msgid "Edost account password"
+msgstr "Edost account password"
+
+
+msgctxt "SettingsOptions::cp_matrix_destinations::edost_weight"
+msgid "Edost weight"
+msgstr "Edost weight"
+
+
+
+msgctxt "SettingsOptions::cp_matrix_destinations::edost_matrix_last_update"
+msgid "Актуальность данных матрицы городов в днях"
+msgstr "Актуальность данных матрицы городов в днях"
+
+
+
+msgctxt "Languages::cp_matrix_settings_name"
+msgid "Setting name"
+msgstr "Setting name"
+
+
+msgctxt "Languages::cp_matrix_settings_value"
+msgid "Setting value"
+msgstr "Setting value"
+
+
+msgctxt "Languages::cp_matrix_settings"
+msgid "Текущие настройки матрицы городов"
+msgstr "Текущие настройки матрицы городов"
+
+
+msgctxt "Languages::cp_matrix_setting"
+msgid "Текущие настройки матрицы городов"
+msgstr "Текущие настройки матрицы городов"
+
+msgctxt "Languages::cp_matrix_logs_type"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "Languages::cp_matrix_logs_date"
+msgid "Time"
+msgstr "Time"
+
+msgctxt "Languages::cp_matrix_logs_status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::cp_matrix_logs_data"
+msgid "Data"
+msgstr "Data"
+
+msgctxt "Languages::cp_matrix_log"
+msgid "Система логов матрицы городов"
+msgstr "Система логов матрицы городов"
+
+msgctxt "Languages::cp_matrix_log_system"
+msgid "Система логов матрицы городов"
+msgstr "Система логов матрицы городов"
+
+msgctxt "Languages::cp_matrix_cities_filter"
+msgid "CP: Фильтр по городам"
+msgstr "CP: Фильтр по городам"
+
+
+msgctxt "Languages::cp_matrix_destinations_city__"
+msgid ""
+msgstr ""
+
+
+msgctxt "Languages::cp_matrix_destinations_city__"
+msgid ""
+msgstr ""
+
+
+
+
+
+

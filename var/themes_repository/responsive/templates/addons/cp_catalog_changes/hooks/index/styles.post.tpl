@@ -1,0 +1,1 @@
+{style src="addons/cp_catalog_changes/styles.less"}

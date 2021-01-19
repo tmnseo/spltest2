@@ -1,0 +1,97 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_edost_improvement"
+msgid "Cart-Power: Improving the 'Russian localization — Payment on delivery ( eDost.ru )' add-on"
+msgstr "Cart-Power: Улучшение модуля 'Калькулятор стоимости доставки eDost.ru'"
+
+msgctxt "Addons::description::cp_edost_improvement"
+msgid "Allows you to pass the departure city to the delivery calculator. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет передать город отправления в калькулятор доставки. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_edost_improvement.calculate_info"
+msgid "To recalculate the delivery cost <br> fill in the fields below and click 'Calculate'"
+msgstr "Для того чтобы пересчитать стоимость доставки <br> заполните поля ниже и нажмите кнопку 'Расcчитать'"
+
+msgctxt "Languages::cp_edost_improvement.calculate_shipping_cost"
+msgid "Calculate"
+msgstr "Рассчитать"
+
+msgctxt "Languages::cp_edost_improvement.calculate_shipping_cost_with_edost"
+msgid "Calculate delivery using the eDost service"
+msgstr "Расcчитать доставку с помощью сервиса eDost"
+
+msgctxt "Languages::cp_edost_improvement.shipping_cost_not_calculated"
+msgid "Couldn't calculate shipping cost"
+msgstr "Не удалось рассчитать стоимость доставки"
+
+msgctxt "Languages::cp_edost_improvement.shipping_cost_not_change"
+msgid "The delivery cost has not changed"
+msgstr "Стоимость доставки не изменилась"
+
+msgctxt "Languages::cp_edost_improvement.change_shipping_cost"
+msgid "Calculating the cost of delivery"
+msgstr "Расчет стоимости доставки"
+
+msgctxt "Languages::cp_edost_improvement.shipping_cost_change"
+msgid "Price change [from] -> [to]"
+msgstr "Изменение цены [from] -> [to]"
+
+msgctxt "Languages::cp_edost_improvement.save"
+msgid "Still save"
+msgstr "Все равно сохранить"
+
+msgctxt "Languages::cp_edost_improvement.calculate_error_info"
+msgid "The eDost service could not calculate delivery.Do you want to save the dimensions of the order?"
+msgstr "Сервис eDost не смог рассчитать доставку.Хотите ли вы сохранить габариты заказа?"
+
+msgctxt "Languages::cp_edost_improvement.calculation_error"
+msgid "Calculation error"
+msgstr "Ошибка расчета"
+
+msgctxt "Languages::cp_edost_improvement.order_sizes_check"
+msgid "Checking dimensions"
+msgstr "Проверка размеров"
+
+msgctxt "Languages::cp_edost_improvement.can_change_sizes"
+msgid "You can change the size of the parcel, but the delivery cost will not be recalculated."
+msgstr "Вы можете изменить размеры посылки, однако стоимость доставки пересчитана не будет."
+
+msgctxt "Languages::cp_edost_improvement.must_specify_sizes"
+msgid "You must specify the size of the parcel, but the delivery cost will not be recalculated."
+msgstr "Вы должны указать размеры посылки, однако стоимость доставки пересчитана не будет."
+
+msgctxt "Languages::cp_edost_improvement.completed_orders"
+msgid "Complete an order."
+msgstr "Скомплектовать заказ"
+
+msgctxt "Languages::cp_order_sizes"
+msgid "Dimensions of the order"
+msgstr "Габариты заказа"
+
+msgctxt "Languages::cp_order_sizes_title"
+msgid "Dimensions (LxWxH), cm"
+msgstr "Габариты (ДхШхВ), см"
+
+msgctxt "Languages::cp_edost_improvement.save_info"
+msgid "You can specify the size of the parcel in centimeters"
+msgstr "Вы можете указать размеры посылки в сантиметрах"
+
+msgctxt "Languages::cp_edost_improvement.enter_order_size"
+msgid "Specify the size of the parcel"
+msgstr "Указать размеры посылки"
+
+msgctxt "Languages::cp_length"
+msgid "Length, cm"
+msgstr "Длина, см"
+
+msgctxt "Languages::cp_height"
+msgid "Height, cm"
+msgstr "Высота, см"
+
+msgctxt "Languages::cp_width"
+msgid "Width, cm"
+msgstr "Ширина, см"

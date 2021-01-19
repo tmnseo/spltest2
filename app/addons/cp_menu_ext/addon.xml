@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_menu_ext</id>
+    <version>1.0</version>
+    <priority>999</priority>
+    <position>9999</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <queries>
+        <item for="install">ALTER TABLE ?:static_data ADD COLUMN cp_nofollow char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:static_data DROP cp_nofollow;</item>
+    </queries>
+</addon>

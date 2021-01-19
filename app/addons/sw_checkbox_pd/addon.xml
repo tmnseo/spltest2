@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+	<id>sw_checkbox_pd</id>
+	<version>3.0</version>
+	<priority>2017</priority>
+	<position>0</position>
+	<status>active</status>	
+    <has_icon>Y</has_icon>
+	<default_language>ru</default_language>
+	<authors>
+		<author>
+			<name>SWEETCODE</name>
+			<email>direct@sweetcode.ru</email>
+			<url>https://sweetcart.ru</url>
+			<phone>+7 (800) 222 30 74</phone>
+		</author>
+	</authors>
+	<supplier>SWEETCODE</supplier>
+	<supplier_link>https://sweetcart.ru</supplier_link>
+	<compatibility>
+		<conflicts></conflicts>
+		<dependencies></dependencies>
+		<core_version><min>4.3.6</min></core_version>
+		<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+	</compatibility>
+	<settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="settings" edition_type="ROOT,ULT:VENDOR">
+				<items>
+				    <item id="information">
+                        <type>header</type>
+                    </item>
+					<item id="id_page">
+						<type>input</type>
+					</item>	
+					<item id="check_call_requests">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>	
+					<item id="check_one_click">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>	
+					<item id="check_subscr">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="check_discuss">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="check_registration">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="check_checkout">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="checked_allways">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+				</items>
+			</section>
+			<section id="mve_settings" edition_type="MVE:ROOT">
+			    <items>
+			        <item id="info_mve">
+			    	 <type>template</type>
+        				 <default_value>info_mve.tpl</default_value>
+                     </item>
+                     <item id="id_page_reg_vendor">
+						<type>input</type>
+					</item>
+			        <item id="check_reg_vendor">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+			    </items>
+			</section>
+			<section id="instruction" edition_type="ROOT,ULT:VENDOR">
+			<items>
+			<item id="instruction">
+				 <type>template</type>
+				 <default_value>instruction.tpl</default_value>
+             </item>
+			 </items>
+			</section>
+		</sections>
+	</settings>
+	 <queries>
+	   <item for="install">
+            ALTER TABLE `?:page_descriptions`
+                 ADD `check_form_pd` CHAR(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:page_descriptions`
+            DROP `check_form_pd`;
+        </item>
+    </queries>
+</addon>

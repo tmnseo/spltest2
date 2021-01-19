@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_menu_ext"
+msgid "Cart-Power: \"Menu\" extension"
+msgstr "Cart-Power: \"Menu\" extension"
+
+msgctxt "Addons::description::cp_menu_ext"
+msgid "Expands \"Menu\" functionality \"Maps and geolocation\". Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Expands \"Menu\" functionality \"Maps and geolocation\". Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::addons.cp_menu_ext.nofollow"
+msgid "\"Nofollow\" attribute"
+msgstr "\"Nofollow\" attribute"

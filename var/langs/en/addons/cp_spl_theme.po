@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_spl_theme"
+msgid "Cart-Power: SPL theme"
+msgstr "Cart-Power: SPL theme"
+
+msgctxt "Addons::description::cp_spl_theme"
+msgid ". Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr ". Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsSections::cp_spl_theme::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_spl_theme::item"
+msgid "Item"
+msgstr "Item"
+
+msgctxt "Languages::cp_spl_theme.chekout_login_notification"
+msgid "cp_spl_theme.chekout_login_notification"
+msgstr "Only registered users can place an order"
+
+msgctxt "Languages::cp_spl_theme.wishlist_login_notification"
+msgid "cp_spl_theme.wishlist_login_notification"
+msgstr "Only registered users can add products to wishlist"
+
+msgctxt "Languages::cp_warranty_href"
+msgid "Learn about the warranty"
+msgstr "Learn about the warranty"
+
+msgctxt "SettingsOptions::cp_spl_theme::cp_warranty_href"
+msgid "Link to the warranty information page"
+msgstr "Link to the warranty information page"ъ
+
+msgctxt "Languages::cp_another_recipient"
+msgid "The recipient differs from the buyer"
+msgstr "The recipient differs from the buyer"
+
+msgctxt "Languages::cp_add_recipient"
+msgid "Add recipient"
+msgstr "Add recipient"
+
+msgctxt "Languages::cp_middle_name"
+msgid "Middle name"
+msgstr "Middle name"
+
+msgctxt "Languages::recipient_contact_person"
+msgid "Recipient's contact person"
+msgstr "Recipient's contact person"
+
+msgctxt "Languages::recipient_information"
+msgid "Recipient information"
+msgstr "Recipient information"
+
+msgctxt "Languages::cp_spl_theme.cp_show_on_brands"
+msgid "Show on the brands page"
+msgstr "Show on the brands page"

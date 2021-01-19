@@ -1,0 +1,85 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_language_variables"
+msgid "Cart-Power: Language variables"
+msgstr "Cart-Power: Language variables"
+
+msgctxt "Addons::description::cp_language_variables"
+msgid "Language variables for emails. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Language variables for emails. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsSections::cp_language_variables::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_language_variables::item"
+msgid "Item"
+msgstr "Item"
+
+msgctxt "Languages::help_center"
+msgid "Go to Help Center"
+msgstr "Go to Help Center"
+
+msgctxt "Languages::to_connect_with"
+msgid "To connect with SPL"
+msgstr "To connect with SPL"
+
+msgctxt "Languages::form_of_payment"
+msgid "Form of payment"
+msgstr "Form of payment"
+
+msgctxt "Languages::change_order_status_o_subj_text"
+msgid "The order has not yet been confirmed by the Seller."
+msgstr "The order has not yet been confirmed by the Seller."
+
+msgctxt "Languages::change_order_status_default_subj_text"
+msgid "The seller accepted your order to work. The invoice must be paid within 3 days."
+msgstr "The seller accepted your order to work. The invoice must be paid within 3 days."
+
+msgctxt "Languages::change_order_status_p_subj_text"
+msgid "We have received your payment. The order is completed"
+msgstr "We have received your payment. The order is completed"
+
+msgctxt "Languages::change_order_status_d_subj_text"
+msgid "The seller will not be able to fulfill your order, but we are ready to help."
+msgstr "The seller will not be able to fulfill your order, but we are ready to help."
+
+msgctxt "Languages::change_order_status_i_subj_text"
+msgid "The invoice you have not been paid. The seller canceled the application."
+msgstr "The invoice you have not been paid. The seller canceled the application."
+
+msgctxt "Languages::change_order_status_equipped_subj"
+msgid "Order No. [order] is ready for delivery"
+msgstr "Order №[order] is ready for delivery"
+
+msgctxt "Languages::change_order_status_equipped_text"
+msgid "You can get your order at the pickup point."
+msgstr "You can get your order at the pickup point."
+
+msgctxt "Languages::change_order_status_c_text"
+msgid "You have received an order. Claims for the goods must be sent to the Seller"
+msgstr "You have received an order. Claims for the goods must be sent to the Seller"
+
+msgctxt "Languages::change_order_status_sent_subj"
+msgid "Order No. [order] shipped"
+msgstr "Order №[order] shipped"
+
+msgctxt "Languages::change_order_status_sent_text"
+msgid "The order has been transferred to the carrier"
+msgstr "The order has been transferred to the carrier"
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::"
+msgid ""
+msgstr ""

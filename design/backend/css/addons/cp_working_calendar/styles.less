@@ -1,0 +1,164 @@
+@work_day_color: #A8EF9A;
+@weekend_day_color_border: red;
+@weekend_day_color: #f9c7c74f;
+@current_day_color: red;
+
+@empty_day_color: grey;
+
+.cp-calendar-label{
+	display: inline;
+}
+.cp-change-day__popup{
+	width: 560px !important;
+	.object-container{
+		height: 400px !important;
+		padding-bottom: 0px !important;
+	}
+	height: 400px !important; 
+}
+.cp-change-worktime__popup{
+	width: 560px !important;
+	.object-container{
+		height: 530px !important;
+		padding-bottom: 0px !important;
+	}
+	.ui-dialog-content {
+		height: 530px !important;
+	}
+	height: 530px !important;
+}
+.cp-set-extra-time{
+	display: inline;
+	margin-left: 5px;
+
+}
+.cp-working-calendar{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.cp-working-calendar-day{
+	margin: 5px;
+    height: 100px;
+    width: 13%;
+    font-size: 15px;
+    border-radius: 15px; 
+    a {
+    	border: 1px solid @mainColor;
+	    &:hover{
+	    	box-shadow: 0 0 30px #b9b9b9;
+	    }
+	}
+	.cm-tooltip{
+		border: none;
+		position: absolute;
+		margin-top: 78px;
+		margin-left: 4px;
+		i{
+			color: lighten(@weekend_day_color_border, 10%) !important;
+		}
+		&:hover{
+			box-shadow:none;
+		}
+	}
+	.cp-weekend{
+    	border: 1px solid @weekend_day_color_border;
+    	background: @weekend_day_color;
+		.cp-calendar-day-top{
+			border-bottom: 1px solid @weekend_day_color_border;
+		}
+    }
+    .cp-current-day-title{
+    	width: 60%;
+	    background: @mainColor;
+	    text-align: center;
+	    margin: auto;
+	    position: relative;
+    	bottom: 20px;
+    	color: white;
+    	border-top-left-radius: 3px;
+    	border-top-right-radius: 3px;
+    }
+}
+.cp-empty-day{
+	cursor: not-allowed;
+	background-color: lighten(@empty_day_color,30%);
+}
+
+.cp-calendar-opener{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+a.cp-day-not-click{
+	cursor: default;
+}
+a.cp-calendar-opener{
+	text-decoration: none;
+    color: #333;
+}
+.cp-weekend {
+	
+}
+.square{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.work {
+	background: @work_day_color;
+}
+.weekend{
+	background: lighten(@weekend_day_color_border, 10%);
+}
+.cp-calendar-label{
+	position: relative;
+	top: 6px;
+	margin: 2px;
+}
+.cp_working_calendar-month_description{
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 10px;
+	.cp-working-calendar-prev {
+		width: 10px;
+		text-decoration: none;
+		margin-right: 5%
+	}
+	.cp-working-calendar-next{
+		text-decoration: none;
+		margin-left: 5%
+	}
+}
+.cp-info-label{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.cp-calendar-day-top{
+	display: flex;
+	height: 30%;
+	border-bottom: 1px solid @mainColor;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 3px;
+	.cp-calendar-day-number{
+
+		margin-left: auto;
+	}
+}
+.cp-calendar-day-worktime {
+	text-align: center;
+
+}
+.cp-calendar-day{
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cp-working-calendar-month{
+	width: 50%;
+	display: inline-block;
+}

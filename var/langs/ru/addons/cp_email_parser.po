@@ -1,0 +1,174 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_email_parser"
+msgid "Cart-Power: Mail processing and automatic import"
+msgstr "Cart-Power: Обработка почты и автоматический импорт"
+
+msgctxt "Addons::description::cp_email_parser"
+msgid "Automatically processes emails, downloads files, and imports products. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Автоматически обрабатывает письма на почте, загружает файлы и производит импорт товаров. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_email_parser::mail_user"
+msgid "E-mail for work"
+msgstr "E-mail для работы"
+
+msgctxt "SettingsTooltips::cp_email_parser::mail_user"
+msgid "Specify the email address from which the import files will be collected"
+msgstr "Укажите ту почту с которой будут забираться файлы импорта"
+
+msgctxt "SettingsOptions::cp_email_parser::mail_pass"
+msgid "Email password"
+msgstr "Пароль от почты"
+
+msgctxt "SettingsOptions::cp_email_parser::cron_pass"
+msgid "CRON password"
+msgstr "CRON пароль"
+
+msgctxt "Languages::cp_email_parser.cron_info"
+msgid "Use this script to process mail and <br /> import products on a schedule"
+msgstr "Используйте этот скрипт, чтобы обрабатывать почту и <br /> делать импорт товаров по расписанию"
+
+msgctxt "Languages::cp_email_parser.email_for_parser"
+msgid "E-mail import files"
+msgstr "E-mail файлов импорта"
+
+msgctxt "Languages::ttc_cp_email_parser.email_for_parser"
+msgid "Specify the email address from which the import files will be sent"
+msgstr "Укажите здесь почту с которой будет производиться отправка файлов импорта"
+
+msgctxt "Languages::cp_email_parser"
+msgid "E-mail parser"
+msgstr "E-mail парсер"
+
+msgctxt "Languages::cp_email_parser.parsing_manually"
+msgid "Find and process files"
+msgstr "Найти и обработать файлы"
+
+msgctxt "Languages::cp_email_parser.parsing_logs"
+msgid "The system logs"
+msgstr "Система логов"
+
+msgctxt "Languages::cp_email_parser.no_mails"
+msgid "No messages found for import"
+msgstr "Не найдено сообщений для импорта"
+
+msgctxt "Languages::cp_email_parser.success_parcing"
+msgid "Processed [c_mess] messages and [c_files] files"
+msgstr "Обработано сообщений : [c_mess], обработано файлов :[c_files]"
+
+msgctxt "Languages::cp_email_parser.mail_success_processed"
+msgid "Message # [mess_id] processed"
+msgstr "Обработано сообщение № [mess_id]"
+
+msgctxt "Languages::cp_email_parser.error_cron_pass"
+msgid "The CRON password is not used or is not correct"
+msgstr "Не используется или используется неверный пароль для CRON"
+
+msgctxt "Languages::cp_email_parser.error_dir_create"
+msgid "Failed to create a directory for uploading files"
+msgstr "Не удалось создать директорию для загрузки файлов"
+
+msgctxt "Languages::cp_email_parser.error_imap_connect"
+msgid "Failed to create a connection to the mail server"
+msgstr "Не удалось создать соединение с сервером почты"
+
+msgctxt "Languages::cp_email_parser.error_from_address"
+msgid "Failed to process sender of message # [mess_id]"
+msgstr "Не удалось обработать отправителя сообщения № [mess_id]"
+
+msgctxt "Languages::cp_email_parser.error_company_id"
+msgid "The E-mail [email] from which the message # [mess_id] was sent does not match any supplier in the store"
+msgstr "E-mail [email] с которого было отправлено письмо № [mess_id] не соответствует ни одному поставщику в магазине"
+
+msgctxt "Languages::cp_email_parser.error_no_attachments"
+msgid "No attachments found in message # [mess_id]"
+msgstr "В сообщении № [mess_id] не найдено ни одного вложения"
+
+msgctxt "Languages::cp_email_parser.error_no_create_file"
+msgid "Failed to create the [file] file for the provider [company]"
+msgstr "Не удалось создать файл [file] для поставщика [company]"
+
+msgctxt "Languages::cp_email_parser.error_update_preset"
+msgid "Failed to update preset # [id]"
+msgstr "Не удалось обновить пресет № [id]"
+
+msgctxt "Languages::cp_email_parser.error_import"
+msgid "Import failed for preset # [id]"
+msgstr "Не удалось выполнить импорт для пресета № [id]"
+
+msgctxt "Languages::cp_email_parser.no_data"
+msgid "No data"
+msgstr "Нет данных"
+
+msgctxt "Languages::cp_email_parser.log_id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "Languages::cp_email_parser.log_date"
+msgid "Date of logging"
+msgstr "Дата логирования"
+
+msgctxt "Languages::cp_email_parser.log_time"
+msgid "Duration"
+msgstr "Продолжительность (сек)"
+
+msgctxt "Languages::cp_email_parser.log_message"
+msgid "Result"
+msgstr "Результат"
+
+msgctxt "Languages::cp_email_parser.log_status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::cp_email_parser.log_operation"
+msgid "Operation"
+msgstr "Процесс"
+
+msgctxt "Languages::cp_email_parser.log_status_error"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::cp_email_parser.log_status_success"
+msgid "Without errors"
+msgstr "Без ошибок"
+
+msgctxt "Languages::cp_email_parser.logs_title"
+msgid "Parser log system"
+msgstr "Система логов парсера"
+
+msgctxt "Languages::cp_email_parser.connection_to_mail_server"
+msgid "Connecting to the mail server"
+msgstr "Подключение к почтовому серверу"
+
+msgctxt "Languages::cp_email_parser.import_process"
+msgid "Import"
+msgstr "Импорт"
+
+msgctxt "Languages::cp_email_parser.parsing_mail"
+msgid "Email processing"
+msgstr "Обработка письма"
+
+msgctxt "Languages::cp_email_parser.parsing_attachments"
+msgid "Processing attachments"
+msgstr "Обработка вложения"
+
+msgctxt "Languages::cp_email_parser.success_import"
+msgid "Import of the preset # [preset_id] was successful. Processed [c_prod] products"
+msgstr "Импорт пресета № [preset_id] прошел успешно. Обработано товаров : [c_prod]"
+
+msgctxt "Languages::cp_email_parser.clean_logs"
+msgid "Clean logs"
+msgstr "Очистить логи"
+
+msgctxt "Languages::cp_email_parser.clean_old_logs"
+msgid "Clean old logs"
+msgstr "Очистить старые логи"
+
+msgctxt "Languages::cp_email_parser.log_events"
+msgid "Chain of events"
+msgstr "Цепочка событий"
+

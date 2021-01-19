@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::nm_title"
+msgid "Newmen Zoho Connector"
+msgstr "Newmen Zoho Connector"
+
+msgctxt "SettingsOptions::nm_title::zoho_client_id"
+msgid "Zoho client id"
+msgstr "Zoho client id"
+
+msgctxt "SettingsOptions::nm_title::zoho_client_secret"
+msgid "Zoho client secret"
+msgstr "Zoho client secret"
+
+msgctxt "SettingsOptions::nm_title::zoho_access_token"
+msgid "Zoho access token"
+msgstr "Zoho access token"
+
+msgctxt "SettingsOptions::nm_title::zoho_refresh_token"
+msgid "Zoho refresh token"
+msgstr "Zoho refresh token"
+
+msgctxt "SettingsOptions::nm_title::zoho_token_expires_in"
+msgid "Zoho access token expires time"
+msgstr "Zoho access token expires time"

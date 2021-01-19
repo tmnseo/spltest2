@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_confirm_order"
+msgid "Cart-Power: Подтверждение заказа"
+msgstr "Cart-Power: Подтверждение заказа"
+
+msgctxt "Addons::description::cp_confirm_order"
+msgid "Для доступа к документам заказа нужно его подтвердить. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Для доступа к документам заказа нужно его подтвердить. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_confirm_order::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cp_confirm_order::order_status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "SettingsOptions::cp_confirm_order::notify_user"
+msgid "Информировать покупателя"
+msgstr "Информировать покупателя"
+
+msgctxt "SettingsOptions::cp_confirm_order::notify_vendor"
+msgid "Уведомление продавца"
+msgstr "Уведомление продавца"
+
+msgctxt "SettingsOptions::cp_confirm_order::notify_department"
+msgid "Уведомить отдел оформления и обработки заказов"
+msgstr "Уведомить отдел оформления и обработки заказов"
+
+msgctxt "Languages::cp_confirm"
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgctxt "Languages::cp_confirmed"
+msgid "Confirmed"
+msgstr "Подтверждено"

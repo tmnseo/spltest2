@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_demo_vendors</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>vendor_privileges,cp_catalog_changes</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="demo_usergroup_id">
+                        <type>input</type>
+                    </item>
+                    <item id="vendor_usergroup_id">
+                        <type>input</type>
+                        <default_value>5</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE ?:companies ADD COLUMN cp_is_demo char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP cp_is_demo;</item>
+        <item>INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_manage_product_options', 'Y', 'products', 'product_options', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_manage_product_options';</item>
+    </queries>
+    <functions>
+        <item for="install">fn_cp_demo_vendors_install</item>
+    </functions>
+</addon>

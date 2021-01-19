@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_geo_maps_ext"
+msgid "Cart-Power: \"Maps and geolocation\" extension"
+msgstr "Cart-Power: \"Карты и геолокация\" расширение функционала"
+
+msgctxt "Addons::description::cp_geo_maps_ext"
+msgid "Expands module functionality \"Maps and geolocation\". Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Расширяет функционал модуля \"Карты и геолокация\" . Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::addons.cp_geo_maps_ext.title"
+msgid "Your location"
+msgstr "здесь нужна запчасть"
+
+msgctxt "Languages::addons.cp_geo_maps_ext.yes"
+msgid "Yes, thanks"
+msgstr "Да"
+
+msgctxt "Languages::addons.cp_geo_maps_ext.no"
+msgid "No, another"
+msgstr "Нет"

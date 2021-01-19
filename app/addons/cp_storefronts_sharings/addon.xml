@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_storefronts_sharings</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>104</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>PASSWORD</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <!--currencies-->
+        <item for="install">ALTER TABLE ?:storefronts_currencies ADD COLUMN cp_is_primary char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:storefronts_currencies DROP cp_is_primary;</item>
+        <!--taxes-->
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_storefronts_taxes` (
+                `storefront_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `tax_id` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`storefront_id`,`tax_id`),
+                KEY `storefront_id` (`storefront_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_storefronts_taxes`</item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_vendor_taxes` (
+                `storefront_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `tax_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `vendor_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `is_primary` char(1) NOT NULL default 'N',
+                PRIMARY KEY (`storefront_id`,`tax_id`,`vendor_id`),
+                KEY `storefront_id` (`storefront_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_vendor_taxes`</item>
+        <!--profile_fields-->
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_storefronts_profile_fields` (
+                `storefront_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `field_id` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`storefront_id`,`field_id`),
+                KEY `storefront_id` (`storefront_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_storefronts_profile_fields`</item> 
+        <item for="install">ALTER TABLE ?:users ADD COLUMN storefront_id int(11) NOT NULL DEFAULT 0;</item>
+        <item for="uninstall">ALTER TABLE ?:users DROP storefront_id;</item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_storefront_redirect_tokens` (
+                `user_id` mediumint(8) unsigned NOT NULL ,
+                `user_token` varchar(32) NOT NULL DEFAULT '',
+                `start_time` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`user_id`,`user_token`),
+                KEY `start_time` (`start_time`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_storefront_redirect_tokens`</item>     
+    </queries>
+</addon> 

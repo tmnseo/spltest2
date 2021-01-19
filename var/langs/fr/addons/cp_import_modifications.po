@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: fr_FR\n"
+
+msgctxt "Addons::name::cp_import_modifications"
+msgid "Cart-Power: Products import modification"
+msgstr "Cart-Power: Модификация импорта товаров"
+
+msgctxt "Addons::description::cp_import_modifications"
+msgid "Adds the ability to upload files in xls and xlsx format. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет возможность загружать файлы в формате xls и xlsx. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_warehouse_city_filter"
+msgid "Cart-Power: Filter by city of warehouse"
+msgstr "Cart-Power: Фильтр по городу склада"
+
+msgctxt "Addons::description::cp_warehouse_city_filter"
+msgid "Adds a filter to the city of the warehouse. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет фильтр по городу склада. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_cf_warehouse_city"
+msgid "cp_cf_warehouse_city"
+msgstr "Город склада"

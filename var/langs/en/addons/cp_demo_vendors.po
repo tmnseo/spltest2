@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_demo_vendors"
+msgid "Cart-Power: Demo mode for vendors"
+msgstr "Cart-Power: Demo mode for vendors"
+
+msgctxt "Addons::description::cp_demo_vendors"
+msgid "Adds the ability to switch the seller to Demo mode to get acquainted with the functionality of the marketplace. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds the ability to switch the seller to Demo mode to get acquainted with the functionality of the marketplace. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_demo_vendors::demo_usergroup_id"
+msgid "demo_usergroup_id"
+msgstr "ID of the demo vendors usergroup"
+
+msgctxt "SettingsOptions::cp_demo_vendors::vendor_usergroup_id"
+msgid "ID of the vendors usergroup"
+msgstr "ID of the vendors usergroup"
+
+msgctxt "Languages::cp_demo_vendors.usergroup_name"
+msgid "cp_demo_vendors.usergroup_name"
+msgstr "Demo vendor"
+
+msgctxt "Languages::cp_demo"
+msgid "cp_demo"
+msgstr "Demo mode"
+
+msgctxt "Languages::privilege_groups.product_options"
+msgid "Products options"
+msgstr "Products options"

@@ -1,0 +1,15 @@
+[
+{
+"payment_order_date": "2020-11-01T00:00:00",
+"payment_order_number": "444",
+"bank_account": "40702810238030013920",
+"bank_bic": "046577964",
+"payment_purpose": "оплата по договору-счету №405 от 28.10.2020г.",
+"customer_tin": "6674167078",
+"customer_name": "ООО \"КОМЕК МАШИНЕРИ\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "449,13",
+"amount_vat": "0"
+}
+]

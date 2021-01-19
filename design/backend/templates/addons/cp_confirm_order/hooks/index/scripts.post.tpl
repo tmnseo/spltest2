@@ -1,0 +1,1 @@
+{script src="js/addons/cp_confirm_order/func.js"}

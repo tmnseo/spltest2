@@ -1,0 +1,1 @@
+{script src="js/addons/cp_brands_locations/func.js"}

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_manage_old_products</id>
+    <version>1.0</version>
+    <priority>99999</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="products_days_lifetime">
+                        <type>input</type>
+                        <default_value>150</default_value>
+                    </item>
+                    <item id="type_of_part_feature_id">
+                        <type>input</type>
+                        <default_value>567</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>delete_old_products</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_manage_old_products_cron_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpManageOldProducts\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpManageOldProducts\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpManageOldProducts\Installer</installer>
+</addon>

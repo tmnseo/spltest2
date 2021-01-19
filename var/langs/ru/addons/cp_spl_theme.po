@@ -1,0 +1,493 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_spl_theme"
+msgid "Cart-Power: SPL theme"
+msgstr "Cart-Power: SPL theme"
+
+msgctxt "Addons::description::cp_spl_theme"
+msgid "Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_spl_theme::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_spl_theme::cp_support_phone"
+msgid "Support Phone"
+msgstr "Телефон поддержки"
+
+msgctxt "SettingsOptions::cp_spl_theme::id_page_profiles_add"
+msgid "Supplier registration page id"
+msgstr "ID страницы регистрации поставщика"
+
+msgctxt "SettingsOptions::cp_spl_theme::id_page_feedback"
+msgid "Feedback page id"
+msgstr "ID страницы обратной связи"
+
+msgctxt "SettingsOptions::cp_spl_theme::id_page_user"
+msgid "Page ID \"Registration completed \" (customer)"
+msgstr "ID страницы \"Регистрация завершена\" (покупатель)"
+
+msgctxt "SettingsOptions::cp_spl_theme::id_page_feedback"
+msgid "Page ID \"Registration completed \" (supplier)"
+msgstr "ID страницы \"Регистрация завершена\" (поставщик)"
+
+msgctxt "SettingsOptions::cp_spl_theme::id_inn"
+msgid "profile field id (inn)"
+msgstr "ID поля профиля (инн)"
+
+msgctxt "SettingsOptions::cp_spl_theme::filter_price_id"
+msgid "Filter ID \"Price\""
+msgstr "ID фильтра \"Цена\""
+
+msgctxt "SettingsOptions::cp_spl_theme::filter_warehouse_city_id"
+msgid "Filter ID \"Warehouse city\""
+msgstr "ID фильтра \"Город склада\""
+
+msgctxt "Languages::enter_mail"
+msgid "Enter mail"
+msgstr "Введите почту"
+
+msgctxt "Languages::recover_password_text"
+msgid "Enter your email address mail that you used when placing orders in SPL. We will send you instructions on how to recover your password."
+msgstr "Укажите адрес эл. почты, который вы использовали при оформлении заказов в SPL. Мы вышлем вам инструкцию по восстановлению пароля."
+
+msgctxt "Languages::send_password"
+msgid "Send password"
+msgstr "Выслать пароль"
+
+msgctxt "Languages::come_back"
+msgid "Come back"
+msgstr "Вернуться"
+
+msgctxt "Languages::minicart_promo_text"
+msgid "Free delivery from 70 000"
+msgstr "Бесплатная доставка от 70 000 ₽"
+
+msgctxt "Languages::our_brands_flex"
+msgid "Our brands flex"
+msgstr "Бренды (flex)"
+
+msgctxt "Languages::thumbnail_width_flex"
+msgid "Icon width"
+msgstr "Ширина иконки"
+
+msgctxt "Languages::thumbnail_height_flex"
+msgid "Icon height"
+msgstr "Высота иконки"
+
+msgctxt "Languages::spare_parts_in_stock"
+msgid "Spare parts in stock"
+msgstr "Запчасти в наличии"
+
+msgctxt "Languages::spare_parts_in_stock_text"
+msgid "SPL is synchronized with suppliers' warehouses and shows only parts in stock"
+msgstr "SPL синхронизируется со складами поставщиков и показывает только детали в наличии"
+
+msgctxt "Languages::prices_are_open"
+msgid "Prices are open"
+msgstr "Цены открыты"
+
+msgctxt "Languages::prices_are_open_text"
+msgid "You see the available parts with prices and choose the best offer"
+msgstr "Вы видите доступные запчасти с ценами и выбираете лучшее предложение"
+
+msgctxt "Languages::instant_order"
+msgid "Instant order"
+msgstr "Моментальный заказ"
+
+msgctxt "Languages::instant_order_text"
+msgid "Don't waste time on calls - place an order on the website in 5 minutes. The order goes straight to the supplier"
+msgstr "Не тратьте время на звонки – оформляйте заказ на сайте за 5 минут. Заказ сразу уходит к поставщику"
+
+msgctxt "Languages::reliable_suppliers"
+msgid "Reliable suppliers"
+msgstr "Надежные поставщики"
+
+msgctxt "Languages::reliable_suppliers_text"
+msgid "We check business reputation, certificates and licenses. Disable for violation of SPL rules"
+msgstr "Проверяем деловую репутацию, сертификаты и лицензии. Отключаем за нарушение правил SPL"
+
+msgctxt "Languages::predictable_delivery"
+msgid "Predictable delivery"
+msgstr "Предсказуемая доставка"
+
+msgctxt "Languages::predictable_delivery_text"
+msgid "At the order stage, you know the cost and delivery time"
+msgstr "На этапе заказа вы знаете стоимость и сроки доставки"
+
+msgctxt "Languages::delivery_guarantee"
+msgid "Delivery guarantee"
+msgstr "Гарантия поставок"
+
+msgctxt "Languages::delivery_guarantee_text"
+msgid "We transfer money to the supplier when you receive the goods"
+msgstr "Переводим деньги поставщику, когда вы получаете товар"
+
+msgctxt "Languages::advantages"
+msgid "Advantages"
+msgstr "Преимущества"
+
+msgctxt "Languages::footer_menu"
+msgid "Footer: regular container (no folding)"
+msgstr "Подвал: обычный контейнер (без сворачивания)"
+
+msgctxt "Languages::logo_footer"
+msgid "Logo (footer)"
+msgstr "Логотип (подвал)"
+
+msgctxt "Languages::personal_area_footer_cp"
+msgid "Personal Area (footer)"
+msgstr "Личный кабинет (подвал)"
+
+msgctxt "Languages::sign_out_account"
+msgid "Sign out of your account"
+msgstr "Выход из аккаунта"
+
+msgctxt "Languages::my_orders"
+msgid "My orders"
+msgstr "Мои заказы"
+
+msgctxt "Languages::care_service"
+msgid "Care service"
+msgstr "Служба заботы"
+
+msgctxt "Languages::contact_person"
+msgid "The contact person"
+msgstr "Контактное лицо"
+
+msgctxt "Languages::cp_inn_hint"
+msgid "The rest of the data will be downloaded automatically from open sources.<br>Make sure the data is correct and fill in the missing information."
+msgstr "Остальные данные будут загружены автоматически из открытых источников.<br>Убедитесь в достоверности данных и внесите недостающую информацию."
+
+msgctxt "Languages::mobile_menu"
+msgid "Mobile Menu"
+msgstr "Мобильное меню"
+
+msgctxt "Languages::cp_actual_same_as_billing"
+msgid "Is it the same as the actual one?"
+msgstr "Совпадает с фактическим?"
+
+msgctxt "Languages::cp_addition_company_info"
+msgid "Additional information about the company"
+msgstr "Дополнительная информация о компании"
+
+msgctxt "Languages::complete_registration"
+msgid "Complete registration"
+msgstr "Завершить регистрацию"
+
+msgctxt "Languages::cp_notice_profile_add"
+msgid "All fields must be filled"
+msgstr "Все поля должны быть заполнены"
+
+msgctxt "Languages::back"
+msgid "Back"
+msgstr "Назад"
+
+msgctxt "Languages::farther"
+msgid "Farther"
+msgstr "Дальше"
+
+msgctxt "Languages::the_amount_is_indicated_excluding_delivery"
+msgid "The amount is indicated excluding delivery"
+msgstr "Сумма указана без учета доставки"
+
+msgctxt "Languages::place_in_one_order"
+msgid "Place in one order"
+msgstr "Оформить в один заказ"
+
+msgctxt "Languages::total_cost_excluding_shipping"
+msgid "Total cost excluding shipping"
+msgstr "Общая стоимость без учета доставки"
+
+msgctxt "Languages::personal_area"
+msgid "Personal Area"
+msgstr "Личный кабинет"
+
+msgctxt "Languages::support"
+msgid "Support"
+msgstr "Поддержка"
+
+msgctxt "Languages::available_after"
+msgid "available after"
+msgstr "доступен после"
+
+msgctxt "Languages::cp_spl.registry"
+msgid "registration"
+msgstr "регистрации"
+
+msgctxt "Languages::delivery"
+msgid "Delivery"
+msgstr "Доставка"
+
+msgctxt "Languages::remove_from_favorites"
+msgid "Remove from favorites"
+msgstr "Удалить из избранного"
+
+msgctxt "Languages::become_a_supplier"
+msgid "Become a supplier"
+msgstr "Стать поставщиком"
+
+msgctxt "Languages::stock"
+msgid "Stock:"
+msgstr "Склад"
+
+msgctxt "Languages::buyer_contact_person"
+msgid "Buyer's contact person"
+msgstr "Контактное лицо покупателя"
+
+msgctxt "Languages::items_in_order"
+msgid "Items in order"
+msgstr "Товары в заказе"
+
+msgctxt "Languages::working_hours"
+msgid "Working hours"
+msgstr "Время работы"
+
+msgctxt "Languages::order_user_info"
+msgid "Information about order"
+msgstr "Информация о заказе "
+
+msgctxt "Languages::cost_goods_order"
+msgid "The cost of goods in the order"
+msgstr "Стоимость товаров в заказе"
+
+msgctxt "Languages::total_cost_order_including_delivery"
+msgid "Total cost of the order including delivery"
+msgstr "Общая стоимость заказа с учетом доставки"
+
+msgctxt "Languages::including_vat_amount"
+msgid "including VAT in the amount"
+msgstr "в т. ч. НДС в размере"
+
+msgctxt "Languages::order_value_info"
+msgid "Order value information"
+msgstr "Информация о стоимости заказа"
+
+msgctxt "Languages::total_cost_order_number"
+msgid "Total cost of order"
+msgstr "Общая стоимость заказа"
+
+msgctxt "Languages::total_all_orders"
+msgid "Total for all orders"
+msgstr "Итого по всем заказам"
+
+msgctxt "Languages::number_symbol"
+msgid "no."
+msgstr "№"
+
+msgctxt "Languages::order_progressbar"
+msgid "Checkout progress"
+msgstr "Прогресс оформления заказов"
+
+msgctxt "Languages::your_orders"
+msgid "Your orders"
+msgstr "Ваши заказы"
+
+msgctxt "Languages::seo_text_block_product"
+msgid "SEO block for product card"
+msgstr "SEO блок для карточки товара"
+
+msgctxt "Languages::cp_seo_text_block_product"
+msgid "Save time by buying online consumables and spare parts for work units, chassis and attachments for your equipment. Text block for SEO."
+msgstr "Экономьте время, покупая онлайн расходные материалы и запчасти для рабочих узлов, ходовой и навесного оборудования вашей техники. Текстовый блок для SEO. "
+
+msgctxt "Languages::send_a_complaint"
+msgid "Send a complaint"
+msgstr "Отправить рекламацию"
+
+msgctxt "Languages::changed_my_mind"
+msgid "Changed my mind"
+msgstr "Передумал"
+
+msgctxt "Languages::attach"
+msgid "Attach"
+msgstr "Прикрепить"
+
+msgctxt "Languages::not_now"
+msgid "Not now"
+msgstr "Не сейчас"
+
+msgctxt "Languages::to_favorites"
+msgid "To favorites"
+msgstr "В избранное"
+
+msgctxt "Languages::change_password"
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+msgctxt "Languages::writes_to_you"
+msgid "Writes to you"
+msgstr "Вам пишет"
+
+msgctxt "Languages::date_application"
+msgid "Date of the application"
+msgstr "Дата обращения"
+
+msgctxt "Languages::cp.vendor_communication.contact_with"
+msgid "Сhat with [thread_company]"
+msgstr "Чат с [thread_company]"
+
+msgctxt "Languages::cp_open_in_new_window"
+msgid "Open in a new window"
+msgstr "Открывать в новом окне"
+
+msgctxt "Languages::cp_spl_theme.chekout_login_notification"
+msgid "cp_spl_theme.chekout_login_notification"
+msgstr "Только зарегистрированные пользователи могут оформить заказ"
+
+msgctxt "Languages::cp_spl_theme.wishlist_login_notification"
+msgid "cp_spl_theme.wishlist_login_notification"
+msgstr "Только зарегистрированные пользователи могут добавлять товары в избранное"
+
+msgctxt "Languages::cp_types_equipment"
+msgid "Technique types"
+msgstr "Виды техники"
+      
+msgctxt "Languages::rating_and_reviews"
+msgid "Rating and reviews"
+msgstr "Рейтинг и отзывы"
+
+msgctxt "Languages::cp_warehouses"
+msgid "Warehouses"
+msgstr "Склады"
+
+msgctxt "Languages::cp_types_equipment_title"
+msgid "Spare parts are available for the following manufacturers"
+msgstr "Доступны запчасти для следующих производителей"
+
+msgctxt "Languages::cp_spl.discussion_vendor_tall"
+msgid "High supplier rating"
+msgstr "Высокий рейтинг поставщика"
+
+msgctxt "Languages::cp_spl.discussion_vendor_middle"
+msgid "Average supplier rating"
+msgstr "Средний рейтинг поставщика"
+
+msgctxt "Languages::cp_spl.discussion_vendor_low"
+msgid "Low supplier rating"
+msgstr "Низкий рейтинг поставщика"
+
+msgctxt "Languages::cp_spl.discussion_vendor_none"
+msgid "There are no reviews for this provider yet."
+msgstr "Об этом поставщике отзывов пока нет. "
+
+msgctxt "Languages::cp_spl.be_the_first"
+msgid "Be the first!"
+msgstr "Будьте первым!"
+
+msgctxt "Languages::vendor_rating_founded_prefix"
+msgid "Based on buyer rating"
+msgstr "На основе оценки"
+
+msgctxt "Languages::vendor_rating_founded"
+msgid "[n] Buyers|[n] Buyers, Supplier Rating [average_rating] / 5"
+msgstr "[n] покупателя|[n] покупателей, рейтинг поставщика [average_rating] / 5"
+
+msgctxt "Languages::give_feedback"
+msgid "Give feedback"
+msgstr "Оставить отзыв"
+
+msgctxt "Languages::leave_a_review"
+msgid "Leave a review"
+msgstr "Оставьте отзыв"
+
+msgctxt "Languages::cp_vendor_info"
+msgid "CP: Seller Information"
+msgstr "CP: Информация о продавце"
+
+msgctxt "Languages::cp_vendor_tabs"
+msgid "CP: Seller Information Tabs"
+msgstr "CP: Информационные вкладки продавца"
+
+msgctxt "Languages::cp_horizontal_filters"
+msgid "CP: Horizontal filters"
+msgstr "CP: Горизонтальные фильтры"
+
+msgctxt "Languages::cp_spl_theme.discussion_login_notification"
+msgid "Only registered users can post reviews"
+msgstr "Только зарегистрированные пользователи могут оставлять отзывы"
+
+msgctxt "Languages::cp_product_page.detail"
+msgid "Detail <bdi>[product]</bdi>"
+msgstr "Деталь <bdi>[product]</bdi>"
+
+msgctxt "Languages::cp_warranty_href"
+msgid "Learn about the warranty"
+msgstr "Узнать о гарантии"
+
+msgctxt "SettingsOptions::cp_spl_theme::cp_warranty_href"
+msgid "Link to the warranty information page"
+msgstr "Ссылка на страницу информации о гарантии"
+
+msgctxt "Languages::cp_another_recipient"
+msgid "The recipient differs from the buyer"
+msgstr "Получатель отличается от покупателя"
+
+msgctxt "Languages::cp_add_recipient"
+msgid "Add recipient"
+msgstr "Добавить получателя"
+
+msgctxt "Languages::cp_middle_name"
+msgid "Middle name"
+msgstr "Отчество"
+
+msgctxt "Languages::recipient_contact_person"
+msgid "Recipient's contact person"
+msgstr "Контактное лицо получателя"
+
+msgctxt "Languages::recipient_information"
+msgid "Recipient information"
+msgstr "Информация о получателе"
+
+msgctxt "Languages::all_brands"
+msgid "All brands"
+msgstr "Все бренды"
+
+msgctxt "Languages::filter_id"
+msgid "ID filter"
+msgstr "ID Фильтра"
+
+msgctxt "Languages::view_all_brands"
+msgid "view_all_brands"
+msgstr "Смотреть все бренды"
+
+msgctxt "Languages::cp_spl_theme.cp_show_on_brands"
+msgid "Show on the brands page"
+msgstr "Показывать на странице брендов"
+
+msgctxt "Languages::where_are_you_from"
+msgid "Where are you from?"
+msgstr "Откуда вы?"
+
+msgctxt "Languages::support_phone"
+msgid "support_phone"
+msgstr "Телефон поддержки"
+
+msgctxt "Languages::personal_account_menu"
+msgid "personal_account_menu"
+msgstr "Меню личного кабинета"
+
+msgctxt "Languages::header_pages_account"
+msgid "header_pages_account"
+msgstr "Заголовок для страниц личного кабинета"
+
+msgctxt "Languages::cp_spl_theme.including_tax"
+msgid "cp_spl_theme.including_tax"
+msgstr "с НДС"
+
+msgctxt "Languages::cp_spl_theme.question_product"
+msgid "cp_spl_theme.question_product"
+msgstr "Задать вопрос о товаре"
+
+msgctxt "Languages::estimated_delivery_cost"
+msgid "estimated_delivery_cost"
+msgstr "Ориентировочная стоимость доставки"
+
+msgctxt "Languages::estimated_delivery_cost.tooltip"
+msgid "estimated_delivery_cost.tooltip"
+msgstr "Окончательная стоимость доставки будет рассчитана поставщиком при подтверждении заказа. Вы всегда можете отменить заказ до его оплаты."

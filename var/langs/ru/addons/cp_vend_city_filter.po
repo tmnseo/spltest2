@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_vend_city_filter"
+msgid "Cart-Power: Filter by vendor city"
+msgstr "Cart-Power: Фильтр по городу продавца"
+
+msgctxt "Addons::description::cp_vend_city_filter"
+msgid "Add filter by vendor city. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет фильтр по городу продавца. Разработанно <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_cf_vendor_city"
+msgid "By vendor city field"
+msgstr "Местоположение продавца"
+
+msgctxt "SettingsOptions::cp_vend_city_filter::id_of_city_field"
+msgid "ID of city field"
+msgstr "ID поля профиля Город"
+
+msgctxt "SettingsSections::cp_vend_city_filter::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_vend_city_filter::item"
+msgid "Item"
+msgstr "Item"

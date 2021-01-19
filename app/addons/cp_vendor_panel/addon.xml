@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_vendor_panel</id>
+    <version>1.0</version>
+    <priority>3000</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>attachments</dependencies>
+    </compatibility>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="feature_brand">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS `?:cp_vp_warranty_categories`;</item>
+        <item>DROP TABLE IF EXISTS `?:cp_vp_warranty_category_descriptions`;</item>
+        <item>DROP TABLE IF EXISTS `?:cp_vp_vendor_warranties`;</item>
+        <item>
+            CREATE TABLE `?:cp_vp_warranty_categories` (
+                `category_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `status` char(1) NOT NULL default 'A',
+                `position` smallint(5) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`category_id`),
+                KEY `status` (`status`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:cp_vp_warranty_category_descriptions` (
+                `category_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `category` varchar(80) NOT NULL default '',
+                `description` mediumtext,
+                UNIQUE KEY `category_lang` (`category_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:cp_vp_vendor_warranties` (
+                `company_id` mediumint(8) unsigned NOT NULL default '0',
+                `variant_id` mediumint(8) unsigned NOT NULL default '0',
+                `category_id` mediumint(8) unsigned NOT NULL default '0',
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `warranty_term` smallint(5) unsigned NOT NULL default '0',
+                UNIQUE KEY `vend_cat_brand` (`company_id`,`variant_id`,`category_id`),
+                KEY `company_id` (`company_id`),
+                KEY `variant_id` (`variant_id`),
+                KEY `category_id` (`category_id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET UTF8;
+        </item>
+                
+        <item for="install" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_cp_vp_waranty', 'Y', 'addons', 'cp_vp_waranty', 'N');</item>
+        
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_vp_warranty_categories`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_vp_warranty_category_descriptions`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_vp_vendor_warranties`;</item>
+                
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_vp_waranty'</item>
+    </queries>
+</addon>

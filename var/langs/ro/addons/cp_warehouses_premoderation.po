@@ -1,0 +1,85 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ro_RO\n"
+
+msgctxt "Addons::name::cp_warehouses_premoderation"
+msgid "Cart-Power: Pre-moderation of warehouses"
+msgstr "Cart-Power: Премодерация складов"
+
+msgctxt "Addons::description::cp_warehouses_premoderation"
+msgid "When creating or editing a warehouse, the administrator must approve changes to the warehouse data. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "При создании или редактировании склада, администратор должен одобрить изменения в данных склада. Разаработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_disapproved"
+msgid "cp_disaproved"
+msgstr "Отклонен"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapprove_warehouse"
+msgid "cp_warehouses_premoderation.disapprove_warehouse"
+msgstr "Отклонить [warehouse]"
+
+msgctxt "Languages::cp_warehouses_premoderation.approve_warehouse"
+msgid "cp_warehouses_premoderation.approve_warehouse"
+msgstr "Одобрить [warehouse]"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproval_reason"
+msgid "cp_warehouses_premoderation.disapproval_reason"
+msgstr "Причина"
+
+msgctxt "Languages::cp_premoderation_warehouses"
+msgid "cp_premoderation_warehouses"
+msgstr "Магазины и ПВЗ на проверке"
+
+msgctxt "Languages::cp_disapprove_warehouses"
+msgid "cp_disapprove_warehouses"
+msgstr "Отклоненные магазины и ПВЗ"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproval_title"
+msgid "cp_warehouses_premoderation.disapproval_title"
+msgstr "Отклонить склад"
+
+msgctxt "Languages::cp_warehouses_premoderation.premoderation_stores"
+msgid "cp_warehouses_premoderation.premoderation_stores"
+msgstr "Магазины и ПВЗ на проверке"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproved_stores"
+msgid "cp_warehouses_premoderation.disapproved_stores"
+msgstr "Отклоненные магазины и ПВЗ"
+
+msgctxt "Languages::cp_warehouses_premoderation"
+msgid "cp_warehouses_premoderation"
+msgstr "Cart-Power: Премодерация складов"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.premoderation_request_created.name"
+msgid "cp_warehouses_premoderation.event.premoderation_request_created.name"
+msgstr "Премодерация складов: запрос на проверку склада"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.request_approved.name"
+msgid "cp_warehouses_premoderation.event.request_approved.name"
+msgstr "Премодерация складов: изменения одобрены"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.request_disapproved.name"
+msgid "cp_warehouses_premoderation.event.request_disapproved.name"
+msgstr "Премодерация складов: изменения отклонены"
+
+msgctxt "Languages::cp_warehouses_premoderation_admin_subj"
+msgid "cp_warehouses_premoderation_admin_subj"
+msgstr "Запрос на модерацию склада."
+
+msgctxt "Languages::cp_warehouses_premoderation.premoderation_request_text"
+msgid "cp_warehouses_premoderation.premoderation_request_text"
+msgstr "Поставщик [vendor] изменил данные [warehouse], Вам необходимо проверить данные и одобрить или отклонить изменения."
+
+msgctxt "Languages::cp_warehouses_premoderation_vendor_subj"
+msgid "cp_warehouses_premoderation_vendor_subj"
+msgstr "Ответ на запрос о модерации склада."
+
+msgctxt "Languages::cp_warehouses_premoderation.approve_message"
+msgid "cp_warehouses_premoderation.approve_message"
+msgstr "Администратор одобрил изменения [warehouse], данные склада успешно обновлены."
+
+msgctxt "Languages::cp_warehouses_premoderation.disapprove_message"
+msgid "cp_warehouses_premoderation.disapprove_message"
+msgstr "Администратор отклонил изменения [warehouse] по следующей причине :"

@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_statuses_rules"
+msgid "Cart-Power: Rules for changing statuses"
+msgstr "Cart-Power: Rules for changing statuses"
+
+msgctxt "Addons::description::cp_statuses_rules"
+msgid "Restricts the vendor to select statuses according to the current one. Automatically changes statuses after a certain time and receipt of payment information. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Restricts the vendor to select statuses according to the current one. Automatically changes statuses after a certain time and receipt of payment information. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_placed"
+msgid "The order status is 'Placed'"
+msgstr "The order status is 'Placed'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_cancel"
+msgid "The order status is 'Cancel'"
+msgstr "The order status is 'Cancel'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_paid"
+msgid "The order status is 'Paid'"
+msgstr "The order status is 'Paid'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_paid_after_cancellation"
+msgid "The order status is 'Paid after cancellation'"
+msgstr "The order status is 'Paid after cancellation'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_confirmed"
+msgid "The order status is 'Confirmed'"
+msgstr "The order status is 'Confirmed'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_refund"
+msgid "The order status is 'Refund'"
+msgstr "The order status is 'Refund'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_cancel_with_refund"
+msgid "The order status is 'Cancel with refund'"
+msgstr "The order status is 'Cancel with refund'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_completed"
+msgid "The order status is 'Completed'"
+msgstr "The order status is 'Completed'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_received"
+msgid "The order status is 'Received'"
+msgstr "The order status is 'Received'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_shipped"
+msgid "The order status is 'Shipped'"
+msgstr "The order status is 'Shipped'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_waiting_for_payment"
+msgid "The order status is 'Waiting for payment'"
+msgstr "The order status is 'Waiting for payment'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_vendor_return"
+msgid "The order status is 'Vendor return'"
+msgstr "The order status is 'Vendor return'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_finished"
+msgid "The order status is 'Finished'"
+msgstr "The order status is 'Finished'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::enable_test_menu"
+msgid "Enable menu for testing"
+msgstr "Enable menu for testing"
+
+msgctxt "SettingsOptions::cp_statuses_rules::cron_pass"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "Languages::cp_statuses_rules.cron_info"
+msgid "Use this script to automatically add-on working"
+msgstr "Use this script to automatically add-on working"
+
+msgctxt "Languages::cp_statuses_rules"
+msgid "Order status controller"
+msgstr "Order status controller"
+
+msgctxt "Languages::cp_statuses_rules.order_id"
+msgid "Order number"
+msgstr "Order number"
+
+msgctxt "Languages::cp_statuses_rules.update_time"
+msgid "Update time (timestamp)"
+msgstr "Update time (timestamp)"
+
+msgctxt "Languages::cp_statuses_rules.order_status"
+msgid "Order status"
+msgstr "Order status"
+
+msgctxt "Languages::cp_statuses_rules.go"
+msgid "Go CRON"
+msgstr "Go CRON"
+
+msgctxt "Languages::cp_statuses_rules.test_title"
+msgid "Order status controller"
+msgstr "Order status controller"
+
+msgctxt "Languages::cp_statuses_rules.order_unpaid_cron_info"
+msgid "Use this script to automatically send notifications about non-payment for an order"
+msgstr "Use this script to automatically send notifications about non-payment for an order"

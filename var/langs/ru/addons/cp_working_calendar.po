@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_working_calendar"
+msgid "Cart-Power: Working calendar"
+msgstr "Cart-Power: Рабочий календарь"
+
+msgctxt "Addons::description::cp_working_calendar"
+msgid "Adds the ability for vendors to specify working days and hours. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет возможность для поставщиков указывать рабочие дни и часы. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_working_calendar.monday"
+msgid "Monday"
+msgstr "Понедельник"
+
+msgctxt "Languages::cp_working_calendar.tuesday"
+msgid "Tuesday"
+msgstr "Вторник"
+
+msgctxt "Languages::cp_working_calendar.wednesday"
+msgid "Wednesday"
+msgstr "Среда"
+
+msgctxt "Languages::cp_working_calendar.thursday"
+msgid "Thursday"
+msgstr "Четверг"
+
+msgctxt "Languages::cp_working_calendar.friday"
+msgid "Friday"
+msgstr "Пятница"
+
+msgctxt "Languages::cp_working_calendar.saturday"
+msgid "Saturday"
+msgstr "Суббота"
+
+msgctxt "Languages::cp_working_calendar.sunday"
+msgid "Sunday"
+msgstr "Воскресенье"
+
+msgctxt "Languages::cp_working_calendar"
+msgid "Working calendar"
+msgstr "Рабочий календарь"
+
+msgctxt "Languages::cp_working_calendar.update"
+msgid "Working calendar"
+msgstr "Рабочий календарь"
+
+msgctxt "Languages::cp_working_calendar.update_title"
+msgid "Working calendar"
+msgstr "Рабочий календарь"
+
+msgctxt "Languages::cp_working_calendar.manage"
+msgid "Vendor calendars"
+msgstr "Календари поставщиков"
+
+msgctxt "Languages::cp_working_calendar.default_worktime"
+msgid "Work time"
+msgstr "Рабочее время"
+
+msgctxt "Languages::cp_working_calendar.week_days"
+msgid "Working days"
+msgstr "Рабочие дни"
+
+msgctxt "Languages::cp_working_calendar.weekend_days"
+msgid "Weekends"
+msgstr "Выходные дни"
+
+msgctxt "Languages::cp_working_calendar.calendar_info"
+msgid "Now you are using the marketplace calendar, below you can see its configuration, in order to create and use your calendar, you need to click the 'Create' button in the upper right corner."
+msgstr "Сейчас вы используете календарь маркетплейса, ниже вы можете видеть его конфигурацию, для того чтобы создать и использовать свой календарь, Вам необходимо нажать кнопку 'Создать' в правом верхнем углу."
+
+msgctxt "Languages::cp_working_calendar.worktime_from"
+msgid "Since"
+msgstr "С"
+
+msgctxt "Languages::cp_working_calendar.worktime_to"
+msgid "Up to"
+msgstr "До"
+
+msgctxt "Languages::cp_working_calendar.set_default_time"
+msgid "Set the default time for the day"
+msgstr "Установить для дня время по умолчанию"
+
+msgctxt "Languages::cp_working_calendar.set_week_end"
+msgid "Weekend"
+msgstr "Выходной"
+
+msgctxt "Languages::cp_working_calendar.is_unique"
+msgid "This day has unique settings, changing the global settings will not affect its behavior"
+msgstr "Данный день имеет уникальные настройки, изменение глобальных настроек не повлияет на его поведение"
+
+msgctxt "Languages::cp_working_calendar.current_day"
+msgid "Current"
+msgstr "Текущий"
+
+msgctxt "Languages::cp_working_calendar.reset_days"
+msgid "Reset individual day settings"
+msgstr "Сбросить индивидуальные настройки дней"
+
+msgctxt "Languages::cp_working_calendar.reset_day"
+msgid "Reset individual settings"
+msgstr "Сбросить индивидуальные настройки"
+
+msgctxt "Languages::cp_working_calendar.set_extra_time"
+msgid "Edit working hours of days of the week"
+msgstr "Редактировать рабочее время дней недели"
+
+msgctxt "Languages::cp_working_calendar.reset_days_extra_worktime"
+msgid "To reset the operating time for days of the week"
+msgstr "Сбросить время работы для дней недели"

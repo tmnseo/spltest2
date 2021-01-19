@@ -1,0 +1,1 @@
+{style src="addons/cp_warehouses_premoderation/styles.less"}

@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_manage_old_products"
+msgid "Cart-Power: Management of old products"
+msgstr "Cart-Power: Management of old products"
+
+msgctxt "Addons::description::cp_manage_old_products"
+msgid "Automatically resets the remaining items that are no longer uploaded and deletes items that have not been updated for a certain period of time. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Automatically resets the remaining items that are no longer uploaded and deletes items that have not been updated for a certain period of time. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_manage_old_products::products_days_lifetime"
+msgid "The life time of the products"
+msgstr "The life time of the products"
+
+msgctxt "SettingsTooltips::cp_manage_old_products::products_days_lifetime"
+msgid "Specified in days"
+msgstr "Specified in days"
+
+msgctxt "SettingsOptions::cp_manage_old_products::cron_pass"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "SettingsOptions::cp_manage_old_products::type_of_part_feature_id"
+msgid "Feature ID Part Type"
+msgstr "Feature ID Part Type"
+
+msgctxt "Languages::cp_mange_old_products.cron_info"
+msgid "Use this script to delete items on a schedule"
+msgstr "Use this script to delete items on a schedule"

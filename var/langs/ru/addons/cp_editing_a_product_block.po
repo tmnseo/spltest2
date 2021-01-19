@@ -1,0 +1,45 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_editing_a_product_block"
+msgid "Cart-Power: Editing a product block"
+msgstr "Cart-Power: Изменение товарного блока"
+
+msgctxt "Addons::description::cp_editing_a_product_block"
+msgid "Change the appearance of product lists. Editing a product block in a catalog. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Измененяет внешний вид списков продуктов. Редактирование товарного блока в каталоге. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_editing_a_product_block::settings"
+msgid "Setting the output of characteristics in the directory"
+msgstr "Настройка вывода характеристик в каталоге"
+
+msgctxt "SettingsOptions::cp_editing_a_product_block::brand"
+msgid "brand"
+msgstr "Бренд"
+
+msgctxt "SettingsOptions::cp_editing_a_product_block::manufacturer"
+msgid "manufacturer"
+msgstr "Производитель"
+
+msgctxt "SettingsOptions::cp_editing_a_product_block::producing_country"
+msgid "producing_country"
+msgstr "Страна производитель"
+
+msgctxt "SettingsOptions::cp_editing_a_product_block::manufacturer_code"
+msgid "manufacturer_code"
+msgstr "Код производителя"
+
+msgctxt "SettingsOptions::cp_editing_a_product_block::city"
+msgid "city"
+msgstr "Город"
+
+msgctxt "Languages::cp_manufacturer_code"
+msgid "cp_manufacturer_code"
+msgstr "Kод производителя"
+
+msgctxt "Languages::cp_cost_of_one"
+msgid "cp_cost_of_one"
+msgstr "Стоимость 1шт"

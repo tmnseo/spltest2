@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_popup_notifications</id>
+    <version>1.0</version>
+    <priority>1600</priority>
+    <position>103</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>ы
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="feedback_page_id">
+                        <type>input</type>
+                        <default_value>73</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE ?:static_data ADD COLUMN cp_is_popup_page char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:static_data DROP cp_is_popup_page;</item>
+    </queries>
+</addon> 

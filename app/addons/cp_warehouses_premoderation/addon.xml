@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_warehouses_premoderation</id>
+    <version>1.0</version>
+    <priority>3001</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>store_locator,warehouses,cp_warehouse_products_prices</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <queries>
+        <item for="install">ALTER TABLE ?:store_locations ADD COLUMN cp_is_new char(1) NOT NULL DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:store_locations DROP cp_is_new;</item>
+        <!--store_locator-->
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:cp_premoderation_store_locations` (
+                `store_location_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `position` smallint(5) NOT NULL default '0',
+                `country` char(2) NOT NULL default '',
+                `state` varchar(32) NOT NULL default '',
+                `latitude` double NOT NULL default '0',
+                `longitude` double NOT NULL default '0',
+                `localization` varchar(255) NOT NULL default '',
+                `status` char(1) NOT NULL default 'A',
+                `main_destination_id` int(11) unsigned DEFAULT NULL,
+                `pickup_destinations_ids` varchar(255) NOT NULL default '0',
+                `store_type` char(1) DEFAULT 'P',
+                `shipping_destinations_ids` varchar(255) NOT NULL default '0',
+                `cp_disapprove_reason` TEXT,
+                PRIMARY KEY  (`store_location_id`),
+                KEY `status` (`status`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:cp_premoderation_store_location_descriptions` (
+                `store_location_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `name` varchar(80) NOT NULL default '',
+                `description` mediumtext,
+                `city` varchar(60) NOT NULL default '',
+                `pickup_address` VARCHAR(128) CHARACTER SET utf8 NOT NULL DEFAULT '',
+                `pickup_phone` VARCHAR(128) CHARACTER SET utf8 NOT NULL DEFAULT '',
+                `pickup_time` VARCHAR(128) CHARACTER SET utf8 NOT NULL DEFAULT '',
+                PRIMARY KEY  (`store_location_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_premoderation_store_locations`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_premoderation_store_location_descriptions`;</item>
+        <!--store_locator-->
+        <!--warehouses-->
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:cp_premoderation_store_location_shipping_delays (
+                store_location_id mediumint(8) unsigned NOT NULL default 0,
+                destination_id mediumint(8) unsigned not null default 0,
+                shipping_delay varchar(256) not null default '',
+                lang_code char(2) not null default '',
+                PRIMARY KEY (store_location_id, destination_id, lang_code)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:cp_premoderation_store_location_destination_links (
+                link_id int(11) unsigned NOT NULL auto_increment,
+                store_location_id mediumint(8) unsigned NOT NULL default 0,
+                destination_id mediumint(8) unsigned not null default 0,
+                warn_about_delay tinyint(3) unsigned not null default 0,
+                position smallint(5) NOT NULL default '0',
+                PRIMARY KEY (link_id),
+                UNIQUE KEY idx_store_location_destination (store_location_id, destination_id)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_premoderation_store_location_delivery_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_premoderation_store_location_destination_links;</item>
+        <!--warehouses-->
+        <!--rus_1c-->
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:cp_premoderation_rus_exim_1c_warehouses (
+                warehouse_id mediumint(8) NOT NULL,
+                external_id VARCHAR(128) NOT NULL,
+                PRIMARY KEY  (warehouse_id)
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_premoderation_rus_exim_1c_warehouses;</item>
+        <!--rus_1c-->
+    </queries>
+    <functions>
+        <item for="install">fn_cp_warehouses_premoderation_install</item>
+        <item for="uninstall">fn_cp_warehouses_premoderation_uninstall</item>
+    </functions>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="worktime_mask">
+                        <type>input</type>
+                        <default_value>r 99 rr 99</default_value>
+                    </item>
+                    <item id="worktime_placeholder">
+                        <type>input</type>
+                        <default_value>С 09 До 18</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings> 
+</addon> 

@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_warehouses_export_update"
+msgid "Cart-Power: Improving the export/import of goods by warehouse"
+msgstr "Cart-Power: Улучшение экспорта/импорта товаров по складам"
+
+msgctxt "Addons::description::cp_warehouses_export_update"
+msgid "Updating the standard Warehouses module so that vendors can only upload their own warehouses. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Доработка стандартного модуля Склады таким образом, чтобы вендоры могли выгружать только свои склады. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"

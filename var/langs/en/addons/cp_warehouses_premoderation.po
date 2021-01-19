@@ -1,0 +1,118 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_warehouses_premoderation"
+msgid "Cart-Power: Pre-moderation of warehouses"
+msgstr "Cart-Power: Pre-moderation of warehouses"
+
+msgctxt "Addons::description::cp_warehouses_premoderation"
+msgid "When creating or editing a warehouse, the administrator must approve changes to the warehouse data. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "When creating or editing a warehouse, the administrator must approve changes to the warehouse data. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_disapproved"
+msgid "cp_disaproved"
+msgstr "Dissaproved"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapprove_warehouse"
+msgid "cp_warehouses_premoderation.disapprove_warehouse"
+msgstr "Dissaprove [warehouse]"
+
+msgctxt "Languages::cp_warehouses_premoderation.approve_warehouse"
+msgid "cp_warehouses_premoderation.approve_warehouse"
+msgstr "Approve [warehouse]"
+
+msgctxt "Languages::email_template.cp_warehouses_premoderation_request_result"
+msgid "cp_warehouses_premoderation_request_result"
+msgstr "Moderation of the warehouse"
+
+msgctxt "Languages::email_template.cp_warehouses_premoderation_request"
+msgid "cp_warehouses_premoderation_request"
+msgstr "Moderation of the warehouse"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproval_reason"
+msgid "cp_warehouses_premoderation.disapproval_reason"
+msgstr "Reason"
+
+msgctxt "Languages::cp_premoderation_warehouses"
+msgid "cp_premoderation_warehouses"
+msgstr "Warehouses on pre-moderation"
+
+msgctxt "Languages::cp_disapprove_warehouses"
+msgid "cp_disapprove_warehouses"
+msgstr "Dissaproved warehouses"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproval_title"
+msgid "cp_warehouses_premoderation.disapproval_title"
+msgstr "Dissaprove warehouse"
+
+msgctxt "Languages::cp_warehouses_premoderation.premoderation_stores"
+msgid "cp_warehouses_premoderation.premoderation_stores"
+msgstr "Warehouses on pre-moderation"
+
+msgctxt "Languages::cp_warehouses_premoderation.disapproved_stores"
+msgid "cp_warehouses_premoderation.disapproved_stores"
+msgstr "Dissaproved warehouses"
+
+msgctxt "Languages::cp_warehouses_premoderation"
+msgid "cp_warehouses_premoderation"
+msgstr "Cart-Power: Pre-moderation of warehouses"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.premoderation_request_created.name"
+msgid "cp_warehouses_premoderation.event.premoderation_request_created.name"
+msgstr "Warehouses pre-moderation: request to check the warehouse"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.request_approved.name"
+msgid "cp_warehouses_premoderation.event.request_approved.name"
+msgstr "Warehouse pre-moderation: changes approved"
+
+msgctxt "Languages::cp_warehouses_premoderation.event.request_disapproved.name"
+msgid "cp_warehouses_premoderation.event.request_disapproved.name"
+msgstr "Warehouse pre-moderation: changes rejected"
+
+msgctxt "Languages::cp_warehouses_premoderation_admin_subj"
+msgid "cp_warehouses_premoderation_admin_subj"
+msgstr "Request for moderation of the warehouse."
+
+msgctxt "Languages::cp_warehouses_premoderation.premoderation_request_text"
+msgid "cp_warehouses_premoderation.premoderation_request_text"
+msgstr "The supplier [vendor] changed the data [warehouse], You need to check the data and approve or reject the changes."
+
+msgctxt "Languages::cp_warehouses_premoderation_vendor_subj"
+msgid "cp_warehouses_premoderation_vendor_subj"
+msgstr "The answer to the query about the moderation of the warehouse."
+
+msgctxt "Languages::cp_warehouses_premoderation.approve_message"
+msgid "cp_warehouses_premoderation.approve_message"
+msgstr "The administrator approved the [warehouse] changes, and the warehouse data was updated successfully."
+
+msgctxt "Languages::cp_warehouses_premoderation.disapprove_message"
+msgid "cp_warehouses_premoderation.disapprove_message"
+msgstr "The administrator rejected the changes [warehouse] for the following reason :"
+
+msgctxt "SettingsOptions::cp_warehouses_premoderation::worktime_mask"
+msgid "worktime_mask"
+msgstr "Store worktime mask"
+
+msgctxt "SettingsTooltips::cp_warehouses_premoderation::worktime_mask"
+msgid "	a means any letter of the English alphabet.
+		r means any letter of the Russian alphabet.
+		9 means any number."
+msgstr "- a means any letter of the English alphabet .<br />
+		- r means any letter of the Russian alphabet.<br />
+		- 9 means any number.<br />"
+
+msgctxt "SettingsOptions::cp_warehouses_premoderation::worktime_placeholder"
+msgid "worktime_placeholder"
+msgstr "Store worktime mask placeholder"
+
+msgctxt "SettingsTooltips::cp_warehouses_premoderation::worktime_placeholder"
+msgid "Specify an example of entering data according to the specified mask"
+msgstr "Specify an example of entering data according to the specified mask"
+
+
+msgctxt "Languages::store_locator.work_time.tooltip"
+msgid "store_locator.work_time.tooltip"
+msgstr "Enter the operating schedule in the format specified in the field"

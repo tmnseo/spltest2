@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_product_page"
+msgid "Cart-Power: New product page"
+msgstr "Cart-Power: New product page"
+
+msgctxt "Addons::description::cp_product_page"
+msgid "Changing product details page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Changing product details page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_pg_best_offer"
+msgid "Best offer"
+msgstr "Best offer"
+
+msgctxt "Languages::cp_np_by_price"
+msgid "buy by price"
+msgstr "buy by price"
+
+msgctxt "Languages::cp_np_in_marketplace"
+msgid "in the marketplace"
+msgstr "in the marketplace"
+
+msgctxt "Languages::cp_np_day_txt"
+msgid "day"
+msgstr "day"
+
+msgctxt "Languages::cp_np_days_txt"
+msgid "days"
+msgstr "days"
+
+msgctxt "Languages::cp_np_days2_txt"
+msgid "days"
+msgstr "days"
+
+msgctxt "Languages::cp_np_original"
+msgid "CP: original"
+msgstr "CP: original"
+
+msgctxt "Languages::cp_np_manufacturer"
+msgid "Manufacturer"
+msgstr "Manufacturer"
+
+msgctxt "Languages::cp_np_delivery_days"
+msgid "Delivery, days"
+msgstr "Delivery, days"
+
+msgctxt "Languages::cp_np_detail_type"
+msgid "Details type"
+msgstr "Details type"
+
+msgctxt "Languages::cp_np_nalichie_txt"
+msgid "Availability"
+msgstr "Availability"
+
+msgctxt "Languages::cp_np_find_cheaper"
+msgid "Need cheaper?"
+msgstr "Need cheaper?"
+
+msgctxt "Languages::cp_np_need_faster"
+msgid "Need faster?"
+msgstr "Need faster?"
+
+msgctxt "Languages::cp_np_delivery_txt"
+msgid "Delivery"
+msgstr "Delivery"
+
+msgctxt "Languages::cp_np_from_current"
+msgid "From product"
+msgstr "From product"
+
+msgctxt "Languages::block_cp_np_most_blocks"
+msgid "Blocks for details page"
+msgstr "Blocks for details page"
+
+msgctxt "Languages::block_cp_np_most_blocks_description"
+msgid "Most cheap, cheapest delivery, from other vendors"
+msgstr "Most cheap, cheapest delivery, from other vendors"
+
+msgctxt "Languages::cp_pg_show_more"
+msgid "Show more"
+msgstr "Show more"
+
+msgctxt "Languages::cp_pg_low_price"
+msgid "Lowest price"
+msgstr "Lowest price"
+
+msgctxt "Languages::cp_pg_fastest_delivery"
+msgid "Fastest delivery"
+msgstr "Fastest delivery"
+
+msgctxt "Languages::cp_pg_offers_from_other_vendors"
+msgid "Offers from other vendors"
+msgstr "Offers from other vendors"
+
+msgctxt "SettingsOptions::cp_product_page::price_weight"
+msgid "Price parameter weight"
+msgstr "Price parameter weight"
+
+msgctxt "SettingsOptions::cp_product_page::brand_id"
+msgid "Feature ID for manufacturer"
+msgstr "Feature ID for manufacturer"
+
+msgctxt "SettingsOptions::cp_product_page::brand_country_id"
+msgid "Feature ID for \"Manufacturer country\""
+msgstr "Feature ID for \"Manufacturer country\""
+
+msgctxt "SettingsTooltips::cp_product_page::price_weight"
+msgid "Using to get the best offer. Set the value from 0 to 1. The sum with \"Delivery parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+msgstr "Using to get the best offer. Set the value from 0 to 1. The sum with \"Delivery parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+
+msgctxt "SettingsOptions::cp_product_page::delivery_weight"
+msgid "Delivery parameter weight"
+msgstr "Delivery parameter weight"
+
+msgctxt "SettingsTooltips::cp_product_page::delivery_weight"
+msgid "Using to get the best offer. Set the value from 0 to 1. The sum with \"Price parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+msgstr "Using to get the best offer. Set the value from 0 to 1. The sum with \"Price parameter weight\" should be equal 1, for example for the price 0.7, for delivery 0.3; <b>Important:</b> use dot instead of the comma"
+

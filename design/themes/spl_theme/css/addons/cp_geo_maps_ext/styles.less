@@ -1,0 +1,121 @@
+.tygh-top-panel {
+    .ty-geo-maps-confirm {
+        &__title {
+            font-size: 14px;
+            line-height: 19px;
+            color: @font;
+        }
+    }
+}
+.ty-geo-maps__geolocation {
+    .icon-spl-location {
+        color: @primary_button;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .ty-geo-maps__geolocation__opener {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0;
+        &:hover .ty-geo-maps__geolocation__location {
+            text-decoration: underline;
+        }
+    }
+}
+
+.ty-geo-maps-confirm {
+    position: relative;
+}
+.ty-geo-maps-confirm__container {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    padding: 21px 20px 26px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 3px 3px;
+    z-index: 100;
+    min-width: 290px;
+    box-sizing: border-box;
+}
+.ty-geo-maps-confirm__title {
+    color: @font;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+.ty-geo-maps-confirm__buttons a {
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 13px !important;
+    color: @font;
+    display: inline-block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    vertical-align: top;
+    span {
+        display: block;
+        width: 100%;
+    }
+    & + a {
+        border: 1px solid #E5E5E5;
+        margin-left: 20px;
+        &:hover {
+            background: darken(#ffffff, 5%);
+        }
+    }
+}
+.ty-geo-maps__geolocation__opener-text {
+    cursor: pointer;
+    &::after {
+        content: "\e906";
+        color: @font;
+            /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'spl' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 1024px) {
+    .top-links-grid .ty-geo-maps__geolocation .ty-geo-maps__geolocation__location {
+        display: inline-block;
+        color: @font;
+        
+    }
+    .top-links-grid .ty-geo-maps__geolocation .ty-geo-maps__geolocation__opener:hover {
+        background: transparent;
+    }
+    .top-links-grid .ty-geo-maps__geolocation .ty-geo-maps__geolocation__opener {
+        padding: 0;
+        color: @font;
+    }
+}
+
+@media (max-width: 375px) {
+    .ty-geo-maps-confirm__container {
+        left: -10px;
+        min-width: 355px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .ty-geo-maps-confirm__buttons a {
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .ty-geo-maps-confirm__title {
+        margin-bottom: 22px;
+    }
+}

@@ -1,0 +1,86 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_orders_list_details"
+msgid "Cart-Power: Orders list page changes"
+msgstr "Cart-Power: Изменения на странице списка заказов"
+
+msgctxt "Addons::description::cp_orders_list_details"
+msgid "Changing customer orders list page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Изменение страницы списка заказов для покупателя. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_oc_order_info"
+msgid "Order info"
+msgstr "Информация о заказе"
+
+msgctxt "Languages::cp_oc_service_links"
+msgid "Tracking links"
+msgstr "Ссылки на отслеживание"
+
+msgctxt "Languages::cp_oc_track_info"
+msgid "Tracking number will insert in \"[TRACKING_NUMBER]\" part of the link"
+msgstr "Номер отслеживания будет вставлен в часть ссылки \"[TRACKING_NUMBER]\""
+
+msgctxt "Languages::privilege_groups.cp_oc_priv_group"
+msgid "CP: Trtacking links"
+msgstr "CP: Ссылки отслеживания"
+
+msgctxt "Languages::privileges.manage_oc_manage"
+msgid "Edit tracking links"
+msgstr "Редактирование ссылок отслеживания"
+
+msgctxt "Languages::cp_oc_more_txt"
+msgid "More"
+msgstr "Ещё"
+
+msgctxt "Languages::cp_oc_manufacturer"
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgctxt "Languages::cp_oc_name"
+msgid "Name"
+msgstr "Наименование"
+
+msgctxt "Languages::cp_oc_support_txt"
+msgid "Support"
+msgstr "Поддержка"
+
+msgctxt "Languages::cp_oc_order_pretension"
+msgid "Send pretension to vendor"
+msgstr "Отправить претензию поставщику"
+
+msgctxt "Languages::cp_oc_canceled_by_customer"
+msgid "Canceled by customer"
+msgstr "Отменен покупателем"
+
+msgctxt "Languages::cp_oc_you_ordered"
+msgid "You ordered"
+msgstr "Вы заказывали"
+
+msgctxt "Languages::cp_oc_cancel_order"
+msgid "Cancel order"
+msgstr "Отменить заказ"
+
+msgctxt "Languages::cp_oc_allow_canceling"
+msgid "Allow canceling"
+msgstr "Разрешить отмену"
+
+msgctxt "Languages::cp_oc_status_for_canceling"
+msgid "Status for canceling"
+msgstr "Статус для отмены"
+
+msgctxt "Languages::cp_oc_status_for_cancel_is"
+msgid "Status for canceling was changed to"
+msgstr "Статус для отмены заказа был изменен на"
+
+msgctxt "SettingsOptions::cp_orders_list_details::brand_feature_id"
+msgid "Feature ID for manufacturer"
+msgstr "ID характеристики производитель"
+
+msgctxt "Languages::cp_oc_status_for_canceling_decr"
+msgid "If a customer will cancel an order, it will be switched to this status (can be selected only 1 status)"
+msgstr "Если покупатель отменит заказ, он будет переведен в этот статус (можут быть выбран только 1 статус для отмены)"
+

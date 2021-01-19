@@ -1,0 +1,86 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_megalog"
+msgid "Cart-Power: Extended log system"
+msgstr "Cart-Power: Extended log system"
+
+msgctxt "Addons::description::cp_megalog"
+msgid "Make logs for different objects. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Make logs for different objects. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_ml_mega_logs"
+msgid "CP: Extended logs"
+msgstr "CP: Extended logs"
+
+msgctxt "Languages::cp_ml_logs_cleared"
+msgid "Logs cleared"
+msgstr "Logs cleared"
+
+msgctxt "Languages::cp_ml_guest"
+msgid "Guest"
+msgstr "Guest"
+
+msgctxt "Languages::cp_ml_leave_a_comment"
+msgid "Please, leave a comment"
+msgstr "Please, leave a comment"
+
+msgctxt "Languages::cp_ml_system"
+msgid "System"
+msgstr "System"
+
+msgctxt "Languages::cp_ml_order_created"
+msgid "The order has been created"
+msgstr "The order has been created"
+
+msgctxt "Languages::cp_ml_order_changed"
+msgid "The order has been changed"
+msgstr "The order has been changed"
+
+msgctxt "Languages::cp_ml_status_changed"
+msgid "The status has been changed"
+msgstr "The status has been changed"
+
+msgctxt "Languages::cp_ml_controller"
+msgid "Controller"
+msgstr "Controller"
+
+msgctxt "Languages::cp_ml_mode"
+msgid "Mode"
+msgstr "Mode"
+
+msgctxt "Languages::cp_ml_object_id"
+msgid "Object ID"
+msgstr "Object ID"
+
+msgctxt "Languages::cp_ml_use_this_for_clear_lgos"
+msgid "Use this script to clear logs according to the schedule"
+msgstr "Use this script to clear logs according to the schedule"
+
+msgctxt "Languages::privilege_groups.cp_ml_priv_group"
+msgid "CP: Extended logs"
+msgstr "CP: Extended logs"
+
+msgctxt "Languages::cp_ml_use_this_for_reculc_vend_counts"
+msgid "Use this script to recalculate products counts for vendors"
+msgstr "Use this script to recalculate products counts for vendors"
+
+msgctxt "SettingsOptions::cp_megalog::clear_log_days"
+msgid "Clear logs after (days)"
+msgstr "Clear logs after (days)"
+
+msgctxt "SettingsOptions::cp_megalog::cron_pass"
+msgid "Cron password"
+msgstr "Cron password"
+
+msgctxt "Languages::cp_ml_comment"
+msgid "Comment"
+msgstr "Comment"
+
+msgctxt "Languages::privileges.manage_cp_megalog"
+msgid "CP: Manage logs"
+msgstr "CP: Manage logs"
+

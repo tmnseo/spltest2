@@ -1,0 +1,65 @@
+.cp-control-group.error {
+  .formFieldState(@errorText, @errorText, @errorBackground);
+}
+
+.cp-control-group {
+    float: left;
+    width: 170px;
+}
+
+.cp-control-label {
+    float: left;
+    /*width: @horizontalComponentOffset - 60;*/
+    padding-top: 5px;
+    text-align: right;
+}
+.cp-control-label-cron.cm-failed-label {
+    color: @errorText;
+}
+
+.cm-failed-label label {
+    color: @errorText;
+}
+
+.cp-controls {
+    // Super jank IE7 fix to ensure the inputs in .input-append and input-prepend
+    // don't inherit the margin of the parent, in this case .controls
+    *display: inline-block;
+    margin-left: 20px;
+}
+
+#addon_cp_task_managerinstalled .bg-icon,
+#addon_cp_task_manager .bg-icon {
+    background: url('../../../media/images/addons/cp_task_manager/images/cart_power_icon.png') center 0 no-repeat;
+    /*background-size: contain;*/
+    border: 0px;
+    margin: 0 7px;
+    width: 36px;
+    height: 36px;
+}
+#addon_cp_task_managerinstalled .bg-icon i,
+#addon_cp_task_manager .bg-icon i {
+    display: none;
+}
+
+#addon_cp_task_manager.cm-row-status-n i.exicon-box,
+#addon_cp_task_manager.cm-row-status-n i.exicon-box-blue {
+    margin: 0;
+    background-position: center -44px;
+}
+
+.cp-actions-label {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#server_time, #server_time .cp-actions-label  {
+
+    vertical-align: middle;
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 40px;
+    
+    padding-top: 3px;
+}

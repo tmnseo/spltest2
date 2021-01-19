@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_vendor_warehouses</id>
+    <version>1.0</version>
+    <priority>200</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>geo_maps</dependencies>
+    </compatibility>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="map_width">
+                        <type>hidden</type>
+                        <default_value>265</default_value>
+                    </item>
+                    <item id="map_height">
+                        <type>hidden</type>
+                        <default_value>180</default_value>
+                    </item>
+                    <item id="map_zoom">
+                        <type>input</type>
+                        <default_value>15</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpVendorWarehouses\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpVendorWarehouses\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpVendorWarehouses\Installer</installer>
+</addon>

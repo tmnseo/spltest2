@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_zoho_notifications</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>nm_title</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="order_status_processed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_confirmed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_paid">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_paid_after_cancellation">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_completed">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="order_status_received">
+                        <type>selectbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>check_orders</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_zoho_notifications_cron_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpZohoNotifications\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpZohoNotifications\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpZohoNotifications\Installer</installer>
+</addon>

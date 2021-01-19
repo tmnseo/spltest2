@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::cp_restrictions_for_vendors"
+msgid "Cart-Power: Restrictions for vendors"
+msgstr "Cart-Power: Ограничения для продавцов"
+
+msgctxt "Addons::description::cp_restrictions_for_vendors"
+msgid "Restricts functionality in the vendor's control panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Ограничивает функциональность в панели управления продавца. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_logs"
+msgid "restrict_logs"
+msgstr "Запретить доступ к журналу событий"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_files"
+msgid "restrict_files"
+msgstr "Запретить доступ к редактору файлов"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_exim"
+msgid "restrict_exim"
+msgstr "Запретить доступ к экспорту/импорту"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_blog_and_pages"
+msgid "restrict_blog_and_pages"
+msgstr "Запретить доступ к разделу 'Блог и страницы'"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_product_options"
+msgid "restrict_product_options"
+msgstr "Запретить доступ к опциям товаров"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_product_features"
+msgid "restrict_product_features"
+msgstr "Запретить доступ к характеристикам товаров"
+
+msgctxt "SettingsOptions::cp_restrictions_for_vendors::restrict_product_filters"
+msgid "restrict_product_filters"
+msgstr "Запретить доступ к фильтрам товаров"
+
+msgctxt "Languages::privilege_groups.categories"
+msgid "categories"
+msgstr "Категории"
+
+msgctxt "Languages::privilege_groups.product_features"
+msgid "product_features"
+msgstr "Характеристики"
+
+msgctxt "Languages::privilege_groups.product_filters"
+msgid "product_filters"
+msgstr "Фильтры"
+
+msgctxt "Languages::privilege_groups.cp_products"
+msgid "products"
+msgstr "Товары"

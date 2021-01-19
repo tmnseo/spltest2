@@ -1,0 +1,1 @@
+<input type="hidden"   id="cp_vendor_id"  value="{$vendor_id}"/>

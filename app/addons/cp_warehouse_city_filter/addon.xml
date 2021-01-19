@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_warehouse_city_filter</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>103</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+</addon> 

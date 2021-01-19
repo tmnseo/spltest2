@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+   <name>ZohoSalesIQ</name>
+   <id>zoho_salesiq</id>
+   <description><![CDATA[Embed the Live Chat Widget into your store.]]></description>
+   <version>1.0</version>
+   <priority>10700</priority>
+   <position>0</position>
+   <has_icon>Y</has_icon>
+   <status>active</status>
+   <default_language>en</default_language>
+   <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+   <authors>
+       <author>
+           <name>ZohoSalesIQ</name>
+           <email>support@zohosalesiq.com</email>
+           <url>http://salesiq.zoho.com</url>
+       </author>
+   </authors>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <name>General</name>
+            <section id="general">
+                <items>
+                    <item id="code">
+                        <name><![CDATA[Just paste the SalesIQ code snippet here.And have your Zoho SalesIQ up and running in no time! Incase you don't have an account.<br><a href='https://www.zoho.com/salesiq/'>Register here</a></span>]]></name>
+                        <type>textarea</type>
+                        <default_value/>
+                    </item>
+                    <item id="disable_chat">
+                        <name><![CDATA[Hide Chat widget ( The chat widget on your website will be disabled, and only the visitor tracking will work)]]></name>
+                        <type>checkbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="chat_with_us">
+                        <name><![CDATA[Show Chat with us option in products page]]></name>
+                        <type>checkbox</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <language_variables>
+        <item lang="en" id="zoho_salesiq_ask_question">Chat with us</item>
+    </language_variables>
+</addon>

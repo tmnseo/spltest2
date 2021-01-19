@@ -1,0 +1,28 @@
+[
+{
+"payment_order_date": "2020-09-15T00:00:00",
+"payment_order_number": "solo5",
+"bank_account": "40702810399994349242",
+"bank_bic": "044525225",
+"payment_purpose": "Оплата по договор счету №313 от 15.09.2020",
+"customer_tin": "",
+"customer_name": "ООО \"Кафе-бар Аполлон\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "840,33",
+"amount_vat": "140,06"
+},
+{
+"payment_order_date": "2020-03-31T00:00:00",
+"payment_order_number": "103",
+"bank_account": "40702810399994349242",
+"bank_bic": "044525225",
+"payment_purpose": "Оплата за товар в т.ч. НДС 20%",
+"customer_tin": "",
+"customer_name": "_Тестовый",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "30",
+"amount_vat": "5"
+}
+]

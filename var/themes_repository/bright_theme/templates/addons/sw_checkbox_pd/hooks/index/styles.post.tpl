@@ -1,0 +1,1 @@
+{style src="addons/sw_checkbox_pd/styles.less"}

@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_vendor_panel"
+msgid "Cart-Power: Extended vendor panel"
+msgstr "Cart-Power: Extended vendor panel"
+
+msgctxt "Addons::description::cp_vendor_panel"
+msgid "Changing vendor administrator panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Changing vendor administrator panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_vp_storefront"
+msgid "Storefront"
+msgstr "Storefront"
+
+msgctxt "Languages::cp_vp_no_txt"
+msgid "No"
+msgstr "No"
+
+msgctxt "Languages::cp_vp_year_txt"
+msgid "year"
+msgstr "year"
+
+msgctxt "Languages::cp_vp_years_txt"
+msgid "years"
+msgstr "years"
+
+msgctxt "Languages::cp_vp_years2_txt"
+msgid "years"
+msgstr "years"
+
+msgctxt "Languages::cp_vp_of_warranty_txt"
+msgid "of warranty"
+msgstr "of warranty"
+
+msgctxt "Languages::cp_vp_month_txt"
+msgid "month"
+msgstr "month"
+
+msgctxt "Languages::cp_vp_months_txt"
+msgid "months"
+msgstr "months"
+
+msgctxt "Languages::cp_vp_months2_txt"
+msgid "months"
+msgstr "months"
+
+msgctxt "Languages::cp_vp_save_brands"
+msgid "Save brands"
+msgstr "Save brands"
+
+msgctxt "Languages::cp_vp_delete_brand"
+msgid "Delete brand"
+msgstr "Delete brand"
+
+msgctxt "Languages::cp_vp_add_brand"
+msgid "Add brand"
+msgstr "Add brand"
+
+msgctxt "Languages::cp_vp_add_certificate"
+msgid "Add certificate"
+msgstr "Add certificate"
+
+msgctxt "Languages::cp_vp_certificates"
+msgid "Certificates"
+msgstr "Certificates"
+
+msgctxt "Languages::cp_vp_brands_for_work"
+msgid "Working with brands"
+msgstr "Working with brands"
+
+msgctxt "Languages::cp_vp_add_category"
+msgid "Add category"
+msgstr "Add category"
+
+msgctxt "Languages::cp_vp_term_of_warranty"
+msgid "Term of warranty (months)"
+msgstr "Term of warranty (months)"
+
+msgctxt "Languages::cp_vp_waranty_cat"
+msgid "Categories for warranty"
+msgstr "Categories for warranty"
+
+msgctxt "Languages::privileges.manage_cp_vp_waranty"
+msgid "Manage warranty categories"
+msgstr "Manage warranty categories"
+
+msgctxt "Languages::privilege_groups.cp_vp_waranty"
+msgid "CP: waranty categories"
+msgstr "CP: waranty categories"
+
+msgctxt "SettingsOptions::cp_vendor_panel::feature_brand"
+msgid "Feature ID for brand"
+msgstr "Feature ID for brand"
+
+msgctxt "Languages::cp_vp_brands_for_work_warranty"
+msgid "cp_vp_brands_for_work_warranty"
+msgstr "Product warranty"
+
+msgctxt "Languages::cp_vendor"
+msgid "cp_vendor"
+msgstr "Storefront"

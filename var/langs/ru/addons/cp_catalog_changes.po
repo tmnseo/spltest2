@@ -1,0 +1,157 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_catalog_changes"
+msgid "Cart-Power: Catalog changes"
+msgstr "Cart-Power: Изменения в каталоге"
+
+msgctxt "Addons::description::cp_catalog_changes"
+msgid "Catalog, search and products import changes. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Изменения в каталоге, поиске и импорте товаров. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_cc_price_from"
+msgid "Price from"
+msgstr "Цена от"
+
+msgctxt "Languages::cp_cc_similar_prod_not_found"
+msgid "Similar products not found"
+msgstr "Похожие товары не найдены"
+
+msgctxt "Languages::cp_cc_article_not_found"
+msgid "Product code not found"
+msgstr "Артикул не найден"
+
+msgctxt "Languages::cp_cc_you_found_before"
+msgid "Found before"
+msgstr "Найдено до этого"
+
+msgctxt "Languages::cp_cc_similar_prod_codes"
+msgid "Similar product codes"
+msgstr "Похожие артикулы"
+
+msgctxt "Languages::cp_cc_similar_products"
+msgid "Similar progucts"
+msgstr "Похожие товары"
+
+msgctxt "SettingsSections::cp_catalog_changes::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cp_catalog_changes::original_brand"
+msgid "Original brand"
+msgstr "Оригинальный Бренд"
+
+msgctxt "SettingsOptions::cp_catalog_changes::original_article"
+msgid "Original article"
+msgstr "Оригинальный артикул"
+
+msgctxt "SettingsOptions::cp_catalog_changes::manufacturer_article"
+msgid "Manufacturer article"
+msgstr "Артикул производителя"
+
+msgctxt "Languages::addons.cp_catalog_changes.no_data"
+msgid "No products found, try again"
+msgstr "Не найдено товаров, попробуйте еще раз"
+
+msgctxt "Languages::addons.cp_catalog_changes.on"
+msgid "[On]"
+msgstr "[Вкл.]"
+
+msgctxt "Languages::addons.cp_catalog_changes.off"
+msgid "[Off]"
+msgstr "[Выкл.]"
+
+msgctxt "Languages::addons.cp_catalog_changes.not_set"
+msgid "Not set"
+msgstr "Не указано"
+
+msgctxt "Languages::addons.cp_catalog_changes.text_no_matching_analog_products_found"
+msgid "No products found matching the search criteria"
+msgstr "По вашему запросу ничего не найдено"
+
+msgctxt "Languages::addons.cp_catalog_changes.original_search_results"
+msgid "Original search results"
+msgstr "Результаты по вашему запросу"
+
+msgctxt "Languages::addons.cp_catalog_changes.original_products_found"
+msgid "Original products found"
+msgstr "Найдено оригиналов"
+
+msgctxt "Languages::addons.cp_catalog_changes.analog_search_results"
+msgid "Original search results"
+msgstr "Аналоги/Замены"
+
+msgctxt "Languages::addons.cp_catalog_changes.analog_products_found"
+msgid "Analog products found"
+msgstr "Найдено аналогов"
+
+msgctxt "Languages::text_no_matching_products_found"
+msgid "No products found matching the search criteria"
+msgstr "По вашему запросу ничего не найдено"
+
+msgctxt "Languages::text_no_matching_original_products_found"
+msgid "No products found matching the search criteria"
+msgstr "По вашему запросу ничего не найдено"
+
+msgctxt "Languages::text_no_matching_analog_products_found"
+msgid "No products found matching the search criteria"
+msgstr "По вашему запросу ничего не найдено"
+
+msgctxt "Languages::cp_ls_product_codes"
+msgid "Product code(s)"
+msgstr "Артикул(ов)"
+
+msgctxt "Languages::addons.cp_catalog_changes.only_analog_results"
+msgid "Your search did not match any matches in the database, however there are compatibility matches"
+msgstr "По вашему запросу не найдено полных совпадений в базе, однако есть совпадения по совместимости"
+
+msgctxt "Languages::addons.cp_catalog_changes.text_no_matching_products_found"
+msgid "Your search did not match any matches in the database, try searching for other positions"
+msgstr "По вашему запросу не найдено никаких совпадений в базе, попробуйте поиск по другим позициям"
+
+msgctxt "Languages::addons.cp_catalog_changes.search_parts"
+msgid "Search parts"
+msgstr "Найти запчасть"
+
+msgctxt "Languages::addons.cp_catalog_changes.enter_article"
+msgid "Enter article"
+msgstr "Введите артикул"
+
+
+msgctxt "Languages::numeric_field_type"
+msgid "Field type &laquo;number&raquo;"
+msgstr "Тип поля &laquo;number&raquo;"
+
+msgctxt "Languages::numeric_field_type_tooltip"
+msgid "check this box if the field is intended for entering numbers"
+msgstr "отметьте это пункт, если поле предназначено для ввода чисел"
+
+msgctxt "Languages::notice_revision"
+msgid "Update mode notification"
+msgstr "Уведомление о режиме доработок"
+
+msgctxt "Languages::cp_notice_revision_text"
+msgid "Update mode notification text"
+msgstr "<strong>Наш сайт находится в режиме доработок.</strong> <br>
+Ваша обратная связь важна для нас. Мы готовы ответить на любые вопросы по поиску, заказу и получению запасных частей.<br>
+<strong>Напишите нам <a href="mailto:info@service.parts">info@service.parts</a></strong>"
+
+msgctxt "Languages::ask_question_btn"
+msgid "Icon button ask a question"
+msgstr "Кнопка-иконка задать вопрос"
+
+msgctxt "Languages::cp_analog"
+msgid "Analog"
+msgstr "Аналог"
+
+msgctxt "Languages::cp_to_article"
+msgid "By article"
+msgstr "По артикулу"
+
+msgctxt "Languages::cp_to_name"
+msgid "By name"
+msgstr "По названию"
+

@@ -1,0 +1,143 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_checkout_modifications"
+msgid "Cart-Power: Modification of checkout"
+msgstr "Cart-Power: Modification of checkout"
+
+msgctxt "Addons::description::cp_checkout_modifications"
+msgid "Adding address fields for door delivery. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adding address fields for door delivery. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_is_door_delivery"
+msgid "cp_is_door_delivery"
+msgstr "Delivery to the door"
+
+msgctxt "Languages::ttc_cp_is_door_delivery"
+msgid "Select this item if it is delivery to the customer’s door."
+msgstr "Select this item if it is delivery to the customer’s door."
+
+msgctxt "Languages::cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Delivery to the terminal of shopping mall"
+
+msgctxt "Languages::ttc_cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Select this item if it is delivery to the terminal of shopping mall."
+
+msgctxt "Languages::cp_contact_information"
+msgid "Contact Information"
+msgstr "Contact Information"
+
+msgctxt "Languages::billing_address"
+msgid "Legal address"
+msgstr "Legal address"
+
+msgctxt "Languages::cp_addition_company_info"
+msgid "Additional information about your company"
+msgstr "Additional information about your company" 
+
+msgctxt "Languages::cp_actual_address"
+msgid "Actual address"
+msgstr "Actual address"
+
+msgctxt "Languages::cp_company_information"
+msgid "Company information"
+msgstr "Company information"
+
+msgctxt "Languages::cp_customer_new_profile_notification"
+msgid "SPL account activated"
+msgstr "SPL account activated"
+
+msgctxt "Languages::cp_your_email"
+msgid "Your login"
+msgstr "Your login"
+
+msgctxt "Languages::cp_your_password"
+msgid "Your password"
+msgstr "Your password"
+
+msgctxt "Languages::cp_login_url_text"
+msgid "<a href=\"[href]\">Follow the link </a> in your personal account, enter your username and password. <br> Welcome to SPL!"
+msgstr "<a href=\"[href]\">Follow the link </a> in your personal account, enter your username and password. <br> Welcome to SPL!"
+
+msgctxt "Languages::cp_admin_new_profile_notification"
+msgid "New customer registered"
+msgstr "New customer registered "
+
+msgctxt "Languages::cp_admin_new_profile_notification_header"
+msgid "New customer registered in SPL."
+msgstr "New customer registered in SPL."
+
+msgctxt "Languages::cp_order_info"
+msgid "cp_order_info"
+msgstr "Cart-Power: Information about order"
+
+msgctxt "Languages::cp_checkout_modifications_warehouse"
+msgid "cp_checkout_modifications_warehouse"
+msgstr "Warehouse"
+
+msgctxt "Languages::cp_checkout_modifications_product_total"
+msgid "cp_checkout_modifications_product_total"
+msgstr "Products in Your order"
+
+msgctxt "Languages::cp_profile_sections"
+msgid "Show on additional section"
+msgstr "Show on additional section"
+
+msgctxt "Languages::cp_profile_sections.actual_address"
+msgid "Actual address"
+msgstr "Actual address"
+
+msgctxt "Languages::cp_profile_sections.additional_info"
+msgid "Additional info"
+msgstr "Additional info"
+
+msgctxt "Languages::cp_profile_sections.contact_information"
+msgid "Contact information"
+msgstr "Contact information"
+
+msgctxt "Languages::cp_profile.edit_if_empty"
+msgid "Edit if empty"
+msgstr "Edit if empty"
+
+msgctxt "Languages::cp_profile.edit_if_empty_tooltip"
+msgid "Edit on the registration page if the Dadata hint did not fill this field"
+msgstr "Edit on the registration page if the Dadata hint did not fill this field"
+
+msgctxt "Languages::cp_profile.admin_edit_only"
+msgid "Edited only by admin"
+msgstr "Edited only by admin"
+
+msgctxt "Languages::cp_profile.edited_only_by_admin"
+msgid "Edited only by admin"
+msgstr "Edited only by admin"
+
+msgctxt "Languages::actual_same_as_billing"
+msgid "Actual address same as billing address"
+msgstr "Actual address same as billing address"
+
+msgctxt "Languages::cp_checkout_modifications.order_total"
+msgid "Cost of goods in order"
+msgstr "Cost of goods in order"
+
+msgctxt "Languages::cp_checkout_modifications.taxes"
+msgid "taxes"
+msgstr "Taxes"
+
+msgctxt "Languages::cp_complete
+msgid "cp_complete"
+msgstr "Done"
+
+msgctxt "Languages::cp_order_popup_info"
+msgid "cp_order_popup_info"
+msgstr "The supplier will check Your order within 3 hours. If everything is in order, <br />
+		You will receive a contract invoice for payment by email in your merchant profile. Pay for it <br />
+		within 2 days"
+
+msgctxt "Languages::order_completed"
+msgid "order_completed"
+msgstr "Your order has been sent to the supplier"

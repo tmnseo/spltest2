@@ -1,0 +1,54 @@
+[
+  {
+    "payment_order_date": "2016-12-30T00:00:00",
+    "payment_order_number": "938",
+    "bank_account": "40702810399994349242",
+    "bank_bic": "044525225",
+    "payment_purpose": "Оплата за товар",
+    "customer_tin": "7799641721",
+    "customer_name": "ПАО \"Интертрейд\"",
+    "currency_id": "840",
+    "currency_name": "USD",
+    "amount_total": "148,5",
+    "amount_vat": "22,65"
+  },
+  {
+    "payment_order_date": "2016-12-31T00:00:00",
+    "payment_order_number": "208",
+    "bank_account": "40702810399994349242",
+    "bank_bic": "044525225",
+    "payment_purpose": "Оплата по счету №283 от 26.03.2020 Без НДС",
+    "customer_tin": "779955555766",
+    "customer_name": "Никитаева Ирина Васильевна",
+    "currency_id": "643",
+    "currency_name": "руб.",
+    "amount_total": "22567,5",
+    "amount_vat": "0"
+  },
+  {
+    "payment_order_date": "2020-03-30T00:00:00",
+    "payment_order_number": "260",
+    "bank_account": "40702810399994349242",
+    "bank_bic": "044525225",
+    "payment_purpose": "Оплата по Договор-счету №284 от 26.03.2020 в т.ч. НДС 20%",
+    "customer_tin": "7799492773",
+    "customer_name": "ООО \"Кафе-кондитерская \"Зефир\"",
+    "currency_id": "643",
+    "currency_name": "руб.",
+    "amount_total": "110636,25",
+    "amount_vat": "16876,72"
+  },
+  {
+    "payment_order_date": "2020-03-30T00:00:00",
+    "payment_order_number": "802",
+    "bank_account": "40702810399994349242",
+    "bank_bic": "044525225",
+    "payment_purpose": "Договор №285 от 26.03.2020 в т.ч. НДС 20%",
+    "customer_tin": "7799555712",
+    "customer_name": "ООО \"Суприм Ритейл Групп\"",
+    "currency_id": "643",
+    "currency_name": "руб.",
+    "amount_total": "18",
+    "amount_vat": "3"
+  }
+]

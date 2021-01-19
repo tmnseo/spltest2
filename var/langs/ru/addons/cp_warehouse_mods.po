@@ -1,0 +1,19 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_warehouse_mods"
+msgid "Cart-Power: warehouse additional functionality"
+msgstr "Cart-Power: Склады: дополнительная функциональность"
+
+msgctxt "Addons::description::cp_warehouse_mods"
+msgid "Add an additional functionality for warehouse add-on. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет изменения в модуль Склады. Разработанно <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+
+
+msgctxt "Languages::cp_direct_payments.pending_carts_notice"
+msgid "Please go to the following button to place other orders"
+msgstr "Чтобы продолжить оформление заказов, перейдите на <a class='ty-btn ty-btn__primary ty-btn__iv-pending-carts' href='[cart_url]'>страницу оплаты</a> "

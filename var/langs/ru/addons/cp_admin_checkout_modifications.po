@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_admin_checkout_modifications"
+msgid "Cart-Power: Improving the interface of the order section"
+msgstr "Cart-Power: Доработка интерфейса раздела заказов"
+
+msgctxt "Addons::description::cp_admin_checkout_modifications"
+msgid "Enhances usability and functionality of the zakaz section for the administrator and vendor. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Повышает юзабилити и расширяет функциональность раздела оформления закзов для администратора и продавца. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_vendor_order_number"
+msgid "cp_vendor_order_number"
+msgstr "Номер заказа поставщика"
+
+msgctxt "Languages::cp_payment_order_number"
+msgid "cp_payment_order_number"
+msgstr "Номер платежного поручения"
+
+msgctxt "Languages::cp_payment_order_date"
+msgid "cp_payment_order_date"
+msgstr "Дата платежного поручения"
+
+msgctxt "Languages::cp_issue_of_order"
+msgid "cp_issue_of_order"
+msgstr "Выдача заказа"
+
+msgctxt "Languages::cp_planned_time_issuing_order"
+msgid "cp_planned_time_issuing_order"
+msgstr "Плановый срок выдачи заказа"
+
+msgctxt "Languages::cp_order_issue_address"
+msgid "cp_order_issue_address"
+msgstr "Адрес выдачи заказа"
+
+msgctxt "Languages::cp_customer_legal_address"
+msgid "cp_customer_legal_address"
+msgstr "Юридический адрес покупателя"
+
+msgctxt "Languages::cp_customer_actual_address"
+msgid "cp_customer_actual_address"
+msgstr "Фактический адрес покупателя"
+
+msgctxt "Languages::cp_order_info_title"
+msgid "cp_order_info_title"
+msgstr "Информация о заказе"
+
+msgctxt "Languages::cp_corp"
+msgid "cp_corp"
+msgstr "корп."
+
+msgctxt "Languages::cp_office"
+msgid "cp_office"
+msgstr "кв."
+
+msgctxt "Languages::cp_home"
+msgid "cp_home"
+msgstr "д."
+
+msgctxt "Languages::cp_warning_track_number"
+msgid "cp_warning_track_number"
+msgstr "Установка статуса «Отправлен» невозможна пока не заведен номер отслеживания"
+
+msgctxt "Languages::cp_warning_vendor_order_number"
+msgid "cp_warning_vendor_order_number"
+msgstr "Установка статуса «Подтвержден поставщиком» невозможна, пока не заведен № заказа поставщика"
+
+msgctxt "Languages::cp_order_payment_subheader"
+msgid "cp_order_payment_subheader"
+msgstr "Оплата заказа"
+
+msgctxt "Languages::cp_payment_amount"
+msgid "cp_payment_amount"
+msgstr "Сумма оплаты"
+
+msgctxt "Languages::cp_admin_checkout_modifications.change_shipping_cost"
+msgid "Manual change of the delivery cost"
+msgstr "Ручное изменение стоимости доставки"

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_invoices_for_accounting</id>
+    <version>1.0</version>
+    <priority>200</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="folder_name">
+                        <type>input</type>
+                        <default_value>Бухгалтерия</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>download_invoices</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_invoices_for_accounting_cron_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpInvoicesForAccounting\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpInvoicesForAccounting\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpInvoicesForAccounting\Installer</installer>
+</addon>

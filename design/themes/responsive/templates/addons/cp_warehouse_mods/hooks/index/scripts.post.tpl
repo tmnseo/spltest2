@@ -1,0 +1,1 @@
+{script src="js/addons/cp_warehouse_mods/func.js"}

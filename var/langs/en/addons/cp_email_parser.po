@@ -1,0 +1,173 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_email_parser"
+msgid "Cart-Power: Mail processing and automatic import"
+msgstr "Cart-Power: Mail processing and automatic import"
+
+msgctxt "Addons::description::cp_email_parser"
+msgid "Automatically processes emails, downloads files, and imports products. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Automatically processes emails, downloads files, and imports products. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_email_parser::mail_user"
+msgid "E-mail for work"
+msgstr "E-mail for work"
+
+msgctxt "SettingsTooltips::cp_email_parser::mail_user"
+msgid "Specify the email address from which the import files will be collected"
+msgstr "Specify the email address from which the import files will be collected"
+
+msgctxt "SettingsOptions::cp_email_parser::mail_pass"
+msgid "Email password"
+msgstr "Email password"
+
+msgctxt "SettingsOptions::cp_email_parser::cron_pass"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "Languages::cp_email_parser.cron_info"
+msgid "Use this script to process mail and <br /> import products on a schedule"
+msgstr "Use this script to process mail and <br /> import products on a schedule"
+
+msgctxt "Languages::cp_email_parser.email_for_parser"
+msgid "E-mail import files"
+msgstr "E-mail import files"
+
+msgctxt "Languages::ttc_cp_email_parser.email_for_parser"
+msgid "Specify the email address from which the import files will be sent"
+msgstr "Specify the email address from which the import files will be sent"
+
+msgctxt "Languages::cp_email_parser"
+msgid "E-mail parser"
+msgstr "E-mail parser"
+
+msgctxt "Languages::cp_email_parser.parsing_manually"
+msgid "Find and process files"
+msgstr "Find and process files"
+
+msgctxt "Languages::cp_email_parser.parsing_logs"
+msgid "The system logs"
+msgstr "The system logs"
+
+msgctxt "Languages::cp_email_parser.no_mails"
+msgid "No messages found for import"
+msgstr "No messages found for import"
+
+msgctxt "Languages::cp_email_parser.success_parcing"
+msgid "Processed [c_mess] messages and [c_files] files"
+msgstr "Processed [c_mess] messages and [c_files] files"
+
+msgctxt "Languages::cp_email_parser.mail_success_processed"
+msgid "Message # [mess_id] processed"
+msgstr "Message # [mess_id] processed"
+
+msgctxt "Languages::cp_email_parser.error_cron_pass"
+msgid "The CRON password is not used or is not correct"
+msgstr "The CRON password is not used or is not correct"
+
+msgctxt "Languages::cp_email_parser.error_dir_create"
+msgid "Failed to create a directory for uploading files"
+msgstr "Failed to create a directory for uploading files"
+
+msgctxt "Languages::cp_email_parser.error_imap_connect"
+msgid "Failed to create a connection to the mail server"
+msgstr "Failed to create a connection to the mail server"
+
+msgctxt "Languages::cp_email_parser.error_from_address"
+msgid "Failed to process sender of message # [mess_id]"
+msgstr "Failed to process sender of message # [mess_id]"
+
+msgctxt "Languages::cp_email_parser.error_company_id"
+msgid "The E-mail [email] from which the message # [mess_id] was sent does not match any supplier in the store"
+msgstr "The E-mail [email] from which the message # [mess_id] was sent does not match any supplier in the store"
+
+msgctxt "Languages::cp_email_parser.error_no_attachments"
+msgid "No attachments found in message # [mess_id]"
+msgstr "No attachments found in message # [mess_id]"
+
+msgctxt "Languages::cp_email_parser.error_no_create_file"
+msgid "Failed to create the [file] file for the provider [company]"
+msgstr "Failed to create the [file] file for the provider [company]"
+
+msgctxt "Languages::cp_email_parser.error_update_preset"
+msgid "Failed to update preset # [id]"
+msgstr "Failed to update preset # [id]"
+
+msgctxt "Languages::cp_email_parser.error_import"
+msgid "Import failed for preset # [id]"
+msgstr "Import failed for preset # [id]"
+
+msgctxt "Languages::cp_email_parser.no_data"
+msgid "No data"
+msgstr "No data"
+
+msgctxt "Languages::cp_email_parser.log_id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "Languages::cp_email_parser.log_date"
+msgid "Date of logging"
+msgstr "Date of logging"
+
+msgctxt "Languages::cp_email_parser.log_time"
+msgid "Duration"
+msgstr "Duration (sec)"
+
+msgctxt "Languages::cp_email_parser.log_message"
+msgid "Result"
+msgstr "Result"
+
+msgctxt "Languages::cp_email_parser.log_status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::cp_email_parser.log_operation"
+msgid "Operation"
+msgstr "Operation"
+
+msgctxt "Languages::cp_email_parser.log_status_error"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::cp_email_parser.log_status_success"
+msgid "Without errors"
+msgstr "Without errors"
+
+msgctxt "Languages::cp_email_parser.logs_title"
+msgid "Parser log system"
+msgstr "Parser log system"
+
+msgctxt "Languages::cp_email_parser.connection_to_mail_server"
+msgid "Connecting to the mail server"
+msgstr "Connecting to the mail server"
+
+msgctxt "Languages::cp_email_parser.import_process"
+msgid "Import"
+msgstr "Import"
+
+msgctxt "Languages::cp_email_parser.parsing_mail"
+msgid "Email processing"
+msgstr "Email processing"
+
+msgctxt "Languages::cp_email_parser.parsing_attachments"
+msgid "Processing attachments"
+msgstr "Processing attachments"
+
+msgctxt "Languages::cp_email_parser.success_import"
+msgid "Import of the preset # [preset_id] was successful. Processed [c_prod] products"
+msgstr "Import of the preset # [preset_id] was successful. Processed [c_prod] products"
+
+msgctxt "Languages::cp_email_parser.clean_logs"
+msgid "Clean logs"
+msgstr "Clean logs"
+
+msgctxt "Languages::cp_email_parser.clean_old_logs"
+msgid "Clean old logs"
+msgstr "Clean old logs"
+
+msgctxt "Languages::cp_email_parser.log_events"
+msgid "Chain of events"
+msgstr "Chain of events"

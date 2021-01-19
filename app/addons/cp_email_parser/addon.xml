@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_email_parser</id>
+    <version>1.0</version>
+    <priority>200</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="mail_user">
+                        <type>input</type>
+                    </item>
+                    <item id="mail_pass">
+                        <type>input</type>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>parse_email</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_email_parser_cron_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpEmailParser\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpEmailParser\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpEmailParser\Installer</installer>
+</addon>

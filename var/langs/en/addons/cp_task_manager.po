@@ -1,0 +1,422 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_task_manager"
+msgid "Cart-Power: Automatic administrator tasks"
+msgstr "Cart-Power: Automatic administrator tasks"
+
+msgctxt "Addons::description::cp_task_manager"
+msgid "Manage & automate the routine admin tasks. Developed by <a href='cart-power.com'>Cart-Power</a>"
+msgstr "Manage & automate the routine admin tasks. Developed by <a href='cart-power.com'>Cart-Power</a>"
+
+msgctxt "Languages::cp_aa_preset_name"
+msgid "Import preset name"
+msgstr "Import preset name"
+
+msgctxt "Languages::cp_aa_approve_selected"
+msgid "Approve selected"
+msgstr "Approve selected"
+
+msgctxt "Languages::cp_aa_disapprove_selected"
+msgid "Decline selected"
+msgstr "Decline selected"
+
+msgctxt "Languages::cp_aa_set_approve"
+msgid "Approve"
+msgstr "Approve"
+
+msgctxt "Languages::cp_aa_set_disapprove"
+msgid "Decline"
+msgstr "Decline"
+
+msgctxt "Languages::cp_aa_approved"
+msgid "Approved"
+msgstr "Approved"
+
+msgctxt "Languages::cp_aa_disapproved"
+msgid "Declined"
+msgstr "Declined"
+
+msgctxt "Languages::cp_aa_avail_tasks_for_vendors"
+msgid "CP: Allow automatic administrator tasks"
+msgstr "CP: Allow automatic administrator tasks"
+
+msgctxt "Languages::cp_aa_avail_tasks_for_vendors_descr"
+msgid "If checked, vendors will be able to create and update their own automatic tasks. <br><br>Vendor tasks will work only after the admin's approval"
+msgstr "If checked, vendors will be able to create and update their own automatic tasks. <br><br>Vendor tasks will work only after the admin's approval"
+
+msgctxt "Languages::cp_aa_data_feed"
+msgid "Data Feed"
+msgstr "Data Feed"
+
+msgctxt "SettingsOptions::cp_task_manager::cron_password"
+msgid "Cron password"
+msgstr "Cron password"
+
+msgctxt "Languages::privilege_groups.cp_aa_privil"
+msgid "CP: administrator tasks"
+msgstr "CP: administrator tasks"
+
+msgctxt "Languages::cp_aa_adv_impr_product"
+msgid "Products (Advanced import)"
+msgstr "Products (Advanced import)"
+
+msgctxt "Languages::cp_tasks"
+msgid "Automatic administration tasks"
+msgstr "Automatic administration tasks"
+
+msgctxt "Languages::cp_new_task"
+msgid "New task"
+msgstr "New task"
+
+msgctxt "Languages::cp_add_task"
+msgid "Add new task"
+msgstr "Add new task"
+
+msgctxt "Languages::cp_editing_task"
+msgid "Editing task"
+msgstr "Editing task"
+
+msgctxt "Languages::cp_start_timestamp"
+msgid "Start date/time"
+msgstr "Start date/time"
+
+msgctxt "Languages::cp_stop_timestamp"
+msgid "Stop date/time"
+msgstr "Stop date/time"
+
+msgctxt "Languages::cp_iteration"
+msgid "Number of iterations"
+msgstr "Number of iterations"
+
+msgctxt "Languages::cp_database_backup"
+msgid "Database backup"
+msgstr "Database backup"
+
+msgctxt "Languages::cp_files_backup"
+msgid "Files backup"
+msgstr "Files backup"
+
+msgctxt "Languages::cp_exim"
+msgid "Export/Import"
+msgstr "Export/Import"
+
+msgctxt "Languages::cp_clear_templates"
+msgid "Clear templates"
+msgstr "Clear templates"
+
+msgctxt "Languages::cp_thumbnails_regeneration"
+msgid "Thumbnails regeneration"
+msgstr "Thumbnails regeneration"
+
+msgctxt "Languages::cp_clear_logs"
+msgid "Clear logs"
+msgstr "Clear logs"
+
+msgctxt "Languages::cp_custom_script"
+msgid "Custom script"
+msgstr "Custom script"
+
+msgctxt "Languages::cp_hours"
+msgid "Hours"
+msgstr "hour(s)"
+
+msgctxt "Languages::cp_years"
+msgid "Years"
+msgstr "year(s)"
+
+msgctxt "Languages::cp_number_of_backups"
+msgid "Number of backups"
+msgstr "Number of backups"
+
+msgctxt "Languages::cp_task"
+msgid "Task name"
+msgstr "Task name"
+
+msgctxt "Languages::cp_cron_settings"
+msgid "Cron tab settings"
+msgstr "Cron tab settings"
+
+msgctxt "Languages::cp_dws"
+msgid "days of week"
+msgstr "day(s) of week"
+
+msgctxt "Languages::cp_error_minutes"
+msgid "Invalid minutes format"
+msgstr "Invalid minutes format"
+
+msgctxt "Languages::cp_error_hours"
+msgid "Invalid hours format"
+msgstr "Invalid hours format"
+
+msgctxt "Languages::cp_error_days"
+msgid "Invalid days format"
+msgstr "Invalid days format"
+
+msgctxt "Languages::cp_error_months"
+msgid "Invalid months format"
+msgstr "Invalid months format"
+
+msgctxt "Languages::cp_error_dws"
+msgid "Invalid day of week format"
+msgstr "Invalid day of week format"
+
+msgctxt "Languages::cp_task_settings"
+msgid "Task settings"
+msgstr "Task settings"
+
+msgctxt "Languages::cp_regenerate_sitemap"
+msgid "Regenerate sitemap"
+msgstr "Regenerate sitemap"
+
+msgctxt "Languages::cp_dropbox"
+msgid "Dropbox"
+msgstr "Upload files into Dropbox"
+
+msgctxt "Languages::cp_get_the_token"
+msgid "Get authorization token [auth_url]"
+msgstr "Get authorization token <a href=\"[auth_url]\" target=\"_blank\" onclick=\"$('#elm_task_access_token').val('');\">here</a>"
+
+msgctxt "Languages::cp_error_dropbox_token"
+msgid "Token cannot be empty"
+msgstr "Token cannot be empty"
+
+msgctxt "Languages::cp_secret"
+msgid "Secret"
+msgstr "Secret"
+
+msgctxt "Languages::cp_token"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "Languages::cp_use_generated_token"
+msgid "Use pre-generated token"
+msgstr "Use pre-generated access token"
+
+msgctxt "Languages::cp_not_valid_path"
+msgid "Not valid path"
+msgstr "Not valid path"
+
+msgctxt "Languages::cp_generate_token"
+msgid "Generate new access token"
+msgstr "Generate new access token"
+
+msgctxt "Languages::cp_error_log_empty_dropbox_credentials"
+msgid "Empty Dropbox credentials"
+msgstr "Empty Dropbox credentials"
+
+msgctxt "Languages::cp_error_log_files_backup_failed"
+msgid "Files' backing up is failed"
+msgstr "Files' backing up is failed"
+
+msgctxt "Languages::cp_error_log_database_backup_failed"
+msgid "Database backing up is failed"
+msgstr "Database backing up is failed"
+
+msgctxt "Languages::cp_error_log_empty_custom_script"
+msgid "Empty custom script"
+msgstr "Empty custom script"
+
+msgctxt "Languages::cp_error_log_sitemap_addon_not_active"
+msgid "Google sitemap add-on is not active"
+msgstr "Google sitemap add-on is not active"
+
+msgctxt "Languages::cp_error_log_empty_import_credentials"
+msgid "Empty import options"
+msgstr "Empty import options"
+
+msgctxt "Languages::cp_error_log_empty_export_credentials"
+msgid "Empty export options"
+msgstr "Empty export options"
+
+msgctxt "Languages::cp_view_logs"
+msgid "View logs"
+msgstr "View logs"
+
+msgctxt "Languages::cp_comment"
+msgid "Comment"
+msgstr "Comment"
+
+msgctxt "Languages::cp_success"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "Languages::cp_error"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::cp_result"
+msgid "Result"
+msgstr "Result"
+
+msgctxt "Languages::cp_nothing_to_export"
+msgid "Nothing to export"
+msgstr "Nothing to export"
+
+msgctxt "Languages::cp_email_the_link"
+msgid "Email the link"
+msgstr "Email the link"
+
+msgctxt "Languages::cp_error_log_ftp_cannot_connect"
+msgid "Cannot connect to FTP server"
+msgstr "Cannot connect to FTP server"
+
+msgctxt "Languages::cp_error_log_ftp_cannot_login"
+msgid "Cannot log in FTP server"
+msgstr "Cannot log in FTP server"
+
+msgctxt "Languages::cp_error_log_ftp_failed_uploading"
+msgid "Cannot upload file to FTP server"
+msgstr "Cannot upload file to FTP server"
+
+msgctxt "Languages::cp_error_log_empty_ftp_credentials"
+msgid "Wrong FTP credentials"
+msgstr "Wrong FTP credentials"
+
+msgctxt "Languages::cp_port"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "Languages::cp_tasks_manage"
+msgid "Administrator tasks"
+msgstr "Administrator tasks"
+
+msgctxt "Languages::cp_tasks_manage_menu_description"
+msgid "View, add and edit automatic administrator tasks"
+msgstr "View, add and edit automatic administrator tasks"
+
+msgctxt "Languages::cp_add_task_menu_description"
+msgid "Add new administrator task"
+msgstr "Allows to add and configure new administrator task"
+
+msgctxt "Languages::cp_view_logs_menu_description"
+msgid "View administrator tasks log"
+msgstr "View administrator tasks log"
+
+msgctxt "Languages::cp_server_time"
+msgid "Server time"
+msgstr "Server time"
+
+msgctxt "Languages::cp_logs"
+msgid "View tasks logs"
+msgstr "View tasks logs"
+
+msgctxt "Languages::cp_crontab_tooltip"
+msgid "View details here: <a target='_blank' href='https://en.wikipedia.org/wiki/Cron'>https://en.wikipedia.org/wiki/Cron</a>"
+msgstr "View details here: <a target='_blank' href='https://en.wikipedia.org/wiki/Cron'>https://en.wikipedia.org/wiki/Cron</a>"
+
+msgctxt "Languages::cp_next_run"
+msgid "Next run"
+msgstr "Next run"
+
+msgctxt "Languages::cp_save_to_see_details"
+msgid "Click 'Save' to see settings"
+msgstr "Click 'Save' to see settings"
+
+msgctxt "Languages::cp_backup_filename_prefix"
+msgid "Backup file prefix"
+msgstr "Backup file prefix"
+
+msgctxt "Languages::cp_error_log_empty_dbdump_tables"
+msgid "Tables to back up were not selected"
+msgstr "Tables to back up were not selected"
+
+msgctxt "Languages::cp_email_log_subj"
+msgid "Task #[task_id]: [task] is processed"
+msgstr "Task #[task_id]: [task] is processed"
+
+msgctxt "Languages::cp_log_email_sent"
+msgid "Log is sent"
+msgstr "Log is sent"
+
+msgctxt "Languages::cp_error_log_email_sent"
+msgid "Cannot send log"
+msgstr "Cannot send log"
+
+msgctxt "Languages::cp_log_email"
+msgid "Backed up file is ready for downloading"
+msgstr "Backed up file is ready for downloading"
+
+msgctxt "Languages::cp_task_manager_cron_url"
+msgid "Cron script is available here: <a href='[http_location]'>[http_location]</a>"
+msgstr "Cron script is available here: <a href='[http_location]'>[http_location]</a>"
+
+msgctxt "Languages::cp_optimize_database"
+msgid "Optimize database"
+msgstr "Optimize database"
+
+msgctxt "Languages::cp_dropbox_key_tooltip"
+msgid "App key from your Dropbox Application"
+msgstr "App key from your Dropbox Application"
+
+msgctxt "Languages::cp_dropbox_secret_tooltip"
+msgid "App secret from your Dropbox Application"
+msgstr "App secret from your Dropbox Application"
+
+msgctxt "Languages::cp_dropbox_token_tooltip"
+msgid "Access token from your Dropbox Application"
+msgstr "Access token from your Dropbox Application"
+
+msgctxt "Languages::cp_dropbox_instruction"
+msgid "Instruction for Dropbox"
+msgstr "To use this type of task you should use the following instruction:</br>
+1. Create the Dropbox Application. You can do it on this page in your Dropbox account: <a href=\"https://www.dropbox.com/developers/apps\">My Apps</a>.</br>
+2. Use the 'App key' and 'App secret' access credentials from your Dropbox application as the 'Key' and 'Secret' values on the 'Editing task' page in your CS-Cart store.</br>
+3. You can allow your Dropbox Application to use the generated access token. For this purpose, select 'Allow' for the 'Allow implicit grant' select box and click the 'Generate access token' button in your Dropbox account. Then select the 'Use pre-generated access token' check box on this page and paste the generated token into the 'Token' field.</br>
+4. Otherwise you can generate an access token for your CS-Cart store. Fill in the 'Key' and 'Secret' fields and save your administrator task without selecting the 'Use pre-generated access token' check box. You will see the 'Generate new access token' button next to the 'Token' input field. By clicking this button you will get the 'Get autorization token' link. By following this link you can get the access token for your Dropbox Application. Enter this token into the 'Token' field."
+
+msgctxt "Languages::cp_dropbox_use_generated_token_tooltip"
+msgid "Select this check box if you want to use the Access token generated in your Dropbox Application"
+msgstr "Select this check box if you want to use the Access token generated in your Dropbox Application"
+
+msgctxt "Languages::cp_dropbox_folder_tooltip"
+msgid "A folder from which files will be uploaded to your Dropbox"
+msgstr "A folder from which files will be uploaded to your Dropbox"
+
+msgctxt "Languages::cp_text_backup_filename_hint"
+msgid "A folder from which files will be uploaded to your Dropbox"
+msgstr "A folder from which files will be uploaded to your Dropbox"
+
+msgctxt "Languages::cp_extra_folders"
+msgid "Extra folders"
+msgstr "Extra folders"
+
+msgctxt "Languages::cp_deleted_task"
+msgid "Deleted task"
+msgstr "Deleted task"
+
+msgctxt "Languages::privileges.manage_tasks"
+msgid "Manage tasks"
+msgstr "Manage tasks"
+
+msgctxt "Languages::privileges.view_tasks"
+msgid "View tasks"
+msgstr "View tasks"
+
+msgctxt "SettingsOptions::cp_task_manager::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+
+msgctxt "Languages::cp_notify_by_email"
+msgid "Notify when the task is processed"
+msgstr "Notify when the task is processed"
+
+msgctxt "Languages::cp_notify_email"
+msgid "Send notification to this e-mail"
+msgstr "Send notification to this e-mail"
+
+msgctxt "Languages::cp_task_is_processed"
+msgid "Task [task_url] is processed"
+msgstr "Task [task_url] is processed"
+
+msgctxt "Languages::cp_remove_after_upload"
+msgid "Remove file after uploading"
+msgstr "Remove file after uploading"
+

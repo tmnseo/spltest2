@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_weekend_work_alert"
+msgid "Cart-Power: Weekend Work Alert"
+msgstr "Cart-Power: Weekend Work Alert"
+
+msgctxt "Addons::description::cp_weekend_work_alertt"
+msgid "Weekend Work Alert. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Weekend Work Alert. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_weekend_work_alert::text"
+msgid "text"
+msgstr "Alert text"

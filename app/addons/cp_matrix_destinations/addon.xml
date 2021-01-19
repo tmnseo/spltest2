@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>cp_matrix_destinations</id>
+    <version>1.0</version>
+    <priority>2100</priority>
+    <position>130</position>
+    <default_language>en</default_language>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+
+
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="edost_id">
+
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+
+                    <item id="edost_password">
+
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+
+                    <item id="edost_weight">
+
+                        <type>0.1</type>
+                        <default_value></default_value>
+                    </item>
+
+
+                    <item id="edost_matrix_last_update">
+
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CpMatrixDestinations\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CpMatrixDestinations\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\CpMatrixDestinations\Installer</installer>
+
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_cities;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_cities_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_data;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_data_tariffs;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_pre_cities;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_pre_cities_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_settings;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_matrix_logs;</item>
+
+        <!-- данное изменение будет сделано при установке модуля, чтобы найти сразу город и проставить city_id в добавленное поле.
+        <item >
+            ALTER TABLE `?:warehouses_products_amount`
+            ADD COLUMN `city_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `city_id` (`city_id`);
+        </item>
+    -->
+
+
+
+        <item>
+            CREATE TABLE IF NOT exists `?:cp_matrix_logs` (
+            `log_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `time` int(11) unsigned NOT NULL default 0,
+            `status` char(1) NOT NULL default 'A',
+            `data` TEXT NOT NULL default '',
+            `type` char(1) NOT NULL default 'N',
+            `parent_log_id` int(11) NOT NULL default '0',
+            PRIMARY KEY  (`log_id`),
+            KEY `time`(time),
+            KEY `type`(type)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_settings (
+            settings_id int(11) unsigned NOT NULL,
+            value varchar(255) NOT NULL DEFAULT '',
+            PRIMARY KEY (settings_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+        </item>
+
+
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_pre_cities (
+            city_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+            status char(1) NOT NULL DEFAULT 'A',
+            added_time  int(11) unsigned NOT NULL default '0',
+            PRIMARY KEY (city_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_pre_cities_descriptions (
+            city_id int(11) unsigned NOT NULL DEFAULT '0',
+            lang_code char(2) NOT NULL DEFAULT '',
+            city_name varchar(255) NOT NULL DEFAULT '',
+            PRIMARY KEY (city_id,lang_code)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+
+
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_cities (
+            city_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+            status char(1) NOT NULL DEFAULT 'A',
+            state_code varchar(5) NOT NULL DEFAULT '',
+            added_time  int(11) unsigned NOT NULL default '0',
+            PRIMARY KEY (city_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_cities_descriptions (
+            city_id int(11) unsigned NOT NULL DEFAULT '0',
+            lang_code char(2) NOT NULL DEFAULT '',
+            city_name varchar(255) NOT NULL DEFAULT '',
+            PRIMARY KEY (city_id,lang_code)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_data (
+            city_from_id int(11) unsigned NOT NULL default '0',
+            city_to_id int(11) unsigned NOT NULL default '0',
+            city_from varchar(255)  NOT NULL default '0',
+            city_to varchar(255)  NOT NULL default '0',
+            store_location_from_id int(11) unsigned NOT NULL default '0',
+            time_from int(11) unsigned NOT NULL default '0',
+            time_to int(11) unsigned NOT NULL default '0',
+            time_average int(11) unsigned NOT NULL default '0',
+            last_time_update int(11) unsigned NOT NULL default '0',
+            PRIMARY KEY (city_from_id,city_to_id),
+            KEY `city_from_id`(city_from_id),
+            KEY `city_to_id`(city_to_id),
+            KEY last_time_update (last_time_update)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_matrix_data_tariffs (
+            city_from_id int(11) unsigned NOT NULL default '0',
+            city_to_id int(11) unsigned NOT NULL default '0',
+            time_from int(11) unsigned NOT NULL default '0',
+            time_to int(11) unsigned NOT NULL default '0',
+            time_average int(11) unsigned NOT NULL default '0',
+            edost_service_id int(11) unsigned NOT NULL default '0',
+            day varchar(255)  NOT NULL default '0',
+            price decimal (12,2)  unsigned NOT NULL default '0',
+            PRIMARY KEY (city_from_id,city_to_id,edost_service_id))
+            ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+        </item>
+
+
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_cities`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_cities_descriptions`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_data`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_data_tariffs`</item>
+
+
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_pre_cities`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_pre_cities_descriptions`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_settings`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_matrix_logs`</item>
+
+    </queries>
+</addon>

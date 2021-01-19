@@ -1,0 +1,1 @@
+{script src="js/addons/cp_edost_improvement/func.js"}}

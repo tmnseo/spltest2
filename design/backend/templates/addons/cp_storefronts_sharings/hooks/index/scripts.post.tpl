@@ -1,0 +1,1 @@
+{script src="js/addons/cp_storefronts_sharings/func.js"}

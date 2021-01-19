@@ -1,0 +1,5 @@
+Message: 
+Data : 18-11-2020 12:02:45 - Send file limit: 52428800
+Data : 18-11-2020 11:53:00 - Loadding data file payments_20201118115259.json
+Data : 18-11-2020 11:53:01 - Parsing file data payments_20201118115259.json
+Data : 18-11-2020 11:53:01 - Started import date  from payment file, parameter service_exchange = ''

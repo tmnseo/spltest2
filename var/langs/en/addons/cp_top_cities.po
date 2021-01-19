@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_top_cities"
+msgid "Cart-Power: Popular cities"
+msgstr "Cart-Power: Popular cities"
+
+msgctxt "Addons::description::cp_top_cities"
+msgid "Automatically detects popular cities for the marketplace. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Automatically detects popular cities for the marketplace. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_top_cities::top_cities_amount"
+msgid "Number of popular cities"
+msgstr "Number of popular cities"

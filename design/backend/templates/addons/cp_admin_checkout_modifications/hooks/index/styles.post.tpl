@@ -1,0 +1,1 @@
+{style src="addons/cp_admin_checkout_modifications/styles.less"}

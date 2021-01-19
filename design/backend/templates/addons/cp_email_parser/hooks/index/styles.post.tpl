@@ -1,0 +1,1 @@
+{style src="addons/cp_email_parser/styles.less"}

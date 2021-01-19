@@ -1,0 +1,22 @@
+Message: 
+Data : 15-10-2020 02:27:57 - 
+ Enter login and password user
+Data : 15-10-2020 02:27:57 - 
+Data : 15-10-2020 02:28:23 - 
+ Enter login and password user
+Data : 15-10-2020 02:28:23 - 
+Data : 15-10-2020 02:28:25 - 
+ Enter login and password user
+Data : 15-10-2020 02:28:25 - 
+Data : 15-10-2020 03:01:37 - 
+ Error in login or password user
+Data : 15-10-2020 03:01:37 - 
+Data : 15-10-2020 03:03:13 - 
+ Error in login or password user
+Data : 15-10-2020 03:03:13 - 
+Data : 15-10-2020 03:15:46 - 
+ Error in login or password user
+Data : 15-10-2020 03:15:46 - 
+Data : 15-10-2020 05:42:48 - 
+ Enter login and password user
+Data : 15-10-2020 05:42:48 - 

@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_power_scroll_pagination"
+msgid "Cart-Power: Power scroll pagination"
+msgstr "Cart-Power: Power scroll pagination"
+
+msgctxt "Addons::description::cp_power_scroll_pagination"
+msgid "Auto scroll pagination. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Auto scroll pagination. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_power_scroll_pagination::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::show_more_link"
+msgid "Show more link"
+msgstr "Show more link"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::show_more_link_1st"
+msgid "Show more: only first page"
+msgstr "Show more: only first page"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::all_pages"
+msgid "Enable for all pages"
+msgstr "Enable for all pages"
+
+msgctxt "Languages::scroll_pagination"
+msgid "Scroll pagination"
+msgstr "Scroll pagination"
+
+msgctxt "Languages::show_more"
+msgid "Show more"
+msgstr "Show more"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_pagination"
+msgid "Hide pagination"
+msgstr "Hide pagination"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_desktop"
+msgid "Hide \"Items per page\" selector on desktop"
+msgstr "Hide \"Items per page\" selector on desktop"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_tablet"
+msgid "Hide \"Items per page\" selector on tablet"
+msgstr "Hide \"Items per page\" selector on tablet"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::hide_items_per_page_on_mobile"
+msgid "Hide \"Items per page\" selector on mobile"
+msgstr "Hide \"Items per page\" selector on mobile"
+
+msgctxt "SettingsOptions::cp_power_scroll_pagination::licensekey"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsTooltips::cp_power_scroll_pagination::licensekey"
+msgid "Find on the detailed page of your order"
+msgstr "Find on the detailed page of your order"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_restrictions_for_vendors</id>
+    <version>1.0</version>
+    <priority>2500</priority>
+    <position>103</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>ы
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="support_href">
+                        <type>input</type>
+                        <default_value>https://support.service.parts/portal/ru/kb/vendors</default_value>
+                    </item>
+                    <item id="restrict_logs">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_files">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_exim">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_blog_and_pages">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_product_options">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_product_features">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="restrict_product_filters">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_categories_view', 'Y', 'products', 'categories', 'Y');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_categories_view';</item>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_features_manage', 'Y', 'products', 'product_features', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_features_manage';</item>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_filters_manage', 'Y', 'products', 'product_filters', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_filters_manage';</item>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_products_manage', 'Y', 'products', 'cp_products', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_products_manage';</item>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_products_view', 'Y', 'products', 'cp_products', 'Y');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_products_view';</item>
+        <item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('cp_manage_product_options', 'Y', 'products', 'product_options', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'cp_manage_product_options';</item>
+    </queries>
+</addon> 

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_warehouse_amount_filter"
+msgid "Cart-Power: Filter by amount on warehouse"
+msgstr "Cart-Power: Фильтр по количеству на складе"
+
+msgctxt "Addons::description::cp_warehouse_amount_filter"
+msgid "Adds a filter to amount on the warehouse. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет фильтр по количеству товара на складе. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_cf_warehouse_city"
+msgid "cp_cf_warehouse_city"
+msgstr "Количество товара на складе"

@@ -1,0 +1,182 @@
+.ty-account {
+    .ty-first-name {
+        width: ~"calc(50% - 10px)";
+        @media(max-width: 800px){
+            width: 100%;
+        }
+    } 
+    .ty-last-name {
+        margin-right: 10px;
+        width: ~"calc(50% - 4px)";
+        @media(max-width: 800px){
+            width: 100%;
+        }
+    }
+}
+.ty-login-info__txt {
+    h4 {
+        color: #2e3a47;
+        & + p {
+            margin-bottom: 10px;
+        }
+    }
+
+}
+.spl-cart .ty-dropdown-box__content {
+    z-index: 650;
+}
+.ty-billing-zip-code, .ty-shipping-zip-code {
+    width: 100%;
+    .ty-input-text {
+        max-width: 120px;
+    }
+}
+.tygh-top-panel .cp-notice-revision * {
+    font-family: Vladivostok;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 17px;
+}
+.cp-notice-revision {
+    background-image: url('/images/revision.svg');
+    background-repeat: no-repeat;
+    background-position: center left 21px;
+    background-color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    box-sizing: border-box;
+    padding: 9px 31px 9px 87px;
+    position: absolute;
+    top: 100px;
+    left: 33px;
+    max-width: 50%;
+    &__text {
+        color: #333333;
+        padding: 0;
+        a {
+            color: #e8531e;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+    }
+
+}
+.tygh-top-panel .cp-ask-question-btn * {
+    font-family: Vladivostok;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 17px;
+}
+.cp-ask-question-btn  {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: url('/images/man_black.svg');
+    background-repeat: no-repeat;
+    background-position: top 2px center;
+    background-size: 22px;
+    margin-right: 50px;
+    position: relative;
+    &__text {
+        display: none;
+        background: #272626;
+        text-align: center;
+        border-radius: 35px;
+        padding: 7px 0;
+        box-sizing: border-box;
+        height: 31px;
+        width: 120px;
+        position: absolute;
+        // left: -122px;
+        top: 35px;
+        right: -40px;
+        z-index: 1;
+        &:after {
+            content: " ";
+            display: block;
+            width: 7.19px;
+            height: 7.11px;
+            background: #272626;
+            transform: rotate(45deg);
+            position: absolute;
+            // right: -3px;
+            // top: 12px;
+            right: ~'calc(50% - 3.5px)';
+            top: -3px;
+        }
+    }
+    &:hover {
+        // background-image: url('/images/man_white.svg');
+        color: #FFFFFF;
+        .cp-ask-question-btn__text { 
+            display: block;
+        }
+    }
+}
+.cp-top-menu {
+    width: ~'calc(100% - 270px - 2.2%)' !important;
+    &__menu {
+        text-align: center;
+    }
+    &_btn {
+        width: 270px !important; 
+        display: flex !important;
+        justify-content: flex-end;
+        align-items: center
+    }
+}
+@media(max-width: 1200px) {
+    .cp-top-menu {
+        width: ~'calc(100% - 180px - 2.2%)' !important;
+        &_btn {
+            width: 180px !important; 
+        }
+    }
+    .cp-ask-question-btn  {
+        margin-right: 30px;
+    }
+}
+@media(max-width: 965px) {
+    .cp-top-menu {
+        &__menu {
+            width: 260px !important;
+        }
+        &__logo {
+            width: 100px !important;
+        }
+        &__geo {
+            width: ~'calc(100% - 360px - 3%)' !important;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .cp-top-menu {
+        float: left !important;
+        &_btn {
+            margin-top: 20px !important;
+        }
+    }
+    .cp-notice-revision {
+        top: 65px;
+        left: 20px;
+        max-width: 100%;
+        right: 20px;
+    }
+}
+@media (max-width: 340px) {
+    .cp-notice-revision {
+        left: 15px;
+        right: 15px;
+        background-position: right 10px bottom 10px;
+        padding: 20px;
+    }
+}
+
+
+

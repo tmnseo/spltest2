@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_checkout_modifications</id>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="id_banner_popup">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">ALTER TABLE ?:shippings ADD COLUMN cp_is_door_delivery char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:shippings DROP cp_is_door_delivery;</item>
+        <item for="install">ALTER TABLE ?:shippings ADD COLUMN cp_is_delivery_to_TC char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:shippings DROP cp_is_delivery_to_TC;</item>
+        
+        <!-- profile settings -->
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_profile_section char(1) NOT NULL default '';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_profile_section;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_add_hide char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_add_hide;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_add_disabled char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_add_disabled;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_update_hide char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_update_hide;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_update_disabled char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_update_disabled;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_edited_only_by_admin char(1) NOT NULL  default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_edited_only_by_admin;</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN cp_edit_if_empty char(1) NOT NULL default 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP cp_edit_if_empty;</item> 
+        <!-- profile settings end -->
+        <!-- matching addresses -->
+        <item for="install">ALTER TABLE ?:users ADD COLUMN cp_is_matching_addresses char(1) NOT NULL default 'Y';</item>
+        <item for="uninstall">ALTER TABLE ?:users DROP cp_is_matching_addresses;</item>
+        <!-- matching addresses end -->        
+    </queries>
+</addon>

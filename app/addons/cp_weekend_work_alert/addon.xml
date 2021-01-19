@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_weekend_work_alert</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>130</position>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="text">
+                        <type>textarea</type>
+                        <default_value></default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

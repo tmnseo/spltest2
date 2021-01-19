@@ -1,0 +1,48 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_order_pretensions"
+msgid "Cart-Power: Order pretension"
+msgstr "Cart-Power: Order pretension"
+
+msgctxt "Addons::description::cp_order_pretensions"
+msgid "Adds a form for submitting a claim for an order. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет форму отправки претензии по заказу. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_order_pretensions.pretension_info"
+msgid "cp_order_pretensions.pretension_info"
+msgstr "You recently received an order # [order_id] for total amount [price] [currency] <br />
+		([product_amount] names from the supplier [vendor])."
+
+msgctxt "Languages::cp_order_pretensions.pretension_additional_info"
+msgid "cp_order_pretensions.pretension_additional_info"
+msgstr "If you received an item of poor quality or in insufficient quantity <br />
+		please fill in the information about the complaint. Our manager <br />
+		they will review the application and respond within a couple of business days."
+
+msgctxt "Languages::cp_order_pretensions.products"
+msgid "cp_order_pretensions.products"
+msgstr "Products (for a claim to the order)"
+
+msgctxt "Languages::cp_order_pretensions.pretension_descr"
+msgid "cp_order_pretensions.pretension_descr"
+msgstr "Description (for a claim to the order)"
+
+msgctxt "Languages::cp_order_pretensions.multiuploader"
+msgid "cp_order_pretensions.multiuploader"
+msgstr "File uploader (for a claim to the order)"
+
+msgctxt "Languages::cp_order_pretensions.pretension"
+msgid "cp_order_pretensions.pretension"
+msgstr "New pretension"
+
+msgctxt "SettingsOptions::cp_order_pretensions::pretension_page_id"
+msgid "pretension_page_id"
+msgstr "Pretension page ID"
+
+msgctxt "SettingsOptions::cp_order_pretensions::order_status"
+msgid "order_status"
+msgstr "Order status"

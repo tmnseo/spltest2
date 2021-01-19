@@ -1,0 +1,86 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_megalog"
+msgid "Cart-Power: Extended log system"
+msgstr "Cart-Power: Расширенная система логирования"
+
+msgctxt "Addons::description::cp_megalog"
+msgid "Make logs for different objects. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет логирование для различных объектов. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_ml_mega_logs"
+msgid "CP: Extended logs"
+msgstr "CP: Расширенные логи"
+
+msgctxt "Languages::cp_ml_logs_cleared"
+msgid "Logs cleared"
+msgstr "Логи очищены"
+
+msgctxt "Languages::cp_ml_guest"
+msgid "Guest"
+msgstr "Гость"
+
+msgctxt "Languages::cp_ml_leave_a_comment"
+msgid "Please, leave a comment"
+msgstr "Пожалуйста, оставьте комментарий"
+
+msgctxt "Languages::cp_ml_system"
+msgid "System"
+msgstr "Система"
+
+msgctxt "Languages::cp_ml_order_created"
+msgid "The order has been created"
+msgstr "Заказ создан"
+
+msgctxt "Languages::cp_ml_order_changed"
+msgid "The order has been changed"
+msgstr "Заказ изменен"
+
+msgctxt "Languages::cp_ml_status_changed"
+msgid "The status has been changed"
+msgstr "Cтатус изменен"
+
+msgctxt "Languages::cp_ml_controller"
+msgid "Controller"
+msgstr "Контроллер"
+
+msgctxt "Languages::cp_ml_mode"
+msgid "Mode"
+msgstr "Режим"
+
+msgctxt "Languages::cp_ml_object_id"
+msgid "Object ID"
+msgstr "ID бъекта"
+
+msgctxt "Languages::cp_ml_use_this_for_clear_lgos"
+msgid "Use this script to clear logs according to the schedule"
+msgstr "Используйте этот скрипт для очистки логов по расписанию"
+
+msgctxt "Languages::privilege_groups.cp_ml_priv_group"
+msgid "CP: Extended logs"
+msgstr "CP: Расширенные логи"
+
+msgctxt "Languages::cp_ml_use_this_for_reculc_vend_counts"
+msgid "Use this script to recalculate products counts for vendors"
+msgstr "Используйте этот скрипт для пересчета кол-ва товаров продавцов по расписанию"
+
+msgctxt "SettingsOptions::cp_megalog::clear_log_days"
+msgid "Clear logs after (days)"
+msgstr "Очищать логи через (дни)"
+
+msgctxt "SettingsOptions::cp_megalog::cron_pass"
+msgid "Cron password"
+msgstr "Пароль для CRON"
+
+msgctxt "Languages::cp_ml_comment"
+msgid "Comment"
+msgstr "Комментарий"
+
+msgctxt "Languages::privileges.manage_cp_megalog"
+msgid "CP: Manage logs"
+msgstr "CP: Редактирование логов"
+

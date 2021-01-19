@@ -1,0 +1,1 @@
+{script src="js/addons/cp_statuses_rules/func.js"}

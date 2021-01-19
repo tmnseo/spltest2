@@ -1,0 +1,1 @@
+{include file="addons/sw_checkbox_pd/views/check_box_pd.tpl" option="account_info"}

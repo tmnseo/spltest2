@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_fast_auth"
+msgid "Cart-Power: Quick authorization"
+msgstr "Cart-Power: Quick authorization"
+
+msgctxt "Addons::description::cp_fast_auth"
+msgid "Allows the user to log in by clicking on the link from the received email. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Allows the user to log in by clicking on the link from the received email. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_fast_auth::key_lifetime"
+msgid "Secret key lifetime (in minutes)"
+msgstr "Secret key lifetime (in minutes)"
+
+msgctxt "SettingsOptions::cp_fast_auth::cron_pass"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "SettingsOptions::cp_fast_auth::order_statuses"
+msgid "Statuses of orders to generate a secret key for"
+msgstr "Statuses of orders to generate a secret key for"
+
+msgctxt "Languages::cp_fast_auth.can_not_auth_user"
+msgid "Unfortunately, you haven't visited your personal account for a long time and the authorization link is outdated. please log in again"
+msgstr "Unfortunately, you haven't visited your personal account for a long time and the authorization link is outdated. please log in again"
+
+msgctxt "Languages::cp_fast_auth.cron_info_text"
+msgid "Use this script to clear secret keys on a scheduled basis"
+msgstr "Use this script to clear secret keys on a scheduled basis"

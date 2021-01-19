@@ -1,0 +1,126 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_additional_email_templates"
+msgid "Cart-Power: Additional e-mail notifications"
+msgstr "Cart-Power: Дополнительные e-mail уведомления"
+
+msgctxt "Addons::description::cp_additional_email_templates"
+msgid "Add new e-mail notifications to the store, with the ability to edit them via the admin panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет новые e-mail уведомления в магазин, с возможностью их редактирования через панель администратора. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+
+msgctxt "SettingsOptions::cp_additional_email_templates::development_specialist_email"
+msgid "E-mail of the supplier development specialist"
+msgstr "E-mail специалиста по развитию поставщиков"
+
+msgctxt "Languages::cp_additional_email_templates"
+msgid "Cart-power : Additional notifications"
+msgstr "Cart-power : Дополнительные уведомления"
+
+msgctxt "Languages::cp_additional_email_templates.event.new_connection_request.name"
+msgid "The supplier sent a request to connect via the SPL website"
+msgstr "Поставщик отправил заявку на подключение через сайт SPL"
+
+msgctxt "Languages::email_template.cp_additional_email_templates_new_connection_request"
+msgid "The supplier sent a request to connect via the SPL website"
+msgstr "Поставщик отправил заявку на подключение через сайт SPL"  
+
+msgctxt "Languages::cp_new_connection_request_subj"
+msgid "A request to connect the supplier was received"
+msgstr "Получена заявка на подключение поставщика"
+
+msgctxt "Languages::cp_templates.please_check_request"
+msgid "Please process the application # [crm_href] in CRM ."
+msgstr "Пожалуйста, обработайте заявку # [crm_href] в CRM ."
+
+msgctxt "Languages::cp_additional_email_templates.event.new_connection_request_sent.name"
+msgid "A request to connect via the SPL website has been sent"
+msgstr "Заявка на подключение через сайт SPL отправлена"
+
+msgctxt "Languages::email_template.cp_additional_email_templates_new_connection_request_sent"
+msgid "A request to connect via the SPL website has been sent"
+msgstr "Заявка на подключение через сайт SPL отправлена"
+
+msgctxt "Languages::cp_connection_request_sent_subj"
+msgid "Application for SPL connection accepted"
+msgstr "Принята заявка на подключение к SPL"
+
+msgctxt "Languages::cp_templates.hello"
+msgid "Hello, [user]"
+msgstr "Здравствуйте, [user]"
+
+msgctxt "Languages::cp_templates.info"
+msgid "You have sent a request to connect to the SPL marketplace. Within one business day, we will get to know your company better and respond to your request."
+msgstr "Вы отправили заявку на подключение к маркетплейсу SPL. В течение двух рабочих дней мы познакомимся с вашей компанией поближе и ответим на заявку."
+
+msgctxt "Languages::cp_templates.support_info"
+msgid "If you have questions about working with the marketplace, look at the <a href='[knowledge_base]' >Supplier's knowledge base</a>. [knowledge_base] if you need a consultation, write to US in the chat from the SPL website or by email [support_email] ."
+msgstr "Если у вас есть вопросы о работе с маркетплейсом, посмотрите <a href='[knowledge_base]' target=\"_blank\" style=\"color:#ED5F2C;\">Базу знаний поставщика</a>. [knowledge_base] Нужна будет консультация – напишите нам в чат с сайта SPL или на почту [support_email] ."
+
+msgctxt "Languages::cp_additional_email_templates.event.order_unpaid.name"
+msgid "Payment for the order was not received"
+msgstr "Оплата заказа не была получена"
+
+msgctxt "Languages::email_template.cp_additional_email_templates_order_unpaid"
+msgid "Payment for the order was not received"
+msgstr "Оплата заказа не была получена"
+
+msgctxt "Languages::cp_order_unpaid_subj"
+msgid "We didn't receive the payment"
+msgstr "Мы не получили оплату"
+
+msgctxt "Languages::cp_order_unpaid_info"
+msgid "We did not receive payment for order # [order_id]. If you have paid, please contact us so that we can extend the reserve by one day. Otherwise the order will be canceled today"
+msgstr "Мы не получили оплату заказа № [order_id]. Если вы заплатили, пожалуйста, свяжитесь с нами, чтобы мы продлили резерв на один день. Иначе заказ будет отменен сегодня"
+
+msgctxt "Languages::cp_additional_email_templates.event.new_planned_time_issuing_order"
+msgid "The date of issue of the order is set"
+msgstr "Установлена дата выдачи заказа"
+
+msgctxt "Languages::email_template.cp_additional_email_templates_new_planned_time_issuing_order"
+msgid "The date of issue of the order is set"
+msgstr "Установлена дата выдачи заказа"
+
+msgctxt "Languages::cp_new_planned_time_issuing_order_subj"
+msgid "The date of issue of the order is set"
+msgstr "Установлена дата выдачи заказа"
+
+msgctxt "Languages::cp_new_planned_time_issuing_order_info"
+msgid "For order # [order_id], the planned order issue date was set to [issuing_time]. You can change the issue date in the control panel."
+msgstr "Для заказа № [order_id] была установлена плановая дата выдачи заказа - [issuing_time]. Вы можете изменить дату выдачи в панели управления."
+
+msgctxt "Languages::cp_additional_email_templates.event.planned_time_issuing_order_change_for_customer"
+msgid "The planned date of issue of the order has changed"
+msgstr "Плановая дата выдачи заказа изменилась"
+
+msgctxt "Languages::email_template.planned_time_issuing_order_change_for_customer"
+msgid "The planned date of issue of the order has changed"
+msgstr "Плановая дата выдачи заказа изменилась"
+
+msgctxt "Languages::cp_planned_time_change_for_customer_subj"
+msgid "The planned date of issue of the order has changed"
+msgstr "Изменилась плановая дата выдачи заказа"
+
+msgctxt "Languages::cp_planned_time_change_for_customer_info"
+msgid "For order # [order_id] the planned date of order issue has been changed. order issuance is expected - [issuing_time]"
+msgstr "Для заказа № [order_id] была изменена плановая дата выдачи заказа. Выдача заказа ожидается - [issuing_time]"
+
+msgctxt "Languages::cp_additional_email_templates.event.planned_time_issuing_order_change_for_admin"
+msgid "The planned date of issue of the order has changed"
+msgstr "Плановая дата выдачи заказа изменилась"
+
+msgctxt "Languages::email_template.planned_time_issuing_order_change_for_admin"
+msgid "The planned date of issue of the order has changed"
+msgstr "Плановая дата выдачи заказа изменилась"
+
+msgctxt "Languages::cp_planned_time_change_for_admin_subj"
+msgid "The planned date of issue of the order has changed"
+msgstr "Изменилась плановая дата выдачи заказа"
+
+msgctxt "Languages::cp_planned_time_change_for_admin_info"
+msgid "For order # [order_id] the planned date of order issue has been changed. order issuance is expected - [issuing_time]"
+msgstr "Для заказа № [order_id] была изменена плановая дата выдачи заказа. Выдача заказа ожидается - [issuing_time]"

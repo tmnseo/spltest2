@@ -1,0 +1,149 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_checkout_modifications"
+msgid "Cart-Power: Modification of checkout"
+msgstr "Cart-Power: Модификация страницы оформления заказа"
+
+msgctxt "Addons::description::cp_checkout_modifications"
+msgid "Adding address fields for door delivery. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавление полей адреса при доставке до двери. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_checkout_modifications::id_banner_popup"
+msgid "Id banner for pop-up"
+msgstr "ID баннера для pop-up"
+
+msgctxt "Languages::cp_is_door_delivery"
+msgid "cp_is_door_delivery"
+msgstr "Доставка до двери"
+
+msgctxt "Languages::ttc_cp_is_door_delivery"
+msgid "Select this item if it is delivery to the customer’s door."
+msgstr "Выберите этот пункт, если это доставка до двери клиента."
+
+msgctxt "Languages::cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Доставка до терминала ТК"
+
+msgctxt "Languages::ttc_cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Выберите этот пункт, если это доставка до терминала ТК"
+
+msgctxt "Languages::cp_contact_information"
+msgid "Contact Information"
+msgstr "Информация о контактном лице"
+
+msgctxt "Languages::billing_address"
+msgid "Legal address"
+msgstr "Юридический адрес"
+
+msgctxt "Languages::cp_addition_company_info"
+msgid "Additional information about your company"
+msgstr "Дополнительная информация о вашей компании"
+
+msgctxt "Languages::cp_actual_address"
+msgid "Actual address"
+msgstr "Фактический адрес"
+
+msgctxt "Languages::cp_company_information"
+msgid "Company information"
+msgstr "Информация о компании"
+
+msgctxt "Languages::cp_customer_new_profile_notification"
+msgid "SPL account activated"
+msgstr "Учетная запись SPL активирована"
+
+msgctxt "Languages::cp_your_email"
+msgid "Your login"
+msgstr "Ваш логин"
+
+msgctxt "Languages::cp_your_password"
+msgid "Your password"
+msgstr "Ваш пароль"
+
+msgctxt "Languages::cp_login_url_text"
+msgid "<a href=\"[href]\">Follow the link </a> in your personal account, enter your username and password. <br> Welcome to SPL!"
+msgstr "<a href=\"[href]\">Пройдите по ссылке </a> в свой личный кабинет, введите логин и пароль.<br>Добро пожаловать в SPL!"
+
+msgctxt "Languages::cp_admin_new_profile_notification"
+msgid "New customer registered"
+msgstr "Зарегистрирован новый покупатель "
+
+msgctxt "Languages::cp_admin_new_profile_notification_header"
+msgid "New customer registered in SPL."
+msgstr "Зарегистрирован новый покупатель в SPL."
+
+msgctxt "Languages::cp_order_info"
+msgid "cp_order_info"
+msgstr "Cart-Power: Информация о заказе"
+
+msgctxt "Languages::cp_checkout_modifications_warehouse"
+msgid "cp_checkout_modifications_warehouse"
+msgstr "Склад"
+
+msgctxt "Languages::cp_checkout_modifications_product_total"
+msgid "cp_checkout_modifications_product_total"
+msgstr "Товаров в Вашем заказе"
+
+msgctxt "Languages::cp_profile_sections"
+msgid "Show on additional section"
+msgstr "Выводить в дополнительной секции"
+
+msgctxt "Languages::cp_profile_sections.actual_address"
+msgid "Actual address"
+msgstr "Фактический адрес"
+
+msgctxt "Languages::cp_profile_sections.additional_info"
+msgid "Additional info"
+msgstr "Дополнительная информация"
+
+msgctxt "Languages::cp_profile_sections.contact_information"
+msgid "Contact information"
+msgstr "Контактная информация"
+
+msgctxt "Languages::cp_profile_sections.company_information"
+msgid "Company information"
+msgstr "Информация о компании"
+
+msgctxt "Languages::cp_profile.edit_if_empty"
+msgid "Edit if empty"
+msgstr "Редактировать, если не задано"
+
+msgctxt "Languages::cp_profile.edit_if_empty_tooltip"
+msgid "Edit on the registration page if the Dadata hint did not fill this field"
+msgstr "Редактировать на странице регистрации, если подсказка Dadata не заполнила это поле"
+
+msgctxt "Languages::cp_profile.admin_edit_only"
+msgid "Edited only by admin"
+msgstr "Редактируется только админом"
+
+msgctxt "Languages::cp_profile.edited_only_by_admin"
+msgid "Edited only by admin"
+msgstr "Редактируется только админом"
+
+msgctxt "Languages::actual_same_as_billing"
+msgid "Actual address same as billing address"
+msgstr "Фактический адрес совпадает с юридическим"
+
+msgctxt "Languages::cp_checkout_modifications.order_total"
+msgid "Cost of goods in order"
+msgstr "Стоимость товаров в заказе"
+
+msgctxt "Languages::cp_checkout_modifications.taxes"
+msgid "taxes"
+msgstr "НДС"
+
+msgctxt "Languages::cp_complete"
+msgid "cp_complete"
+msgstr "Готово"
+
+msgctxt "Languages::cp_order_popup_info"
+msgid "cp_order_popup_info"
+msgstr "В течении 3 часов поставщик проверит Ваш заказ. Если все в порядке, Вы получите договор-счет на оплату на почту в личном кабинете. Оплатите его в течении 2 дней"
+
+msgctxt "Languages::order_completed"
+msgid "order_completed"
+msgstr "Ваш заказ отправлен поставщику"

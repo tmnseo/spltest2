@@ -1,0 +1,1 @@
+{script src="js/addons/cp_catalog_changes/func.js"}

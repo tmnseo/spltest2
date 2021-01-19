@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_task_manager</id>
+    <version>2.0</version>
+    <priority>200</priority>
+    <position>200</position>
+    <default_language>en</default_language>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>cp_addons_manager</dependencies>
+    </compatibility>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                    <item id="cron_url">
+                        <type>info</type>
+                        <handler>fn_cp_task_manager_cron_url_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE `?:cp_tasks` (
+                `task_id` mediumint(8) NOT NULL auto_increment,
+                `status` char(1) NOT NULL default 'A',
+                `type` char(1) NOT NULL default 'D',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `factory` text default '',
+                `to_date` int(11) unsigned NOT NULL default '0',
+                `from_date` int(11) unsigned NOT NULL default '0',
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `next_run` int(11) unsigned NOT NULL default '0',
+                `task_settings` text default '',
+                `notify_by_email` char (1) NOT NULL default 'Y',
+                `notify_email` varchar(50) NOT NULL default '',
+                `company_id` mediumint(8) NOT NULL default '0',
+                `approved` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`task_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="install">
+            CREATE TABLE `?:cp_task_descriptions` (
+                `task_id` mediumint(8) NOT NULL,
+                `task` varchar(255) NOT NULL default '',
+                `description` mediumtext,
+                `lang_code` char(2) NOT NULL default '',
+                UNIQUE KEY `task_id` (`task_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        
+        <item for="install">
+            CREATE TABLE `?:cp_task_logs` (
+                `log_id` int(11) unsigned NOT NULL auto_increment,
+                `task_id` mediumint(8) NOT NULL,
+                `task` text NOT NULL default '',
+                `type` char(1) NOT NULL default 'D',
+                `start_timestamp` int(11) unsigned NOT NULL default '0',
+                `stop_timestamp` int(11) unsigned NOT NULL default '0',
+                `result` smallint(5) unsigned NOT NULL default '0',
+                `comment` text NOT NULL default '',
+                PRIMARY KEY (`log_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_tasks', 'Y', 'addons');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_tasks', 'Y', 'addons');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'view_tasks');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'manage_tasks');</item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_tasks;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_task_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_task_logs;</item>
+        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_tasks'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'view_tasks'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_tasks'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'manage_tasks'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_cp_aa_install_func</item>
+        <item for="uninstall">fn_cp_aa_uninstall</item>
+    </functions>
+</addon>

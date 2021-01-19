@@ -1,0 +1,26 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_matrix_filters"
+msgid "Cart-Power: Filter on the product page by delivery time"
+msgstr "Cart-Power: Фильтр на странице товара по сроку доставки"
+
+msgctxt "Addons::description::cp_matrix_filters"
+msgid "Adds a filter by delivery time to the filter block. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет фильтр по сроку доставки в блок фильтров. Разработанно <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+
+
+msgctxt "Languages::cp_matrix_data_filter"
+msgid "Delivery filter"
+msgstr "Фильтр по доставке"
+
+msgctxt "Languages::cp_delivery_block_title"
+msgid "Delivery time filter"
+msgstr "Cрок доставки"
+
+
+

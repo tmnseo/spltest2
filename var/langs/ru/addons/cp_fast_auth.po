@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_fast_auth"
+msgid "Cart-Power: Quick authorization"
+msgstr "Cart-Power: Быстрая авторизация"
+
+msgctxt "Addons::description::cp_fast_auth"
+msgid "Allows the user to log in by clicking on the link from the received email. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет пользователю авторизовываться переходя по ссылке из полученного письма. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_fast_auth::key_lifetime"
+msgid "Secret key lifetime (in minutes)"
+msgstr "Время жизни секретного ключа (в минутах)"
+
+msgctxt "SettingsOptions::cp_fast_auth::cron_pass"
+msgid "CRON password"
+msgstr "CRON пароль"
+
+msgctxt "SettingsOptions::cp_fast_auth::order_statuses"
+msgid "Statuses of orders to generate a secret key for"
+msgstr "Статусы заказов для которых нужно генерировать секретный ключ"
+
+msgctxt "Languages::cp_fast_auth.can_not_auth_user"
+msgid "Unfortunately, you haven't visited your personal account for a long time and the authorization link is outdated. please log in again"
+msgstr "К сожалению, вы давно не посещали ваш личный кабинет, и ссылка авторизации устарела, пожалуйста, пройдите авторизацию заново"
+
+msgctxt "Languages::cp_fast_auth.cron_info_text"
+msgid "Use this script to clear secret keys on a scheduled basis"
+msgstr "Используйте этот скрипт для очистки секретных ключей по расписанию"

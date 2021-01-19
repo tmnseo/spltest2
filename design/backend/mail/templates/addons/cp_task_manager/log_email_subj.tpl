@@ -1,0 +1,1 @@
+{__("cp_email_log_subj", ["[task]" => $task.task, "[task_id]" => $task.task_id])}

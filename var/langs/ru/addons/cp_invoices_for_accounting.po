@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_invoices_for_accounting"
+msgid "Cart-Power: Automatic saving of paid contract invoices"
+msgstr "Cart-Power: Автоматическое сохранение оплаченных Договор-счетов"
+
+msgctxt "Addons::description::cp_invoices_for_accounting"
+msgid "Automatically saves the paid Contract invoices to the SPL server and sends the files to Zoho. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Автоматически сохраняет оплаченные Договор-счета на сервер SPL и отправляет файлы в Zoho. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_invoices_for_accounting::cron_pass"
+msgid "CRON password"
+msgstr "CRON пароль"
+
+msgctxt "SettingsOptions::cp_invoices_for_accounting::folder_name"
+msgid "Name of the file folder"
+msgstr "Название папки для файлов"
+
+msgctxt "Languages::cp_invoices_for_accounting.cron_info"
+msgid "Use this script to automatically save files to the SPL server and send them to Zoho"
+msgstr "Используйте этот скрипт для автоматического сохранения файлов на сервер SPL и отправки в Zoho"
+
+msgctxt "Languages::cp_invoices_for_accounting"
+msgid "Paid for the Contract account"
+msgstr "Оплаченные Договор-счета"
+
+msgctxt "Languages::cp_invoices_for_accounting.invoices_for_download"
+msgid "Contract-invoices for unloading"
+msgstr "Договор-счета для выгрузки"
+
+msgctxt "Languages::cp_invoices_for_accounting.download_invoices"
+msgid "To unload manually"
+msgstr "Выгрузить вручную"
+
+msgctxt "Languages::cp_invoices_for_accounting.order_id"
+msgid "Order ID"
+msgstr "Номер заказа"
+
+msgctxt "Languages::cp_invoices_for_accounting.cp_payment_order_number"
+msgid "Payment order number"
+msgstr "Номер платежного поручения"
+
+msgctxt "Languages::cp_invoices_for_accounting.order_status"
+msgid "Order status"
+msgstr "Статус заказа"

@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_brands_locations"
+msgid "Cart-Power: Delivery by brand"
+msgstr "Cart-Power: Доставка по брендам"
+
+msgctxt "Addons::description::cp_brands_locations"
+msgid "Allows you to link a brand to a territory. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет привязать бренд к территории. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_brands_locations.tab_title"
+msgid "Delivery by brand"
+msgstr "Доставка по брендам"
+
+msgctxt "Languages::cp_brands_locations.brands_title"
+msgid "Brands"
+msgstr "Бренды"
+
+msgctxt "Languages::cp_brands_locations.add_locations"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "Languages::cp_brands_locations.brands_table_title"
+msgid "Table of brand locations"
+msgstr "Таблица местоположений брендов"
+
+msgctxt "Languages::cp_brands_locations.reorder_block_product_notice"
+msgid "The supplier no longer delivers the following products to your region: </br> [products_text] Try to find these products from another supplier."
+msgstr "Поставщик больше не доставляет следующие товары в ваш регион: </br> [products_text] Попробуйте найти эти товары у другого поставщика."

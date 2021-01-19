@@ -1,0 +1,60 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_popup_notifications"
+msgid "Cart-Power: Pop-up notifications"
+msgstr "Cart-Power: Всплывающие уведомления"
+
+msgctxt "Addons::description::cp_popup_notifications"
+msgid "Adds pop-up notifications to the store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет в магазин высплывающие уведомления. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_popup_notifications::feedback_page_id"
+msgid "feedback_page_id"
+msgstr "ID страницы Обратная связь"
+
+msgctxt "Languages::cp_popup_notifications.is_popup"
+msgid "cp_popup_notifications.is_popup"
+msgstr "Открывать эту страницу во всплывающем окне"
+
+msgctxt "Languages::cp_popup_notifications.feedback"
+msgid "cp_popup_notifications.feedback"
+msgstr "Обратная связь"
+
+msgctxt "Languages::cp_popup_notifications.succes_reg"
+msgid "cp_popup_notifications.succes_reg"
+msgstr "Успешная регистрация"
+
+msgctxt "Languages::cp_popup_notifications.great"
+msgid "cp_popup_notifications.great"
+msgstr "Отлично"
+
+msgctxt "Languages::cp_popup_notifications.to_home_page"
+msgid "cp_popup_notifications.is_popup"
+msgstr "На главную"
+
+msgctxt "Languages::cp_popup_notifications.knowledge_base"
+msgid "cp_popup_notifications.knowledge_base"
+msgstr "База знаний"
+
+msgctxt "Languages::cp_popup_notifications.user_popup_header_text"
+msgid "cp_popup_notifications.user_popup_header_text"
+msgstr "Регистрация завершена!"
+
+msgctxt "Languages::cp_popup_notifications.user_popup_text"
+msgid "cp_popup_notifications.user_popup_text"
+msgstr "Поздравляем! Теперь Вы можете заказывать запчасти для спец. техники у проверенных поставщиков по наиболее выгодным ценам. Каждый товар оценивается по трем критериям: отзывы о поставщике, стоимость товара, скорость доставки до Вашего города"
+
+msgctxt "Languages::cp_popup_notifications.vendor_popup_header_text"
+msgid "cp_popup_notifications.user_popup_header_text"
+msgstr "Мы получили Вашу заявку!"
+
+msgctxt "Languages::cp_popup_notifications.vendor_popup_text"
+msgid "cp_popup_notifications.vendor_popup_text"
+msgstr "В течение рабочего дня проверим информацию. 
+После одобрения заявки вы получите на указанную вами почту письмо со ссылкой на демо-доступ к личному кабинету. 
+Ответным письмом нужно будет прислать копии документов, необходимые для заключения договора. 
+Ознакомьтесь, пожалуйста, <a href=\"https://support.service.parts/portal/ru/kb/articles/vendor-documents\">со списком документов</a>, подготовьте копии и ожидайте одобрения заявки.<br><br><strong>Мы скоро вам напишем!</strong>"

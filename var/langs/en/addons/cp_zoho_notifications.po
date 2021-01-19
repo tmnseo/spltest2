@@ -1,0 +1,117 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_zoho_notifications"
+msgid "Cart-Power: Notifications to Zoho"
+msgstr "Cart-Power: Notifications to Zoho"
+
+msgctxt "Addons::description::cp_zoho_notifications"
+msgid "Notifies the Zoho administrator if the order status has not been changed within the appropriate time frame. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Notifies the Zoho administrator if the order status has not been changed within the appropriate time frame. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_processed"
+msgid "The order status is 'Placed'"
+msgstr "The order status is 'Placed'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_confirmed"
+msgid "The order status is 'Confirmed by supplier'"
+msgstr "The order status is 'Confirmed by supplier'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_paid"
+msgid "The order status is 'Paid'"
+msgstr "The order status is 'Paid'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_paid_after_cancellation"
+msgid "The order status is 'Paid after cancellation'"
+msgstr "The order status is 'Paid after cancellation'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_completed"
+msgid "The order status is 'Completed'"
+msgstr "The order status is 'Completed'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::order_status_received"
+msgid "The order status is 'Received'"
+msgstr "The order status is 'Received'"
+
+msgctxt "SettingsOptions::cp_zoho_notifications::cron_pass"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "Languages::cp_zoho_notifications.processed_subj"
+msgid "The supplier did not confirm the order"
+msgstr "The supplier did not confirm the order"
+
+msgctxt "Languages::cp_zoho_notifications.confirmed_subj"
+msgid "The supplier did not confirm the order"
+msgstr "The supplier did not confirm the order"
+
+msgctxt "Languages::cp_zoho_notifications.paid_subj"
+msgid "The supplier did not complete the order"
+msgstr "The supplier did not complete the order"
+
+msgctxt "Languages::cp_zoho_notifications.paid_after_cancellation_subj"
+msgid "The supplier did not complete the order"
+msgstr "The supplier did not complete the order"
+
+msgctxt "Languages::cp_zoho_notifications.completed_subj"
+msgid "The supplier did not send the order"
+msgstr "The supplier did not send the order"
+
+msgctxt "Languages::cp_zoho_notifications.completed_pickup_subj"
+msgid "The buyer did not receive the order"
+msgstr "The buyer did not receive the order"
+
+msgctxt "Languages::cp_zoho_notifications.explain_and_cancel"
+msgid "Explain and cancel"
+msgstr "Explain and cancel"
+
+msgctxt "Languages::cp_zoho_notifications.explain"
+msgid "Explain"
+msgstr "Explain"
+
+msgctxt "Languages::cp_zoho_notifications.processed"
+msgid "The supplier [vendor] did not confirm the order # [order_id]."
+msgstr "The supplier [vendor] did not confirm the order # [order_id]."
+
+msgctxt "Languages::cp_zoho_notifications.confirmed"
+msgid "Buyer [user] did not pay for order # [order_id]."
+msgstr "Buyer [user] did not pay for order # [order_id]."
+
+msgctxt "Languages::cp_zoho_notifications.paid"
+msgid "Supplier [vendor] didn't complete the order # [order_id]."
+msgstr "Supplier [vendor] didn't complete the order # [order_id]."
+
+msgctxt "Languages::cp_zoho_notifications.paid_after_cancellation"
+msgid "Supplier [vendor] didn't complete the order # [order_id]."
+msgstr "Supplier [vendor] didn't complete the order # [order_id]."
+
+msgctxt "Languages::cp_zoho_notifications.completed_pickup"
+msgid "Buyer [user] did not receive order # [order_id] from the Supplier [vendor]."
+msgstr "Buyer [user] did not receive order # [order_id] from the Supplier [vendor]."
+
+msgctxt "Languages::cp_zoho_notifications.completed"
+msgid "The supplier [vendor] did not send the order # [order_id]."
+msgstr "The supplier [vendor] did not send the order # [order_id]."
+
+msgctxt "Languages::cp_zoho_notifications.cron_info"
+msgid "Use this script to automatically send notifications to Zoho"
+msgstr "Use this script to automatically send notifications to Zoho"
+
+msgctxt "Languages::cp_zoho_notifications.crm_subj"
+msgid "Payment error"
+msgstr "Payment error"
+
+msgctxt "Languages::cp_zoho_notifications.crm"
+msgid "P/I # [payment_number] from the Buyer [user] cannot be processed. You need to check and contact the Buyer"
+msgstr "P/I # [payment_number] from the Buyer [user] cannot be processed. You need to check and contact the Buyer"
+
+msgctxt "Languages::cp_zoho_notifications.received_subj"
+msgid "You must pay the аgency fee to the supplier [vendor]."
+msgstr "You must pay the аgency fee to the supplier [vendor]."
+
+msgctxt "Languages::cp_zoho_notifications.received"
+msgid "The buyer [user] received the product [date] for order # [order_id]. You must transfer the Agency fee to the supplier."
+msgstr "The buyer [user] received the product [date] for order # [order_id]. You must transfer the Agency fee to the supplier."

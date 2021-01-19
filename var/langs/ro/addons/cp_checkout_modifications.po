@@ -1,0 +1,61 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_checkout_modifications"
+msgid "Cart-Power: Modification of checkout"
+msgstr "Cart-Power: Modification of checkout"
+
+msgctxt "Addons::description::cp_checkout_modifications"
+msgid "Adding address fields for door delivery. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adding address fields for door delivery. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_is_door_delivery"
+msgid "cp_is_door_delivery"
+msgstr "Delivery to the door"
+
+msgctxt "Languages::ttc_cp_is_door_delivery"
+msgid "Select this item if it is delivery to the customer’s door."
+msgstr "Select this item if it is delivery to the customer’s door."
+
+msgctxt "Languages::cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Delivery to the terminal of shopping mall"
+
+msgctxt "Languages::ttc_cp_is_delivery_to_tc"
+msgid "cp_is_delivery_to_TC"
+msgstr "Select this item if it is delivery to the terminal of shopping mall."
+
+msgctxt "Languages::billing_address"
+msgid "Legal address"
+msgstr "Legal address"
+
+msgctxt "Languages::cp_addition_company_info"
+msgid "Additional information about your company"
+msgstr "Additional information about your company"
+
+msgctxt "Languages::cp_customer_new_profile_notification"
+msgid "SPL account activated"
+msgstr "SPL account activated"
+
+msgctxt "Languages::cp_your_email"
+msgid "Your login"
+msgstr "Your login"
+
+msgctxt "Languages::cp_your_password"
+msgid "Your password"
+msgstr "Your password"
+
+msgctxt "Languages::cp_login_url_text"
+msgid "<a href=\"[href]\">Follow the link </a> in your personal account, enter your username and password. <br> Welcome to SPL!"
+msgstr "<a href=\"[href]\">Follow the link </a> in your personal account, enter your username and password. <br> Welcome to SPL!"
+
+msgctxt "Languages::cp_admin_new_profile_notification"
+msgid "New customer registered"
+msgstr "New customer registered "
+
+msgctxt "Languages::cp_admin_new_profile_notification_header"
+msgid "New customer registered in SPL."
+msgstr "New customer registered in SPL."

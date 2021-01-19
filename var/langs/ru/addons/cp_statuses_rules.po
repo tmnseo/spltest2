@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_statuses_rules"
+msgid "Cart-Power: Rules for changing statuses"
+msgstr "Cart-Power: Правила для смены статусов"
+
+msgctxt "Addons::description::cp_statuses_rules"
+msgid "Restricts the vendor to select statuses according to the current one. Automatically changes statuses after a certain time and receipt of payment information. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Ограничивает поставщику выбор статусов в соответствии с текущим. Автоматически изменяет статусы по истечении определенного времени и получения сведении об оплате. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_placed"
+msgid "The order status is 'Placed'"
+msgstr "Статус заказа 'Размещен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_cancel"
+msgid "The order status is 'Cancel'"
+msgstr "Статус заказа 'Отменен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_paid"
+msgid "The order status is 'Paid'"
+msgstr "Статус заказа 'Оплачен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_paid_after_cancellation"
+msgid "The order status is 'Paid after cancellation'"
+msgstr "Статус заказа 'Оплачен после отмены'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_confirmed"
+msgid "The order status is 'Confirmed'"
+msgstr "Статус заказа 'Подтвержден'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_refund"
+msgid "The order status is 'Refund'"
+msgstr "Статус заказа 'Возврат Д/C'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_cancel_with_refund"
+msgid "The order status is 'Cancel with refund'"
+msgstr "Статус заказа 'Отмена с возвратом Д/C'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_completed"
+msgid "The order status is 'Completed'"
+msgstr "Статус заказа 'Скомплектован'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_received"
+msgid "The order status is 'Received'"
+msgstr "Статус заказа 'Получен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_shipped"
+msgid "The order status is 'Shipped'"
+msgstr "Статус заказа 'Отправлен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_waiting_for_payment"
+msgid "The order status is 'Waiting for payment'"
+msgstr "Статус заказа 'Ждем оплату'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_vendor_return"
+msgid "The order status is 'Vendor return'"
+msgstr "Статус заказа 'Возврат согласован поставщиком'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::order_status_finished"
+msgid "The order status is 'Finished'"
+msgstr "Статус заказа 'Выполнен'"
+
+msgctxt "SettingsOptions::cp_statuses_rules::enable_test_menu"
+msgid "Enable menu for testing"
+msgstr "Отображать меню тестирования"
+
+msgctxt "SettingsOptions::cp_statuses_rules::cron_pass"
+msgid "CRON password"
+msgstr "CRON пароль"
+
+msgctxt "Languages::cp_statuses_rules.cron_info"
+msgid "Use this script to automatically add-on working"
+msgstr "Используйте этот скрипт для автоматической работы модуля"
+
+msgctxt "Languages::cp_statuses_rules"
+msgid "Order status controller"
+msgstr "Контроллер статусов заказов"
+
+msgctxt "Languages::cp_statuses_rules.order_id"
+msgid "Order number"
+msgstr "Номер заказа"
+
+msgctxt "Languages::cp_statuses_rules.update_time"
+msgid "Update time (timestamp)"
+msgstr "Время изменения (timestamp)"
+
+msgctxt "Languages::cp_statuses_rules.order_status"
+msgid "Order status"
+msgstr "Статус заказа"
+
+msgctxt "Languages::cp_statuses_rules.go"
+msgid "Go CRON"
+msgstr "Запустить CRON"
+
+msgctxt "Languages::cp_statuses_rules.test_title"
+msgid "Order status controller"
+msgstr "Контроллер статусов заказов"
+
+msgctxt "Languages::cp_statuses_rules.order_unpaid_cron_info"
+msgid "Use this script to automatically send notifications about non-payment for an order"
+msgstr "Используйте этот скрипт для автоматической отправки уведомлений о неполучении оплаты за заказ"

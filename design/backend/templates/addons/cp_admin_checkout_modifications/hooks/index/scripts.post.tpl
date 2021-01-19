@@ -1,0 +1,1 @@
+{script src="js/addons/cp_admin_checkout_modifications/func.js"}

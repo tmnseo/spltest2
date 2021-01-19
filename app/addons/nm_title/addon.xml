@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>nm_title</id>
+    <name>Newmen Zoho Connector</name>
+    <description>Newmen Zoho Connector</description>
+    <default_language>ru</default_language>
+    <version>0.2</version>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>Newmen</name>
+            <url>https://newmen.co/</url>
+        </author>
+    </authors>
+    <supplier>Newmen</supplier>
+    <supplier_link>https://newmen.co/</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="main">
+                <items>
+                    <item id="zoho_client_id">
+                        <type>input</type>
+                    </item>
+                    <item id="zoho_client_secret">
+                        <type>password</type>
+                    </item>
+                    <item id="zoho_access_token">
+                        <type>password</type>
+                    </item>
+                    <item id="zoho_refresh_token">
+                        <type>password</type>
+                    </item>
+                    <item id="zoho_token_expires_in">
+                        <type>password</type>
+                    </item>
+                    <item id="link_to_get_tokens">
+                        <type>info</type>
+                        <handler>fn_link_to_get_tokens_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

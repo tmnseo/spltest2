@@ -1,0 +1,141 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::sd_shipping_estimation"
+msgid "Simtech Development: Shipping estimate"
+msgstr "Simtech Development: Расчет стоимости доставки"
+
+msgctxt "Addons::description::sd_shipping_estimation"
+msgid "Estimate the shipping cost on the product page. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Расчет стоимости доставки товара на странице товара. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Поддержка</a>"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::display_in_product_page"
+msgid "Block position on the product page"
+msgstr "Положение блока на странице продукта"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::display_in_product_page"
+msgid "Select the position of the block with the shipping estimate on the product page."
+msgstr "Выберите положение блока с оценкой стоимости доставки на странице товара."
+
+msgctxt "SettingsOptions::sd_shipping_estimation::lkey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsVariants::sd_shipping_estimation::display_in_product_page::promo"
+msgid "Right"
+msgstr "Справа"
+
+msgctxt "SettingsVariants::sd_shipping_estimation::display_in_product_page::bottom"
+msgid "Bottom"
+msgstr "Внизу"
+
+msgctxt "SettingsVariants::sd_shipping_estimation::display_in_product_page::none"
+msgid "Don't show"
+msgstr "Не показывать"
+
+msgctxt "Languages::shipping_methods_cost"
+msgid "Shipping estimate"
+msgstr "Расчет стоимости доставки"
+
+msgctxt "Languages::block_shipping_estimation"
+msgid "Shipping estimate"
+msgstr "Расчет стоимости доставки"
+
+msgctxt "Languages::block_shipping_estimation_description"
+msgid "A list of shipping methods with shipping costs"
+msgstr "Список способов доставки со стоимостью доставки товара"
+
+msgctxt "Languages::transport_company"
+msgid "Transport company"
+msgstr "Транспортная компания"
+
+msgctxt "Languages::cost_of_delivery"
+msgid "Shipping cost"
+msgstr "Стоимость доставки"
+
+msgctxt "Languages::estimated_delivery_time"
+msgid "Estimated delivery time"
+msgstr "Расчетное время доставки"
+
+msgctxt "Languages::destination"
+msgid "Destination"
+msgstr "Пункт назначения"
+
+msgctxt "Languages::change_location"
+msgid "Change location"
+msgstr "Изменить местоположение"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::auto_load"
+msgid "Calculate shipping automatically"
+msgstr "Рассчитывать стоимость доставки автоматически"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::auto_load"
+msgid "If disabled, the shipping options will be calculated by click."
+msgstr "Если не выбрано, варианты доставки будут рассчитываться по клику."
+
+msgctxt "Languages::addons.sd_shipping_estimation.calculate_shipping"
+msgid "Calculate shipping"
+msgstr "Рассчитать доставку"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::number_of_methods_in_block"
+msgid "Number of shipping methods in the block"
+msgstr "Количество способов доставки в блоке"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::number_of_methods_in_block"
+msgid "The setting specifies how many shipping methods will be shown immediately after the product page is loaded."
+msgstr "Данная настройка определяет, сколько способов доставки будет показано сразу после загрузки страницы товара."
+
+msgctxt "Languages::addons.sd_shipping_estimation.show_all_shipping_methods"
+msgid "Show all shipping methods"
+msgstr "Показать все способы доставки"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::show_delivery_time"
+msgid "Show delivery time in the block"
+msgstr "Показывать сроки доставки в блоке"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::show_delivery_time"
+msgid "Specify if delivery time should be displayed in the block with shipping estimate."
+msgstr "Укажите, нужно ли показывать время доставки в блоке с оценкой стоимости доставки."
+
+msgctxt "Languages::addons.sd_shipping_estimation.email_header"
+msgid "The shipping estimation timeout is exceeded."
+msgstr "Время расчета стоимости доставки превышено."
+
+msgctxt "Languages::addons.sd_shipping_estimation.email_body"
+msgid "Slow methods:"
+msgstr "Медленные методы:"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::waiting_time"
+msgid "Timeout"
+msgstr "Время ожидания"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::waiting_time"
+msgid "If the shippint estimation timeout is exceeded, an email notification will be sent to the administrator. Leave empty if you do not want the notification to be sent."
+msgstr "Если время ожидания расчета способа доставки больше указанного, то администратору сайта придет уведомление. Оставьте пустым, если не хотите чтобы письма присылались."
+
+msgctxt "Languages::email_template.sd_shipping_estimation_mail_template"
+msgid "Mail template \"The shipping estimation timeout is exceeded\""
+msgstr "Шаблон письма \"Время расчета стоимости доставки превышено\""
+
+msgctxt "SettingsOptions::sd_shipping_estimation::save_min_shipping"
+msgid "Select minimum shipping method automatically"
+msgstr "Автоматически выбирать минимальный способ доставки"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::save_min_shipping"
+msgid "If checked the minimum shipping method will be selected automatically on the cart page."
+msgstr "Если выбрано, то на странице корзины автоматически будет выбран минимальный способ доставки."
+
+msgctxt "Languages::cant_detect_city"
+msgid "We were unable to determine your city"
+msgstr "Мы не смогли определить Ваш город"
+
+msgctxt "SettingsOptions::sd_shipping_estimation::filter_crawlers"
+msgid "Hide content of the add-on from bots"
+msgstr "Скрыть модуль от ботов"
+
+msgctxt "SettingsTooltips::sd_shipping_estimation::filter_crawlers"
+msgid "If enabled, users identified as bots won't see the add-on."
+msgstr "Если включено, пользователи, идентифицированные как боты, не увидят расширение."

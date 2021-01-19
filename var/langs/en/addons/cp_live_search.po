@@ -1,0 +1,894 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_live_search"
+msgid "Cart-Power: Live search"
+msgstr "Cart-Power: Live search"
+
+msgctxt "Addons::description::cp_live_search"
+msgid "Include new live search for your store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>. Professional CS-Cart development."
+msgstr "Include new live search for your store. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>. Professional CS-Cart development."
+
+msgctxt "SettingsSections::cp_live_search::elm_Settings"
+msgid "Default settings"
+msgstr "Default settings"
+
+msgctxt "SettingsSections::cp_live_search::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::cp_live_search::search_options"
+msgid "Search settings"
+msgstr "Search settings"
+
+msgctxt "SettingsSections::cp_live_search::display_options"
+msgid "Look and feel settings"
+msgstr "Look and feel settings"
+
+msgctxt "SettingsOptions::cp_live_search::show_taxed_prices"
+msgid "Show taxed prices"
+msgstr "Show taxed prices"
+
+msgctxt "SettingsOptions::cp_live_search::show_categories_result"
+msgid "Show categories in search result"
+msgstr "Show categories in search result"
+
+msgctxt "SettingsOptions::cp_live_search::categories_amount"
+msgid "Max number of categories"
+msgstr "Max number of categories"
+
+msgctxt "SettingsOptions::cp_live_search::use_fields_weight"
+msgid "Use fields weight"
+msgstr "Use fields weight"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_exact_phrase"
+msgid "Search algorithm"
+msgstr "Search algorithm"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::any"
+msgid "Any word"
+msgstr "Any word"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::all"
+msgid "All words"
+msgstr "All words"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::strict_all"
+msgid "All words (strictly by fields)"
+msgstr "All words (strictly by fields)"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_exact_phrase::exact_phrase"
+msgid "Exact phrase"
+msgstr "Exact phrase"
+
+msgctxt "SettingsOptions::cp_live_search::ignore_symbols"
+msgid "Ignored characters in the product name"
+msgstr "Ignored characters in the product name"
+
+msgctxt "SettingsTooltips::cp_live_search::ignore_symbols"
+msgid "To apply the changes you need to rebuild the cache. Works only when cache is used"
+msgstr "To apply the changes you need to rebuild the cache. Works only when cache is used"
+
+msgctxt "SettingsOptions::cp_live_search::order_results"
+msgid "Sort search results by"
+msgstr "Sort search results by"
+
+msgctxt "SettingsTooltips::cp_live_search::order_results"
+msgid "Works only when cache is used"
+msgstr "Works only when cache is used"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::popularity"
+msgid "Popularity"
+msgstr "Popularity"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::weight"
+msgid "Fields weight"
+msgstr "Fields weight"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::newest"
+msgid "New items first"
+msgstr "New items first"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::price_asc"
+msgid "Price Low to High"
+msgstr "Price Low to High"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::price_desc"
+msgid "Price High to Low"
+msgstr "Price High to Low"
+
+msgctxt "SettingsVariants::cp_live_search::order_results::product"
+msgid "Product name A-Z"
+msgstr "Product name A-Z"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_product_code"
+msgid "Search by product code"
+msgstr "Search by product code"
+
+msgctxt "SettingsOptions::cp_live_search::letters_to_start"
+msgid "Minimum entered characters to start searching"
+msgstr "Minimum entered characters to start searching"
+
+msgctxt "SettingsOptions::cp_live_search::items_limit"
+msgid "Max number of products in search results drop-down list"
+msgstr "Max number of products in search results drop-down list"
+
+msgctxt "SettingsOptions::cp_live_search::show_thumbnails"
+msgid "Product thumbnails"
+msgstr "Product thumbnails"
+
+msgctxt "SettingsOptions::cp_live_search::thumbnails_width"
+msgid "Image width"
+msgstr "Image width"
+
+msgctxt "SettingsOptions::cp_live_search::thumbnails_height"
+msgid "Image height"
+msgstr "Image height"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_keywords"
+msgid "Search in metadata"
+msgstr "Search in metadata"
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_cart"
+msgid "Show "Add to cart" button"
+msgstr "Show "Add to cart" button"
+
+msgctxt "SettingsOptions::cp_live_search::searchinfeatures"
+msgid "Search in features"
+msgstr "Search in features"
+
+msgctxt "SettingsTooltips::cp_live_search::searchinfeatures"
+msgid "You must check the corresponding checkbox in the settings of the feature. To apply the changes you need to rebuild the cache. Works only when cache is used."
+msgstr "You must check the corresponding checkbox in the settings of the feature. To apply the changes you need to rebuild the cache. Works only when cache is used."
+
+msgctxt "SettingsOptions::cp_live_search::searchinoptions"
+msgid "Search in options"
+msgstr "Search in options"
+
+msgctxt "SettingsTooltips::cp_live_search::searchinoptions"
+msgid "Works only when cache is used"
+msgstr "Works only when cache is used"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_code"
+msgid "Show product code"
+msgstr "Show product code"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_price"
+msgid "Show product price"
+msgstr "Show product price"
+
+msgctxt "SettingsOptions::cp_live_search::use_suggestions"
+msgid "Show suggestions"
+msgstr "Show suggestions"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::none"
+msgid "Do not show"
+msgstr "Do not show"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::auto"
+msgid "From Search phrases and Search history"
+msgstr "From Search phrases and Search history"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::search_phrases"
+msgid "From search phrases"
+msgstr "From search phrases"
+
+msgctxt "SettingsVariants::cp_live_search::use_suggestions::search_results"
+msgid "From search history"
+msgstr "From search history"
+
+msgctxt "SettingsOptions::cp_live_search::suggestions_amount"
+msgid "Max number of suggestions"
+msgstr "Max number of suggestions"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_categories"
+msgid "Search by categories"
+msgstr "Search by categories"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::in_categories"
+msgid "Products from the category only"
+msgstr "Products from the category only"
+
+msgctxt "SettingsVariants::cp_live_search::search_by_categories::in_categories_paths"
+msgid "Include products from the subcategories"
+msgstr "Include products from the subcategories"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_full_description"
+msgid "Search in full description"
+msgstr "Search in full description"
+
+msgctxt "SettingsTooltips::cp_live_search::search_in_full_description"
+msgid "Search in full description decreases speed of search"
+msgstr "Search in full description decreases speed of search"
+
+msgctxt "SettingsOptions::cp_live_search::search_in_short_description"
+msgid "Search in short description"
+msgstr "Search in short description"
+
+msgctxt "SettingsTooltips::cp_live_search::search_in_short_description"
+msgid "Search in short description decreases speed of search"
+msgstr "Search in short description decreases speed of search"
+
+msgctxt "SettingsOptions::cp_live_search::search_delay"
+msgid "Search delay (ms)"
+msgstr "Search delay (ms)"
+
+msgctxt "SettingsOptions::cp_live_search::show_ajax_loader"
+msgid "Show ajax loader"
+msgstr "Show ajax loader"
+
+msgctxt "SettingsOptions::cp_live_search::ajax_loader"
+msgid "Ajax loader animation"
+msgstr "Ajax loader animation"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_1"
+msgid "Loader 1"
+msgstr "Loader 1"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_2"
+msgid "Loader 2"
+msgstr "Loader 2"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_3"
+msgid "Loader 3"
+msgstr "Loader 3"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_4"
+msgid "Loader 4"
+msgstr "Loader 4"
+
+msgctxt "SettingsVariants::cp_live_search::ajax_loader::loader_5"
+msgid "Loader 5"
+msgstr "Loader 5"
+
+msgctxt "SettingsOptions::cp_live_search::cron_password"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "SettingsOptions::cp_live_search::use_cache"
+msgid "Use cache"
+msgstr "Use cache"
+
+msgctxt "SettingsTooltips::cp_live_search::use_cache"
+msgid "Works only if the cache is generated. Please rebuild the cache on the following page: Cart-Power: Add-ons > Live search > Data caching."
+msgstr "Works only if the cache is generated. Please rebuild the cache on the following page: Cart-Power: Add-ons > Live search > Data caching."
+
+msgctxt "SettingsOptions::cp_live_search::show_icon_on_desktop"
+msgid "Show icon instead field on desktop"
+msgstr "Show icon instead field on desktop"
+
+msgctxt "SettingsTooltips::cp_live_search::show_icon_on_desktop"
+msgid "Work with 'Inline search field (top panel)' and 'Dropdown search field with icon (top panel)' templates"
+msgstr "Work with 'Inline search field (top panel)' and 'Dropdown search field with icon (top panel)' templates"
+
+msgctxt "Languages::next_items"
+msgid "Next items"
+msgstr "Next items"
+
+msgctxt "Languages::show_all_items"
+msgid "Show all items"
+msgstr "Show all items"
+
+msgctxt "Languages::previous_items"
+msgid "Previous items"
+msgstr "Previous items"
+
+msgctxt "Languages::cp_stop_words"
+msgid "Stop words"
+msgstr "Stop words"
+
+msgctxt "Languages::ttc_cp_stop_words"
+msgid "Used for Live search. Add comma separated search queries for which the product should be excluded from the search results."
+msgstr "Used for Live search. Add comma separated search queries for which the product should be excluded from the search results."
+
+msgctxt "Languages::cp_live_search"
+msgid "Live search"
+msgstr "Live search"
+
+msgctxt "Languages::cache"
+msgid "Cache"
+msgstr "Cache"
+
+msgctxt "Languages::search_history"
+msgid "Search history"
+msgstr "Search history"
+
+msgctxt "Languages::cp_live_search_cache"
+msgid "Data caching"
+msgstr "Data caching"
+
+msgctxt "Languages::repair_cache_table"
+msgid "Repair cache table"
+msgstr "Repair cache table"
+
+msgctxt "Languages::optimize_cache_table"
+msgid "Optimize cache table"
+msgstr "Optimize cache table"
+
+msgctxt "Languages::delete_cache_table"
+msgid "Delete cache table"
+msgstr "Delete cache table"
+
+msgctxt "Languages::rebuild_cache"
+msgid "Rebuild cache"
+msgstr "Rebuild cache"
+
+msgctxt "Languages::make_search_better"
+msgid "To fasten the search, disable search in short and full descriptions in the add-on settings."
+msgstr "To fasten the search, disable search in short and full descriptions in the add-on settings."
+
+msgctxt "Languages::cached_products"
+msgid "Cached products"
+msgstr "Cached products"
+
+msgctxt "Languages::total_cached_strings"
+msgid "Total cached strings"
+msgstr "Total cached strings"
+
+msgctxt "Languages::group_by_search"
+msgid "Group by search phrase"
+msgstr "Group by search phrase"
+
+msgctxt "Languages::count"
+msgid "Number of queries"
+msgstr "Number of queries"
+
+msgctxt "Languages::simple_search"
+msgid "Regular search"
+msgstr "Regular search"
+
+msgctxt "Languages::clear_history"
+msgid "Clear history"
+msgstr "Clear history"
+
+msgctxt "Languages::text_search_words_have_been_deleted"
+msgid "Search words have been deleted"
+msgstr "Search words have been deleted"
+
+msgctxt "Languages::text_search_word_has_been_deleted"
+msgid "Search word has been deleted"
+msgstr "Search word has been deleted"
+
+msgctxt "Languages::clear_history"
+msgid "Clear history"
+msgstr "Clear history"
+
+msgctxt "SettingsOptions::cp_live_search::licensekey"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsTooltips::cp_live_search::licensekey"
+msgid "Find on the detailed page of your order"
+msgstr "You can find it on your order details page"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues"
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues"
+
+msgctxt "Languages::tmpl_inline_search"
+msgid "Inline search field (top panel)"
+msgstr "Inline search field (top panel)"
+
+msgctxt "Languages::tmpl_dropdown_search"
+msgid "Dropdown search field with icon (top panel)"
+msgstr "Dropdown search field with icon (top panel)"
+
+msgctxt "Languages::cp_live_search_cache_menu_description"
+msgid "Manage Live Search Cache"
+msgstr "Manage Live Search Cache"
+
+msgctxt "Languages::cp_live_search_menu_description"
+msgid "Manage Live Search"
+msgstr "Manage Live Search"
+
+msgctxt "Languages::search_history_menu_description"
+msgid "Manage Live Search history"
+msgstr "Manage Live Search history"
+
+msgctxt "Languages::fields_weight"
+msgid "Fields weight"
+msgstr "Fields weight"
+
+msgctxt "Languages::fields_weight_menu_description"
+msgid "Manage Live Search fields weight"
+msgstr "Manage Live Search fields weight"
+
+msgctxt "Languages::search_field"
+msgid "Search field"
+msgstr "Search field"
+
+msgctxt "Languages::field_weight_none"
+msgid "Full match with the text"
+msgstr "Full match with the text"
+
+msgctxt "Languages::field_weight_before"
+msgid "Full match with the begining of the text"
+msgstr "Full match with the begining of the text"
+
+msgctxt "Languages::field_weight_after"
+msgid "Full match with the end of the text"
+msgstr "Full match with the end of the text"
+
+msgctxt "Languages::field_weight_any"
+msgid "Full match with any part of the text"
+msgstr "Full match with any part of the text"
+
+msgctxt "Languages::product_field"
+msgid "Product field"
+msgstr "Product field"
+
+msgctxt "Languages::sort_by_cp_search_weight_desc"
+msgid "Sort by relevance"
+msgstr "Sort by relevance"
+
+msgctxt "Languages::fields_weight_explanation_title"
+msgid "The work of Fields weight functionality on the example of the Samsung Smart TV product."
+msgstr "The work of Fields weight functionality on the example of the Samsung Smart TV product."
+
+msgctxt "Languages::type_of_match"
+msgid "Type of match"
+msgstr "Type of match"
+
+msgctxt "Languages::product_will_be_in_search_results"
+msgid "Product will be shown in the search results"
+msgstr "Product will be shown in the search results"
+
+msgctxt "Languages::product_will_not_be_in_search_results"
+msgid "Product will not be shown in the search results"
+msgstr "Product will not be shown in the search results"
+
+msgctxt "Languages::search_query"
+msgid "Search query"
+msgstr "Search query"
+
+msgctxt "Languages::display"
+msgid "Display options"
+msgstr "Display options"
+
+msgctxt "Languages::dropdown"
+msgid "Dropdown (for top panel)"
+msgstr "Dropdown (for top panel)"
+
+msgctxt "Languages::rounded_corners"
+msgid "Rounded corners"
+msgstr "Rounded corners"
+
+msgctxt "Languages::show_add_to_cart"
+msgid "Show \"Add to cart\" button"
+msgstr "Show \"Add to cart\" button"
+
+msgctxt "Languages::show_icon_on_desktop"
+msgid "Show search icon instead of search field"
+msgstr "Show search icon instead of search field"
+
+msgctxt "Languages::effect"
+msgid "Effect"
+msgstr "Effect"
+
+msgctxt "Languages::show_in_dropdown"
+msgid "Show field in dropdown"
+msgstr "Show field in dropdown"
+
+msgctxt "Languages::animated"
+msgid "Animated"
+msgstr "Animated"
+
+msgctxt "Languages::overlay"
+msgid "Overlay"
+msgstr "Overlay"
+
+msgctxt "Languages::underline_field"
+msgid "Underline field"
+msgstr "Underline field"
+
+msgctxt "Languages::result"
+msgid "Products found"
+msgstr "Products found"
+
+msgctxt "Languages::cp_table_not_exists"
+msgid "Table not exists"
+msgstr "Table not exists"
+
+msgctxt "Languages::cp_cron_command"
+msgid "CRON commands"
+msgstr "CRON commands"
+
+msgctxt "Languages::cp_all_cron_command"
+msgid "CRON commands for all storefronts"
+msgstr "CRON commands for all storefronts"
+
+msgctxt "Languages::privileges.manage_cp_live_search"
+msgid "Manage Live search"
+msgstr "Manage Live search"
+
+msgctxt "Languages::privileges.view_cp_live_search"
+msgid "View Live search"
+msgstr "View Live search"
+
+msgctxt "SettingsOptions::cp_live_search::show_category_labels"
+msgid "Assign colors for categories"
+msgstr "Assign colors for categories"
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_wishlist"
+msgid "Show \"Add to wishlist\" button"
+msgstr "Show \"Add to wishlist\" button"
+
+msgctxt "SettingsOptions::cp_live_search::show_add_to_comparison_list"
+msgid "Show \"Add to comparison list\" button"
+msgstr "Show \"Add to comparison list\" button"
+
+msgctxt "SettingsSections::cp_live_search::elements_options"
+msgid "Elements options"
+msgstr "Elements options"
+
+msgctxt "Languages::cp_ls_stylization"
+msgid "Stylization"
+msgstr "Stylization"
+
+msgctxt "Languages::cp_ls_color"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "Languages::cp_ls_hover_color"
+msgid "Hover color"
+msgstr "Hover color"
+
+msgctxt "Languages::cp_ls_background"
+msgid "Background"
+msgstr "Background"
+
+msgctxt "Languages::cp_ls_borders"
+msgid "Borders"
+msgstr "Borders"
+
+msgctxt "Languages::cp_btn_add_to_cart"
+msgid "Button \"Add to cart\""
+msgstr "Button \"Add to cart\""
+
+msgctxt "Languages::cp_btn_add_to_wishlist"
+msgid "Button \"Add to wishlist\""
+msgstr "Button \"Add to wishlist\""
+
+msgctxt "Languages::cp_btn_add_to_comparison_list"
+msgid "Button \"Add to comparison list\""
+msgstr "Button \"Add to comparison list\""
+
+msgctxt "Languages::cp_ls_popup_titles"
+msgid "Inscriptions in a popup"
+msgstr "Inscriptions in a popup"
+
+msgctxt "Languages::cp_ls_popup_elements"
+msgid "Popup tools"
+msgstr "Popup tools"
+
+msgctxt "SettingsVariants::cp_live_search::show_category_labels::random"
+msgid "Random"
+msgstr "Random"
+
+msgctxt "SettingsVariants::cp_live_search::show_category_labels::assigned"
+msgid "Assigned"
+msgstr "Assigned"
+
+msgctxt "SettingsOptions::cp_live_search::category_labels_colors"
+msgid "Category colors"
+msgstr "Category colors"
+
+msgctxt "SettingsTooltips::cp_live_search::category_labels_colors"
+msgid "Add comma separated colors in Hex format which will be used to display categories. For example: #000,#ссс,#f8f8f8."
+msgstr "Add comma separated colors in Hex format which will be used to display categories. For example: #000,#ссс,#f8f8f8."
+
+msgctxt "Languages::cp_search_motivation"
+msgid "Search motivation"
+msgstr "Search motivation"
+
+msgctxt "Languages::cp_motivation_phrases"
+msgid "Motivation phrases"
+msgstr "Motivation phrases"
+
+msgctxt "Languages::ttc_cp_motivation_phrases"
+msgid "Add phrases (each on a new line) to show in the search bar"
+msgstr "Add phrases (each on a new line) to show in the search bar"
+
+msgctxt "SettingsSections::cp_live_search::search_motivation"
+msgid "Search motivation"
+msgstr "Search motivation"
+
+msgctxt "SettingsOptions::cp_live_search::use_sm"
+msgid "Use search motivation"
+msgstr "Use search motivation"
+
+msgctxt "SettingsOptions::cp_live_search::show_sm"
+msgid "Show search motivation"
+msgstr "Show search motivation"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_home"
+msgid "Home page"
+msgstr "Home page"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_cart"
+msgid "Cart"
+msgstr "Cart"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_checkout"
+msgid "Checkout page"
+msgstr "Checkout page"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_profile"
+msgid "Profile/registration page"
+msgstr "Profile/registration page"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_pages"
+msgid "Content pages / form pages / blog pages"
+msgstr "Content pages / form pages / blog pages"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_categories"
+msgid "Category pages"
+msgstr "Category pages"
+
+msgctxt "SettingsVariants::cp_live_search::show_sm::sm_products"
+msgid "Product pages"
+msgstr "Product pages"
+
+msgctxt "SettingsOptions::cp_live_search::search_by_vendors"
+msgid "Search by vendors (Multivendor)"
+msgstr "Search by vendors (Multi-Vendor)"
+
+msgctxt "Languages::cp_search_phrases"
+msgid "Search phrases"
+msgstr "Search phrases"
+
+msgctxt "Languages::cp_all_search_history"
+msgid "All search history"
+msgstr "All search history"
+
+msgctxt "Languages::cp_search_phrases_group"
+msgid "Grouped phrases"
+msgstr "Grouped phrases"
+
+msgctxt "Languages::cp_product_clicks"
+msgid "Product clicks"
+msgstr "Product clicks"
+
+msgctxt "SettingsOptions::cp_live_search::record_search_history"
+msgid "Record search history"
+msgstr "Record search history"
+
+msgctxt "SettingsOptions::cp_live_search::show_list_price"
+msgid "Show old price"
+msgstr "Show old price"
+
+msgctxt "SettingsOptions::cp_live_search::show_product_category"
+msgid "Show product category"
+msgstr "Show product category"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::none"
+msgid "Do not show"
+msgstr "Do not show"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::group"
+msgid "Grouped"
+msgstr "Grouped"
+
+msgctxt "SettingsVariants::cp_live_search::show_product_category::each"
+msgid "For each product"
+msgstr "For each product"
+
+msgctxt "SettingsTooltips::cp_live_search::show_category_labels"
+msgid "Choose how to assign colors to category labels if the setting \"For each product\" was selected."
+msgstr "Choose how to assign colors to category labels if the setting \"For each product\" was selected."
+
+msgctxt "Languages::sort_by_cp_category_group_asc"
+msgid "Sort by category"
+msgstr "Sort by category"
+
+msgctxt "Languages::sort_by_cp_category_group_ascdesc"
+msgid "Sort by category"
+msgstr "Sort by category"
+
+msgctxt "SettingsOptions::cp_live_search::show_brands_result"
+msgid "Show brands"
+msgstr "Show brands"
+
+msgctxt "SettingsOptions::cp_live_search::brand_id"
+msgid "Brand feature"
+msgstr "Brand feature"
+
+msgctxt "SettingsOptions::cp_live_search::brands_amount"
+msgid "Max number of brands"
+msgstr "Max number of brands"
+
+msgctxt "SettingsOptions::cp_live_search::show_f_products_result"
+msgid "Show featured products"
+msgstr "Show featured products"
+
+msgctxt "SettingsOptions::cp_live_search::f_products_amount"
+msgid "Max number of featured products"
+msgstr "Max number of featured products"
+
+msgctxt "SettingsOptions::cp_live_search::popup_mheight"
+msgid "Max height of the live search block"
+msgstr "Max height of the live search block"
+
+msgctxt "Languages::cp_search_phrase"
+msgid "Search phrase"
+msgstr "Search phrase"
+
+msgctxt "Languages::cp_featured_products"
+msgid "Featured products"
+msgstr "Featured products"
+
+msgctxt "Languages::cp_suggestions"
+msgid "Suggestions"
+msgstr "Suggestions"
+
+msgctxt "Languages::cp_suggestion"
+msgid "Suggestions"
+msgstr "Suggestions"
+
+msgctxt "Languages::cp_in_live_search"
+msgid "Use in Live Search"
+msgstr "Use in Live Search"
+
+msgctxt "Languages::ttc_cp_search_phrases"
+msgid "Add comma separated phrases to show suggestions and/or featured products for them."
+msgstr "Add comma separated phrases to show suggestions and/or featured products for them."
+
+msgctxt "Languages::ttc_cp_suggestions"
+msgid "Add the suggestions (each on a new line), that you want to show."
+msgstr "Add the suggestions (each on a new line), that you want to show."
+
+msgctxt "Languages::cp_search_by_product"
+msgid "Search by product"
+msgstr "Search by product"
+
+msgctxt "SettingsOptions::cp_live_search::show_categories_path"
+msgid "Show category paths"
+msgstr "Show category paths"
+
+msgctxt "Languages::cp_brands"
+msgid "Brands"
+msgstr "Brands"
+
+msgctxt "Languages::cp_view_all_items_text"
+msgid "View all [n] items"
+msgstr "View all [n] items"
+
+msgctxt "Languages::cp_view_all"
+msgid "View all"
+msgstr "View all"
+
+msgctxt "Languages::cp_load_more"
+msgid "Load more"
+msgstr "Load more"
+
+msgctxt "Languages::cp_related_searches"
+msgid "Related searches"
+msgstr "Related searches"
+
+msgctxt "Languages::cp_f_products"
+msgid "items"
+msgstr "items"
+
+msgctxt "Languages::cp_ls_headers_background"
+msgid "Headers background"
+msgstr "Headers background"
+
+msgctxt "SettingsOptions::cp_live_search::speller"
+msgid "Spell check"
+msgstr "Spell check"
+
+msgctxt "SettingsTooltips::cp_live_search::speller"
+msgid "Suggest corrected words if no products found, and there are no search phrases set for the query."
+msgstr "Suggest corrected words if no products found, and there are no search phrases set for the query."
+
+msgctxt "SettingsVariants::cp_live_search::speller::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::cp_live_search::speller::yandex"
+msgid "Yandex.Speller"
+msgstr "Yandex.Speller"
+
+msgctxt "Languages::cp_ls_mb_mean"
+msgid "Maybe you mean"
+msgstr "Maybe you mean"
+
+msgctxt "SettingsSections::cp_live_search::search_acceleration"
+msgid "Search acceleration"
+msgstr "Search acceleration"
+
+msgctxt "SettingsOptions::cp_live_search::use_boost"
+msgid "Speed up the search"
+msgstr "Speed up the search"
+
+msgctxt "SettingsTooltips::cp_live_search::use_boost"
+msgid "Search is accelerated by indexing the beginning of words in the name, product code and search words of the product. Such a search works exclusively in these fields and significantly speeds up the search in stores with a large number of products."
+msgstr "Search is accelerated by indexing the beginning of words in the name, product code and search words of the product. Such a search works exclusively in these fields and significantly speeds up the search in stores with a large number of products."
+
+msgctxt "Languages::cp_ls_index_cron_info"
+msgid "<a href=\"[url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Generate indexes</a><br /><br /><strong>CRON commands to automatically update the product index table:</strong><br />1) php [dir]/index.php --dispatch=cp_search_cache.generate_indexes --switch_company_id=[company_id] --access_key=[cron_key]<br />2) curl [url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]"
+msgstr "<a href=\"[url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Generate indexes</a><br /><br /><strong>CRON commands to automatically update the product index table:</strong><br />1) php [dir]/index.php --dispatch=cp_search_cache.generate_indexes --switch_company_id=[company_id] --access_key=[cron_key]<br />2) curl [url]/index.php?dispatch=cp_search_cache.generate_indexes&company_id=[company_id]&access_key=[cron_key]"
+
+msgctxt "Languages::cp_ls_index_select_store"
+msgid "To generate indexes and display CRON links, select a storefront."
+msgstr "To generate indexes and display CRON links, select a storefront."
+
+msgctxt "SettingsOptions::cp_live_search::show_vendors_result"
+msgid "Show vendors in search result (Multi-Vendor)"
+msgstr "Show vendors in search result (Multi-Vendor)"
+
+msgctxt "SettingsOptions::cp_live_search::vendors_amount"
+msgid "Max number of vendors (Multi-Vendor)"
+msgstr "Max number of vendors (Multi-Vendor)"
+
+msgctxt "Languages::cp_ls_product_code"
+msgid "Product code"
+msgstr "Product code"
+
+msgctxt "SettingsOptions::cp_live_search::search_general_header"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::cp_live_search::search_cache_header"
+msgid "Cache settings"
+msgstr "Cache settings"
+
+msgctxt "SettingsOptions::cp_live_search::spell_amount"
+msgid "Max number of words"
+msgstr "Max number of words"
+
+msgctxt "Languages::cp_ls_cache_link_info"
+msgid "To generate a cache, follow the <a target="_blank" href=\"[link]\">link</a>."
+msgstr "To generate a cache, follow the <a target="_blank" href=\"[link]\">link</a>."
+
+msgctxt "Languages::cp_ls_sm_link_info"
+msgid "To configure motivation texts, follow the <a target="_blank" href=\"[link]\">link</a>."
+msgstr "To configure motivation texts, follow the <a target="_blank" href=\"[link]\">link</a>."
+
+msgctxt "SettingsTooltips::cp_live_search::search_by_exact_phrase"
+msgid "All words - all words of the query must be in the product data (in any sequence);<br />All words (strictly by fields) - all words of the query must be in one searched field (works only when cache is used);<br />Any word - at least one word must be in the product data;<br />Exact phrase - the words must be in the specified order only in the product data."
+msgstr "All words - all words of the query must be in the product data (in any sequence);<br />All words (strictly by fields) - all words of the query must be in one searched field (works only when cache is used);<br />Any word - at least one word must be in the product data;<br />Exact phrase - the words must be in the specified order only in the product data."
+
+msgctxt "Languages::cp_ls_no_products_text"
+msgid "Products not found, try another search."
+msgstr "Products not found, try another search."
+
+msgctxt "Languages::cp_ls_search_results_for"
+msgid "Search results for \"[q]\""
+msgstr "Search results for \"[q]\""
+
+msgctxt "SettingsOptions::cp_live_search::h_suggestions_letters"
+msgid "Minimum number of characters for suggestions from the search history"
+msgstr "Minimum number of characters for suggestions from the search history"
+
+msgctxt "SettingsOptions::cp_live_search::h_suggestions_requests"
+msgid "Minimum number of searches for suggestions from the search history"
+msgstr "Minimum number of searches for suggestions from the search history"
+
+msgctxt "Languages::privilege_groups.cp_live_search"
+msgid "Live search"
+msgstr "Live search"
+
+msgctxt "Languages::cp_btn_load_more"
+msgid "Button \"Load more\""
+msgstr "Button \"Load more\""
+
+msgctxt "Languages::cp_btn_view_all"
+msgid "Button \"View all\""
+msgstr "Button \"View all\""
+
+msgctxt "Languages::cp_btn_view_all_text"
+msgid "Text color and border of button \"View all\""
+msgstr "Text color and border of button \"View all\""
+
+msgctxt "Languages::cp_ls_by_search_phrase"
+msgid "CP: By search phrase"
+msgstr "CP: By search phrase"
+

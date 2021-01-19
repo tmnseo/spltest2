@@ -1,0 +1,11 @@
+Message: 
+Data : 29-10-2020 12:04:48 - Send file limit: 52428800
+Data : 29-10-2020 05:23:50 - 
+ Enter login and password user
+Data : 29-10-2020 05:23:50 - 
+Data : 29-10-2020 05:23:57 - Parsing file data payment.json
+Data : 29-10-2020 05:23:57 - Started import date  from payment file, parameter service_exchange = ''
+Data : 29-10-2020 09:40:10 - Send data checkauth: sid_customer_2ceb1
+Data : 29-10-2020 09:42:44 - Loadding data file payments_20201029214243.json
+Data : 29-10-2020 09:42:44 - Parsing file data payments_20201029214243.json
+Data : 29-10-2020 09:42:44 - Started import date  from payment file, parameter service_exchange = ''

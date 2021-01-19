@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_megalog</id>
+    <version>1.0</version>
+    <priority>999999</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="clear_log_days">
+                        <type>input</type>
+                        <default_value>30</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>go_del_logs</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_megalog_cron_run_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cp_ml_megalog;</item>
+        <item>
+            CREATE TABLE `?:cp_ml_megalog` (
+                `log_id` int(11) unsigned NOT NULL auto_increment,
+                `controller` varchar(55) NOT NULL default '',
+                `mode` varchar(55) NOT NULL default '',
+                `method` char(4) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `user_id` mediumint(8) unsigned NOT NULL DEFAULT '0',
+                `object_id` text,
+                `request` text,
+                PRIMARY KEY  (`log_id`),
+                KEY `controller` (`controller`),
+                KEY `mode` (`mode`),
+                KEY `user_id` (`user_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id) VALUES ('manage_cp_megalog', 'Y', 'addons','cp_ml_priv_group');</item>
+        
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_ml_megalog;</item>
+        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_megalog'</item>
+    </queries>
+</addon>

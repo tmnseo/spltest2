@@ -1,0 +1,54 @@
+[
+{
+"payment_order_date": "2020-10-29T00:00:00",
+"payment_order_number": "111",
+"bank_account": "40702810238030013920",
+"bank_bic": "046577964",
+"payment_purpose": "оплата по договору-счету №402 от 28.10.2020г.",
+"customer_tin": "6674167078",
+"customer_name": "ООО \"КОМЕК МАШИНЕРИ\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "289,71",
+"amount_vat": "0"
+},
+{
+"payment_order_date": "2020-10-29T00:00:00",
+"payment_order_number": "222",
+"bank_account": "40702810238030013920",
+"bank_bic": "046577964",
+"payment_purpose": "оплата по договору-счету №410 от 28.10.2020г.",
+"customer_tin": "6674167078",
+"customer_name": "ООО \"КОМЕК МАШИНЕРИ\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "578,52",
+"amount_vat": "0"
+},
+{
+"payment_order_date": "2020-10-29T00:00:00",
+"payment_order_number": "333",
+"bank_account": "40702810238030013920",
+"bank_bic": "046577964",
+"payment_purpose": "оплата по договору-счету №404 от 28.10.2020г.",
+"customer_tin": "6674167078",
+"customer_name": "ООО \"КОМЕК МАШИНЕРИ\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "578,52",
+"amount_vat": "0"
+},
+{
+"payment_order_date": "2020-11-01T00:00:00",
+"payment_order_number": "444",
+"bank_account": "40702810238030013920",
+"bank_bic": "046577964",
+"payment_purpose": "оплата по договору-счету №405 от 28.10.2020г.",
+"customer_tin": "6674167078",
+"customer_name": "ООО \"КОМЕК МАШИНЕРИ\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "449,13",
+"amount_vat": "0"
+}
+]

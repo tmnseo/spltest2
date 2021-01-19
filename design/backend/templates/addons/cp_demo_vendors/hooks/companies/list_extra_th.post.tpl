@@ -1,0 +1,1 @@
+{if $auth.user_type == 'A'}<th width="20%"><a class="cm-ajax" href="{"`$c_url`&sort_by=cp_demo&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id="pagination_contents">{__("cp_demo")}{if $search.sort_by == "cp_demo"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a></th>{/if}

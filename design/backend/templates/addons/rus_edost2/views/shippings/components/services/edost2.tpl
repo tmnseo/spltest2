@@ -1,0 +1,1 @@
+<fieldset>{__('rus_edost2_config')}</fieldset>

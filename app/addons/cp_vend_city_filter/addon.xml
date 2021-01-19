@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_vend_city_filter</id>
+    <version>1.0</version>
+    <priority>2100</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>active</status>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+<!--    <settings>
+        <sections>
+            <section id="general">
+                <items>
+					<item id="id_of_city_field">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>-->
+<!--    <queries>
+        <item>ALTER TABLE ?:companies ADD cp_vend_city varchar(255) NOT NULL default '';</item>
+        
+        <item for="uninstall">ALTER TABLE ?:companies DROP COLUMN cp_vend_city;</item>
+    </queries>-->
+</addon>

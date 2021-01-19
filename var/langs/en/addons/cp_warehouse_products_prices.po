@@ -1,0 +1,42 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_warehouse_products_prices"
+msgid "Cart-Power: Different prices of products in different warehouses"
+msgstr "Cart-Power: Different prices of products in different warehouses"
+
+msgctxt "Addons::description::cp_warehouse_products_prices"
+msgid "Product in different warehouses are displayed as several products, with the possibility of adding them to the cart with different prices. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Product in different warehouses are displayed as several products, with the possibility of adding them to the cart with different prices. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_default_warehouse"
+msgid "Default warehouse [company_name]"
+msgstr "Default warehouse [company_name]"
+
+msgctxt "Languages::warehouses_product_popup_title"
+msgid "Availability in stores"
+msgstr "Availability in stores"
+
+msgctxt "Languages::cp_cf_warehouse_price"
+msgid "cp_cf_warehouse_price"
+msgstr "Price in warehouse"
+
+msgctxt "Languages::cp_warehouse_product_prices.price"
+msgid "cp_warehouse_product_prices.price"
+msgstr "(Price)"
+
+msgctxt "Languages::cp_warehouse_products_prices.warehouse_price"
+msgid "cp_warehouse_products_prices.warehouse_price"
+msgstr "Wrehouse price"
+
+msgctxt "Languages::cp_warehouse_product_prices.qty"
+msgid "cp_warehouse_product_prices.qty"
+msgstr "(Qty)"
+
+msgctxt "Languages::hide_add_to_wishlist_button"
+msgid "hide_add_to_wishlist_button"
+msgstr "Hide the add product to wishlist button"
+

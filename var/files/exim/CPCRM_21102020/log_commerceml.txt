@@ -1,0 +1,5 @@
+Message: 
+Data : 21-10-2020 02:22:36 - Send data checkauth: sid_customer_2ceb1
+Data : 21-10-2020 02:24:41 - Send data checkauth: sid_customer_2ceb1
+Data : 21-10-2020 02:25:20 - Send data checkauth: sid_customer_2ceb1
+Data : 21-10-2020 02:26:09 - Send data checkauth: sid_customer_2ceb1

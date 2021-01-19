@@ -1,0 +1,1 @@
+{script src="js/addons/cp_direct_payments/func.js"}

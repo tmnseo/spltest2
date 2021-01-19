@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_front_additional_info"
+msgid "Cart-Power: Additional info on the storefront"
+msgstr "Cart-Power: Дополнительная информация на витрине"
+
+msgctxt "Addons::description::cp_front_additional_info"
+msgid "Adds additional information and makes some changes to the functionality of the store on display.Adds vendor authorization via the storefront. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Добавляет дополнительную информацию и вносит некоторые изменения в функционал работы магазина на витрине.Добавляет авторизацию вендора через витрину. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_front_additional_info::feature_warranty_id"
+msgid "feature_warranty_id"
+msgstr "ID характеристики Срок гарантии"
+
+msgctxt "Languages::cp_warranty_period_label"
+msgid "cp_warranty_period_label"
+msgstr "Срок гарантии"
+
+msgctxt "Languages::cp_warranty_period"
+msgid "cp_warranty_period"
+msgstr "[n] месяц|[n] месяца|[n] месяцев"
+
+msgctxt "Languages::cp_vendor_area"
+msgid "cp_vendor_area"
+msgstr "Панель поставщика"
+
+msgctxt "Languages::cp_customer_area"
+msgid "cp_customer_area"
+msgstr "Витрина"

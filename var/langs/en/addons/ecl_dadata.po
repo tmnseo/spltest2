@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ecl_dadata"
+msgid "[eCom Labs] DaData"
+msgstr "[eCom Labs] DaData"
+
+msgctxt "Addons::description::ecl_dadata"
+msgid "Allows to show suggestions for profile fields and autofill address with geolocation service"
+msgstr "Allows to show suggestions for profile fields and autofill address with geolocation service"
+
+msgctxt "SettingsSections::ecl_dadata::section1"
+msgid "Generic settings"
+msgstr "Generic settings"
+
+msgctxt "SettingsOptions::ecl_dadata::api_key"
+msgid "DaData API Key"
+msgstr "DaData API Key"
+
+msgctxt "SettingsOptions::ecl_dadata::geolocation"
+msgid "Enable geolocation"
+msgstr "Enable geolocation"
+
+msgctxt "SettingsTooltips::ecl_dadata::geolocation"
+msgid "City and state will be pre-defined automatically"
+msgstr "City and state will be pre-defined automatically"

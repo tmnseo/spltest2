@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_storefronts_sharings"
+msgid "Cart-Power: Storefronts. Supplement."
+msgstr "Cart-Power: Storefronts. Supplement."
+
+msgctxt "Addons::description::cp_storefronts_sharings"
+msgid "Adds the ability to specify different profile fields, taxes and currencies for storefronts. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds the ability to specify different profile fields, taxes and currencies for storefronts. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_currencies_description"
+msgid "cp_currencies_description"
+msgstr "(Use/Basic)"
+
+msgctxt "Languages::cp_no_selected_storefronts"
+msgid "cp_no_selected_storefronts"
+msgstr "No storefronts selected"
+
+msgctxt "Languages::cp_is_primary_tax"
+msgid "cp_is_primary_tax"
+msgstr "Primary tax"
+
+msgctxt "SettingsSections::cp_storefronts_sharings::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_storefronts_sharings::cron_password"
+msgid "CRON password"
+msgstr "CRON password"

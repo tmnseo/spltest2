@@ -1,0 +1,1 @@
+{include file="addons/store_locator/views/store_locator/update.tpl" is_premoderation_update = 'Y'}

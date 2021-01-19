@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_edost2</id>
+    <company>rus_edost2</company>
+    <version>2.5.1.1</version>
+    <authors>
+        <author>
+            <name>eDost</name>
+            <email>info@edost.ru</email>
+            <url>http://edost.ru/shop.php</url>
+        </author>
+    </authors>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <priority>4600</priority>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+    <functions>
+        <item for="uninstall">fn_rus_edost2_uninstall</item>
+    </functions>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+					<item id="config">
+					   <type>info</type>
+					   <handler>fn_rus_edost2_config</handler>
+					</item>
+                </items>
+            </section>
+         </sections>
+    </settings>
+</addon>

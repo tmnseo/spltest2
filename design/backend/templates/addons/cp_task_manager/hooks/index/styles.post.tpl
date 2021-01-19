@@ -1,0 +1,1 @@
+{style src="addons/cp_task_manager/task_manager.less"}

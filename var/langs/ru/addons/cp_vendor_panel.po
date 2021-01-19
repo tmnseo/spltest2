@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_vendor_panel"
+msgid "Cart-Power: Extended vendor panel"
+msgstr "Cart-Power: Расширенный вид панели администрирования для вендора"
+
+msgctxt "Addons::description::cp_vendor_panel"
+msgid "Changing vendor administrator panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Изменение панели администратора продавца. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_vp_storefront"
+msgid "Storefront"
+msgstr "Витрина"
+
+msgctxt "Languages::cp_vp_no_txt"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "Languages::cp_vp_year_txt"
+msgid "year"
+msgstr "год"
+
+msgctxt "Languages::cp_vp_years_txt"
+msgid "years"
+msgstr "года"
+
+msgctxt "Languages::cp_vp_years2_txt"
+msgid "years"
+msgstr "лет"
+
+msgctxt "Languages::cp_vp_of_warranty_txt"
+msgid "of warranty"
+msgstr "гарантии"
+
+msgctxt "Languages::cp_vp_months_txt"
+msgid "months"
+msgstr "месяца"
+
+msgctxt "Languages::cp_vp_months2_txt"
+msgid "months"
+msgstr "месяцев"
+
+msgctxt "Languages::cp_vp_month_txt"
+msgid "month"
+msgstr "месяц"
+
+msgctxt "Languages::cp_vp_save_brands"
+msgid "Save brands"
+msgstr "Сохрантить бренды"
+
+msgctxt "Languages::cp_vp_delete_brand"
+msgid "Delete brand"
+msgstr "Удалить бренд"
+
+msgctxt "Languages::cp_vp_add_brand"
+msgid "Add brand"
+msgstr "Добавить бренд"
+
+msgctxt "Languages::cp_vp_add_certificate"
+msgid "Add certificate"
+msgstr "Добавить сертификат"
+
+msgctxt "Languages::cp_vp_certificates"
+msgid "Certificates"
+msgstr "Сертификаты"
+
+msgctxt "Languages::cp_vp_brands_for_work"
+msgid "Working with brands"
+msgstr "Работа с брендами"
+
+msgctxt "Languages::cp_vp_add_category"
+msgid "Add category"
+msgstr "Добавить категорию"
+
+msgctxt "Languages::cp_vp_term_of_warranty"
+msgid "Term of warranty (months)"
+msgstr "Гарантийный срок (месяцы)"
+
+msgctxt "Languages::cp_vp_waranty_cat"
+msgid "Categories for warranty"
+msgstr "Категории для гарантии"
+
+msgctxt "Languages::privileges.manage_cp_vp_waranty"
+msgid "Manage warranty categories"
+msgstr "Редактирование категорий для гарантии"
+
+msgctxt "Languages::privilege_groups.cp_vp_waranty"
+msgid "CP: waranty categories"
+msgstr "CP: категории для гарантии"
+
+msgctxt "SettingsOptions::cp_vendor_panel::feature_brand"
+msgid "Feature ID for brand"
+msgstr "ID характеристики бренд"
+
+msgctxt "Languages::cp_vp_brands_for_work_warranty"
+msgid "cp_vp_brands_for_work_warranty"
+msgstr "Гарантия на товары"
+
+msgctxt "Languages::cp_vendor"
+msgid "cp_vendor"
+msgstr "Витрина"
+
+

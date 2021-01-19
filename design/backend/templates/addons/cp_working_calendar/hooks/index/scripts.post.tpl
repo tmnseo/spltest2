@@ -1,0 +1,1 @@
+{script src="js/addons/cp_working_calendar/func.js"}

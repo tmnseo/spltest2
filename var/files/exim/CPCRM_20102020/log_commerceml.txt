@@ -1,0 +1,212 @@
+Message: 
+Data : 20-10-2020 08:40:02 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 09:52:03 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 09:52:03 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 09:57:53 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 09:57:53 - Send file limit: FILE_LIMIT
+Data : 20-10-2020 10:01:20 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 10:01:20 - Send file limit: FILE_LIMIT
+Data : 20-10-2020 10:59:17 - 
+ Enter login and password user
+Data : 20-10-2020 10:59:17 - 
+Data : 20-10-2020 10:59:26 - Send file limit: 52428800
+Data : 20-10-2020 11:31:26 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 11:31:26 - Send file limit: 52428800
+Data : 20-10-2020 11:32:01 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 11:32:01 - Send file limit: 52428800
+Data : 20-10-2020 11:33:24 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 11:33:24 - Send file limit: 52428800
+Data : 20-10-2020 11:34:38 - Parsing file data import_20201020133437.json
+ Can not read file import_20201020133437.json
+Data : 20-10-2020 11:42:01 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 11:42:01 - Send file limit: 52428800
+Data : 20-10-2020 11:42:01 - Parsing file data 
+Data : 20-10-2020 11:42:01 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 11:42:01 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 12:14:19 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:14:19 - Send file limit: 52428800
+Data : 20-10-2020 12:14:19 - Parsing file data 
+Data : 20-10-2020 12:14:19 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 12:14:19 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 12:15:34 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:15:34 - Send file limit: 52428800
+Data : 20-10-2020 12:15:34 - Parsing file data import_20201020141534.json
+ Can not read file import_20201020141534.json
+Data : 20-10-2020 12:18:26 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:18:26 - Send file limit: 52428800
+Data : 20-10-2020 12:18:26 - Parsing file data import_20201020141825.json
+ Can not read file import_20201020141825.json
+Data : 20-10-2020 12:18:40 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:18:40 - Send file limit: 52428800
+Data : 20-10-2020 12:18:41 - Parsing file data import_20201020141840.json
+ Can not read file import_20201020141840.json
+Data : 20-10-2020 12:21:26 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:21:26 - Send file limit: 52428800
+Data : 20-10-2020 12:21:26 - Parsing file data import_20201020142126.json
+ Can not read file import_20201020142126.json
+Data : 20-10-2020 12:25:32 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:25:32 - Send file limit: 52428800
+Data : 20-10-2020 12:25:33 - Parsing file data 
+Data : 20-10-2020 12:25:33 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 12:25:33 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 12:40:24 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:40:24 - Send file limit: 52428800
+Data : 20-10-2020 12:40:24 - Parsing file data 
+Data : 20-10-2020 12:40:24 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 12:40:24 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 12:40:54 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 12:41:23 - Send file limit: 52428800
+Data : 20-10-2020 12:41:23 - Parsing file data 
+Data : 20-10-2020 12:41:23 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 12:41:23 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 01:10:58 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:10:58 - Send file limit: 52428800
+Data : 20-10-2020 01:10:58 - Parsing file data import_20201020151058.json
+ Can not read file import_20201020151058.json
+Data : 20-10-2020 01:11:06 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:11:06 - Send file limit: 52428800
+Data : 20-10-2020 01:11:06 - Parsing file data import_20201020151106.json
+ Can not read file import_20201020151106.json
+Data : 20-10-2020 01:32:43 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:32:43 - Send file limit: 52428800
+Data : 20-10-2020 01:32:43 - Loadding data file import_20201020153243.json
+Data : 20-10-2020 01:36:21 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:36:21 - Send file limit: 52428800
+Data : 20-10-2020 01:36:21 - Loadding data file import_20201020153621.json
+Data : 20-10-2020 01:38:45 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:38:45 - Send file limit: 52428800
+Data : 20-10-2020 01:39:43 - Loadding data file import_20201020153845.json0
+Data : 20-10-2020 01:39:43 - Loadding data file import_20201020153845.json1
+Data : 20-10-2020 01:39:44 - Loadding data file import_20201020153845.json2
+Data : 20-10-2020 01:40:28 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:40:28 - Send file limit: 52428800
+Data : 20-10-2020 01:40:28 - Loadding data file import_20201020154028.json
+Data : 20-10-2020 01:40:51 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 01:40:51 - Send file limit: 52428800
+Data : 20-10-2020 01:41:07 - Loadding data file import_20201020154051.json.0
+Data : 20-10-2020 01:41:09 - Loadding data file import_20201020154051.json.1
+Data : 20-10-2020 01:41:09 - Loadding data file import_20201020154051.json.2
+Data : 20-10-2020 02:12:21 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:12:21 - Send file limit: 52428800
+Data : 20-10-2020 02:12:21 - Loadding data file import_20201020161221
+Data : 20-10-2020 02:12:38 - Loadding data file import_20201020161221
+Data : 20-10-2020 02:12:38 - Loadding data file import_20201020161221
+Data : 20-10-2020 02:13:23 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:13:23 - Send file limit: 52428800
+Data : 20-10-2020 02:13:23 - Loadding data file import_20201020161323
+Data : 20-10-2020 02:13:26 - Loadding data file import_20201020161323
+Data : 20-10-2020 02:13:27 - Loadding data file import_20201020161323
+Data : 20-10-2020 02:14:18 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:14:18 - Send file limit: 52428800
+Data : 20-10-2020 02:14:18 - Loadding data file import_20201020161418
+Data : 20-10-2020 02:14:18 - Loadding data file import_20201020161418
+Data : 20-10-2020 02:14:18 - Loadding data file import_20201020161418
+Data : 20-10-2020 02:14:23 - Parsing file data import_20201020161418
+Data : 20-10-2020 02:14:23 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:18:52 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:18:52 - Send file limit: 52428800
+Data : 20-10-2020 02:19:31 - Loadding data file import_20201020161852
+Data : 20-10-2020 02:19:31 - Loadding data file import_20201020161852
+Data : 20-10-2020 02:19:31 - Loadding data file import_20201020161852
+Data : 20-10-2020 02:19:31 - Parsing file data import_20201020161852
+Data : 20-10-2020 02:19:31 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:22:57 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:22:57 - Send file limit: 52428800
+Data : 20-10-2020 02:22:57 - Loadding data file import_20201020162257.json
+Data : 20-10-2020 02:22:57 - Parsing file data import_20201020162257.json
+Data : 20-10-2020 02:22:57 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:23:48 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:23:48 - Send file limit: 52428800
+Data : 20-10-2020 02:24:13 - Loadding data file import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Loadding data file import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Loadding data file import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Loadding data file import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Loadding data file import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Parsing file data import_20201020162348.json
+Data : 20-10-2020 02:24:14 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:24:14 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:24:25 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:24:25 - Send file limit: 52428800
+Data : 20-10-2020 02:24:25 - Loadding data file import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Loadding data file import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Loadding data file import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Loadding data file import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Loadding data file import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Parsing file data import_20201020162425.json
+Data : 20-10-2020 02:24:25 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:24:25 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:26:19 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:26:19 - Send file limit: 52428800
+Data : 20-10-2020 02:26:19 - Loadding data file import_20201020162618.json
+Data : 20-10-2020 02:26:19 - Loadding data file import_20201020162618.json
+Data : 20-10-2020 02:26:19 - Loadding data file import_20201020162618.json
+Data : 20-10-2020 02:26:19 - Parsing file data import_20201020162618.json
+Data : 20-10-2020 02:26:19 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:26:19 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:26:54 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:26:54 - Send file limit: 52428800
+Data : 20-10-2020 02:27:15 - Loadding data file import_20201020162654.json
+Data : 20-10-2020 02:27:16 - Loadding data file import_20201020162654.json
+Data : 20-10-2020 02:27:18 - Loadding data file import_20201020162654.json
+Data : 20-10-2020 02:27:19 - Parsing file data import_20201020162654.json
+Data : 20-10-2020 02:27:19 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:27:19 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:30:26 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:30:26 - Send file limit: 52428800
+Data : 20-10-2020 02:30:28 - Loadding data file import_20201020163025.json
+Data : 20-10-2020 02:30:28 - Parsing file data import_20201020163025.json
+Data : 20-10-2020 02:30:28 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:32:10 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:32:10 - Send file limit: 52428800
+Data : 20-10-2020 02:32:10 - Loadding data file import_20201020163210.json.0
+Data : 20-10-2020 02:32:10 - Loadding data file import_20201020163210.json.1
+Data : 20-10-2020 02:32:10 - Loadding data file import_20201020163210.json.2
+Data : 20-10-2020 02:32:10 - Parsing file data import_20201020163210.json
+ Can not read file import_20201020163210.json
+Data : 20-10-2020 02:33:12 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:33:12 - Send file limit: 52428800
+Data : 20-10-2020 02:33:12 - Loadding data file import_20201020163312
+Data : 20-10-2020 02:33:12 - Loadding data file import_20201020163312
+Data : 20-10-2020 02:33:12 - Loadding data file import_20201020163312
+Data : 20-10-2020 02:33:12 - Parsing file data import_20201020163312
+Data : 20-10-2020 02:33:12 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:45:48 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:45:48 - Send file limit: 52428800
+Data : 20-10-2020 02:45:48 - Loadding data file import_20201020164548
+Data : 20-10-2020 02:45:49 - Parsing file data import_20201020164548
+Data : 20-10-2020 02:45:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:48:51 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:48:51 - Send file limit: 52428800
+Data : 20-10-2020 02:48:51 - Loadding data file import_20201020164851.json.0
+Data : 20-10-2020 02:48:51 - Loadding data file import_20201020164851.json.1
+Data : 20-10-2020 02:48:52 - Loadding data file import_20201020164851.json.2
+Data : 20-10-2020 02:48:52 - Parsing file data import_20201020164851.json
+ Can not read file import_20201020164851.json
+Data : 20-10-2020 02:50:50 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:50:50 - Send file limit: 52428800
+Data : 20-10-2020 02:50:50 - Loadding data file import_20201020165049.json.0
+Data : 20-10-2020 02:50:50 - Loadding data file import_20201020165049.json.1
+Data : 20-10-2020 02:50:50 - Loadding data file import_20201020165049.json.2
+Data : 20-10-2020 02:50:50 - Parsing file data import_20201020165049.json.0
+Data : 20-10-2020 02:50:50 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:50:50 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:52:17 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:52:17 - Send file limit: 52428800
+Data : 20-10-2020 02:52:17 - Loadding data file import_20201020165217.json
+Data : 20-10-2020 02:52:17 - Loadding data file import_20201020165217.json
+Data : 20-10-2020 02:52:17 - Loadding data file import_20201020165217.json
+Data : 20-10-2020 02:52:17 - Parsing file data import_20201020165217.json
+Data : 20-10-2020 02:52:17 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:52:17 - Can't read data beacuse json_decode return empty
+Data : 20-10-2020 02:53:04 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:53:04 - Send file limit: 52428800
+Data : 20-10-2020 02:53:04 - Loadding data file import_20201020165304
+Data : 20-10-2020 02:53:04 - Loadding data file import_20201020165304
+Data : 20-10-2020 02:53:04 - Loadding data file import_20201020165304
+Data : 20-10-2020 02:53:04 - Parsing file data import_20201020165304
+Data : 20-10-2020 02:53:04 - Started import date  from payment file, parameter service_exchange = ''
+Data : 20-10-2020 02:54:19 - Send data checkauth: sid_customer_2ceb1
+Data : 20-10-2020 02:54:19 - Send file limit: 52428800
+Data : 20-10-2020 02:54:19 - Loadding data file import_20201020165418
+Data : 20-10-2020 02:54:19 - Parsing file data import_20201020165418
+Data : 20-10-2020 02:54:19 - Started import date  from payment file, parameter service_exchange = ''

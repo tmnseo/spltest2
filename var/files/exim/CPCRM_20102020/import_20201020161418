@@ -1,0 +1,41 @@
+[
+{
+"payment_order_date": "2020-03-30T00:00:00",
+"payment_order_number": "802",
+"bank_account": "40702810399994349242",
+"bank_bic": "044525225",
+"payment_purpose": "Договор №281 от 26.03.2020 в т.ч. НДС 20%",
+"customer_tin": "7799555712",
+"customer_name": "ООО \"Суприм Ритейл Групп\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "18",
+"amount_vat": "3"
+},
+{
+"payment_order_date": "0001-01-01T00:00:00",
+"payment_order_number": "",
+"bank_account": "40702810399994349242",
+"bank_bic": "044525225",
+"payment_purpose": "Оплата за товар в т.ч. НДС 20%",
+"customer_tin": "",
+"customer_name": "_Тестовый",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "30",
+"amount_vat": "5"
+},
+{
+"payment_order_date": "2020-05-22T00:00:00",
+"payment_order_number": "solo5",
+"bank_account": "40702810399994349242",
+"bank_bic": "044525225",
+"payment_purpose": "Оплата по договор счету №295 от 19.05.2020",
+"customer_tin": "",
+"customer_name": "ООО \"Кафе-бар Аполлон\"",
+"currency_id": "643",
+"currency_name": "руб.",
+"amount_total": "40,6",
+"amount_vat": "6,77"
+}
+]

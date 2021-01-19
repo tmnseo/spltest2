@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_fast_auth</id>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="key_lifetime">
+                        <type>input</type>
+                        <default_value>120</default_value>
+                    </item>
+                    <item id="cron_pass">
+                        <type>input</type>
+                        <default_value>cron_pass</default_value>
+                    </item>
+                    <item id="cron_info_txt">
+                        <type>info</type>
+                        <handler>fn_cp_fast_auth_cron_run_info</handler>
+                    </item>
+                    <item id="order_statuses">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_fast_auth_secret_keys` (
+                `user_id` mediumint(8) unsigned NOT NULL ,
+                `secret_key` varchar(32) NOT NULL DEFAULT '',
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`user_id`,`secret_key`),
+                KEY `timestamp` (`timestamp`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_fast_auth_secret_keys`</item>
+    </queries>
+</addon>
+ 

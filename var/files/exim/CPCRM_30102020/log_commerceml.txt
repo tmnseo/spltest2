@@ -1,0 +1,100 @@
+Message: 
+Data : 30-10-2020 12:03:22 - Send file limit: 52428800
+Data : 30-10-2020 09:14:23 - Loadding data file payments_20201030091422.json
+Data : 30-10-2020 09:14:24 - Parsing file data payments_20201030091422.json
+Data : 30-10-2020 09:14:24 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 09:54:48 - Loadding data file payments_20201030095448.json
+Data : 30-10-2020 09:54:49 - Parsing file data payments_20201030095448.json
+Data : 30-10-2020 09:54:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 10:59:49 - Loadding data file payments_20201030105948.json
+Data : 30-10-2020 10:59:49 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 10:59:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:14:48 - 
+ Enter login and password user
+Data : 30-10-2020 01:14:48 - 
+Data : 30-10-2020 01:14:55 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:14:55 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:17:20 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:17:20 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:17:28 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:17:28 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:17:55 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:17:55 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:20:21 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:20:21 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 01:20:34 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 01:20:34 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 02:59:49 - Loadding data file payments_20201030145948.json
+Data : 30-10-2020 02:59:49 - Parsing file data payments_20201030145948.json
+Data : 30-10-2020 02:59:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:07:59 - 
+ Enter login and password user
+Data : 30-10-2020 03:07:59 - 
+Data : 30-10-2020 03:09:39 - 
+ Enter login and password user
+Data : 30-10-2020 03:09:39 - 
+Data : 30-10-2020 03:09:57 - 
+ Enter login and password user
+Data : 30-10-2020 03:09:57 - 
+Data : 30-10-2020 03:12:33 - 
+ Enter login and password user
+Data : 30-10-2020 03:12:33 - 
+Data : 30-10-2020 03:25:17 - 
+ Enter login and password user
+Data : 30-10-2020 03:25:17 - 
+Data : 30-10-2020 03:26:17 - 
+ Enter login and password user
+Data : 30-10-2020 03:26:17 - 
+Data : 30-10-2020 03:31:23 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:31:23 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:34:13 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:34:13 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:39:29 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:39:29 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:40:45 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:40:45 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:52:44 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:52:44 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:54:09 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:54:09 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 03:55:35 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 03:55:35 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:02:49 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:02:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:03:11 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:03:11 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:03:45 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:03:45 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:06:07 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:06:07 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:06:35 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:06:35 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:06:58 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:06:58 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:07:30 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:07:30 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:07:42 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:07:42 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:08:35 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:08:35 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:09:33 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:09:33 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:10:08 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:10:08 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:10:30 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:10:30 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:11:37 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:11:37 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:12:10 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:12:10 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:13:23 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:13:23 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:14:17 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:14:17 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:21:07 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 04:21:07 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 04:54:49 - Loadding data file payments_20201030165448.json
+Data : 30-10-2020 04:54:49 - Parsing file data payments_20201030165448.json
+Data : 30-10-2020 04:54:49 - Started import date  from payment file, parameter service_exchange = ''
+Data : 30-10-2020 05:16:30 - Parsing file data payments_20201030105948.json
+Data : 30-10-2020 05:16:30 - Started import date  from payment file, parameter service_exchange = ''

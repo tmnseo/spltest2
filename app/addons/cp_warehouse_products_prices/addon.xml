@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_warehouse_products_prices</id>
+    <version>1.0</version>
+    <priority>1001</priority>
+    <position>102</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>store_locator,cp_direct_payments</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <queries>
+        <item for="install">ALTER TABLE ?:warehouses_products_amount ADD `price` decimal(12,2) NOT NULL DEFAULT 0 AFTER `amount`;</item>
+    </queries>
+</addon> 

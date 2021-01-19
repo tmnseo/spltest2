@@ -1,0 +1,1 @@
+{*moved to blocks/components/my_account_list_menu.tpl*}
